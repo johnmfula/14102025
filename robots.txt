@@ -1,0 +1,8 @@
+# Robots.txt for UCZ Bemba Hymn Book
+# Website: https://uczbembahymnbook.com
+
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://uczbembahymnbook.com/sitemap.xml

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR15XZEWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DR15XZEWRN');
+    </script>
+    <link rel="icon" type="image/png" href="img/ucz_logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites | UCZ Bemba Hymn Book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Save and organize your favorite Bemba hymns from the UCZ hymn book. Quick access to your most-loved hymns from the United Church of Zambia hymnal.">
+    <meta name="keywords" content="favorite bemba hymns, ucz hymn book favorites, my bemba hymns, ucz bemba hymn collection, saved bemba songs">
+    <meta name="author" content="UCZ Bemba Hymn Book">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://uczbembahymnbook.com/favorites.html">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="My Favorite Bemba Hymns | UCZ Hymn Book">
+    <meta property="og:description" content="Save and organize your favorite Bemba hymns from the UCZ hymn book. Quick access to your most-loved hymns from the United Church of Zambia hymnal.">
+    <meta property="og:url" content="https://uczbembahymnbook.com/favorites.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="UCZ Bemba Hymn Book">
+    <meta property="og:locale" content="en_ZM">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Favorite Bemba Hymns | UCZ Hymn Book">
+    <meta name="twitter:description" content="Save and organize your favorite Bemba hymns from the UCZ hymn book. Quick access to your most-loved hymns from the United Church of Zambia hymnal.">
+    <meta name="twitter:site" content="@UCZBembaHymns">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Structured Data - Breadcrumb -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://uczbembahymnbook.com/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Favorites",
+          "item": "https://uczbembahymnbook.com/favorites.html"
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="favorites-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="bi bi-music-note-beamed fs-3 text-primary me-2"></i>
+                <span class="fw-bold text-primary">UCZ Bemba Hymn Book</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-door me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hymns.html"><i class="bi bi-journal-text me-1"></i>All Hymns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorites.html">
+                            <i class="bi bi-heart me-1"></i>Favorites
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bible-quiz.html">
+                            <i class="bi bi-question-circle me-1"></i>Bible Quiz
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="bi bi-info-circle me-1"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h1 class="display-4 fw-bold mb-3">
+                        <i class="bi bi-heart-fill text-danger me-3"></i>My Favorite Hymns
+                    </h1>
+                    <p class="lead text-muted mb-0">Your collection of favorite Bemba hymns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favorites Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4" id="favoritesContainer">
+                <!-- Favorites will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-3">
+                        <i class="bi bi-music-note-beamed me-2"></i>UCZ Bemba Hymn Book
+                    </h5>
+                    <p class="text-white-50">
+                        Your digital companion for Bemba hymns. Accessible anytime, anywhere.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li><a href="hymns.html" class="text-white-50 text-decoration-none">All Hymns</a></li>
+                        <li><a href="favorites.html" class="text-white-50 text-decoration-none">Favorites</a></li>
+                        <li><a href="bible-quiz.html" class="text-white-50 text-decoration-none">Bible Quiz</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="mb-3">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="privacy.html" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html" class="text-white-50 text-decoration-none">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 UCZ Bemba Hymn Book. All rights reserved.</p>
+                <p class="small mb-0 mt-2"></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/hymns-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

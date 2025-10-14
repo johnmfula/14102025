@@ -1,0 +1,1443 @@
+// Complete Bemba Hymns Data - UCZ Hymn Book
+const hymnsData = [
+  {
+    "id": 1,
+    "number": 1,
+    "title": "MWE BANTU BONSE BA PANSHI",
+    "lyrics": "1. Mwe bantu bonse ba panshi.\nMulumbanyeni mutote,\nNo kumutemwa iseni,\nImbeni pa cinso cakwe\n\n2. Ibukisheni ni Lesa\nAtubumbile fwe bonse,\nAletukumba nge mpanga,\nPantu ifwe tuli bakwe.\n\n3. Ingileni no mucinshi,\nMupalameni no kwanga\nShina lyakwe lumbuleni,\nIci cine e cisuma.\n\n4. Lesa wesu, e musuma,\nAli no luse kuli ifwe;\n'Cine cakwe ciminina\n'Nshiku ne nshiku shonse pe"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "ITOTELENI MFUMU NKALAMBA",
+    "lyrics": "1. Itoteleni\nMfumu nkalamba,\nimbileni mwe;\nluse na maka;\nNinkwela yakosa\nkuti tuchingwe,\nkwi sano ekwaba\nku mulu kwine.\n\n2. Imbenya maka,\nCikuku pamo\nBusamo nkansu\nMulu lisano\nMwela na makumbi\nFilengo fyakwe\n'Cipupu ne mfifi\nNshila ya Mwine\n\n3. 'Calo na fyonse\nifyo, tekweba,\nFyabumbwa kale\nNankwe ku maka\nNa ifunde ili\nAilengele\nAbike cambeshi\nCicilibishe.\n\n4. Bupe bwamwine\nTeti tusose\nNimulwelele\nNa mu kasuba;\nBwatula kumpili\nBwaya ku nika,\nBwamoneko bupe\nMume ne mfula\n\n5. 'Bena lukungu\nBanaka, ni fwe,\nTwacetekela,\nTeti mubepe;\nUbupyo busuma\nEbo twapelwa,\nKabumba, Kachinga,\nNa Kalubula.\n\n6. Nimwe lubuto\nNimwe uluse,\nBatulwa pamo\nBamwimbila pe.\nPamo nefwe bene\nMu nyimbo shesu\nNe ndimi sha cine\nTwimbilyo mulu"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "TWAMULUMBANYA MWE LESA",
+    "lyrics": "1. Twamulumbanya Mwe Lesa,\nAmaka yenu Twaimba,\nAbena fyalo batota\nKuli imwe, mwe ba Tata.\n\n2. Ni Aleluya twaimba,\nPamo na batulwa bonse;\nBa mu mulu, ba panonse\nBalemwimbila pe na pe.\n\n3. Baleti Mwafya, Mwafya mwe\nLesa Mutotelwe Konse\nPanwesonde na mu mulu\nMulimo ne fye bukulu.\n\n4. Batumikisha balipo,\nBalifukisho lwimbo,\nBakasesema babula\nFyonse fya bu-Aleluya\n\n5. Na bafwililwa pa Mfumu,\nBabilikisha mu mulu;\nCilonganino ca pano\nCilefukisho lwimbo.\n\n6. Lulumbi Iube Kuli mwe,\nMwe Lesa Tata pe na pe;\nKu Mwana na Ku Mupashi,\nLesa umo, wa mu mulu."
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "WA MUSHILO WINE, LESA WA MAKA",
+    "lyrics": "1. Wa mushilo wine, Lesa wa maka,\nBwaco bwa musamwa; twaisa mwimbila,\nWa mushilo wine, wa luse, wa maka,\nUmo, batatu, Lesa wacila!\n\n2. Wa mushilo wine, bemba bashila\nBalelumba Imwe, baletotalako;\nBonse ba mu mulu bawa, baletila,\n\"Uwali, uli, wakulabako.\"\n\n3. Wa mushilo wine, ushimoneka,\nNe fwe bantu babi tatwingamutamba;\nWa mushilo ni mwe; mwabafye Kateka\nWa cine cine, no wa bulamba.\n\n4. Wa mushilo wine, Lesa mu mulu,\nNcito shenu shonse shilemulumbanya,\nWa mushilo wine, wa luse na maka,\nLesa patatu, Lesa wapalwa."
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "title": "SHIKULU E MFUMU; CALO",
+    "lyrics": "1. Shikulu e Mfumu; calo\nCisekelele ne myulu,\nKonse Konse cilumbuke\nIfyo Shikulu e Shifwe.\n\n2. Shikulu e Mfumu; nani\nUlemukana ne fibi?\nNelyo Kumungwimgwintika,\nNo kukana musumina?\n\n3. Shikulu e Mfumu; kanshi\nKapingula, Mupusushi;\nNshila shakwe e sha cine,\nAbantu bese muwile.\n\n4. Ateka; mwe basambi mwe,\nMwakulalumbanya Shifwe,\nNa Yesu aba mu mulu,\nUwatanikwe ngo muntu.\n\n5. Awe, teti apumbie,\nNelyo uluse lucepe,\nAbena mwakwe beleka\nKwimbe fyo Shifwe ateka."
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "title": "SHIFWE WA LUSE LWAKULA",
+    "lyrics": "1. Shifwe wa luse lwakula,\nMwatupa fye Cilubula,\nKwi sano lwemu tulambe,\nMwe ba luse, mutusambe.\n\n2. Mwe Mwana, Shiwi mu buntu,\nMwe Ngulu, Lambo, mwe Mfumu,\nKwi sano lyenu tulambe,\nCikuku cenu tutambe.\n\n3. Mupashi mwe wa mushilo,\nMwalula bafwe ba mweo,\nKwi sano lyenu tulambe,\nNa Kuli ifwe mubombe.\n\n4. Shifwe, Mupashi, no Mwana,\nPatatu umo, wa nkama,\nKwi sano lyenu mulanga,\nNo mweo wa pe tusanga."
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "title": "TUCINDIKE NO KWANGA",
+    "lyrics": "1. Tucindike no kwanga,\nLesa wesu musuma\n\nAba no luse lwa pe\nPa pantu bakwe bonse.\n\n2. Tulumbule ishina,\nNi Lesa Mwine eka.\n\n3. Ababumbile icalo,\nNo kwisusho lubuto.\n\n4. Musuma Kuli bonse\nE ulelela fyone.\n\n5. Alebatangilila\nBantu bakwe mu nshila.\n\n6. Atumona no luse,\nFwe balanda, fwe ba fye.\n\n7. Tulelumba na nomba\nLesa wesu musuma."
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "title": "WE MUTIMA, ULUMBANYE",
+    "lyrics": "1. We mutima, ulumbanye\nMfumu yesu ya mu mulu;\nWalubulwa, waelelwa,\nNani wa kwimbilo lu?\nUlumbanye, ulumbanye,\nLumbanye Mfumu ya pe\n\n2. Mulumbanishisho bupe\nBatata bapelwo bu,\nMu busanswo baikele,\nAbapokolowemo.\nUlumbanye, ulumbanye,\nLumbanye Mfumu ya pe.\n\n3. Nga Tata aletuteka,\nTwanaka aishiba;\nMu maboko atusenda,\nAtupokolola pe,\nUlumbanye, ulumbanye,\nLumbanye Mfumu ya pe.\n\n4. Bonse mu mulu mutwafwe\nKuti tutote bwino,\nMwashuka ukuba nankwe,\nMumumona pa menso;\nUlumbanye, ulumbanye,\nLumbanye Mfumu ya pe."
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "title": "FIBUMBWA FYONSE FYA PANSHI",
+    "lyrics": "1. Fibumbwa fyonse fya panshi\nAleni, twimbile Mfumu,\nAleluya, Aleluya,\nWe kasuba wabalika,\nNobe we mwenshi bushiku,\nMulumbanye, mulumbanye;\nAleluya, Aleluya, Aleluya.\n\n2. We mwela wa cipupu we,\nWe kumbi lyayo lubilo,\nMulumbanye, Aleluya,\nBwaca buletasha Mfumu,\nMyengelele, imye shiwi,\nMulumbanye, mulumbanye;\nAleluya, Aleluya, Aleluya.\n\n3. Mumana we mu kupita,\nBulo lwimbo no kutasha\nMfumu Lesa, shilimbeni,\nMulilo wa kwafwa bantu,\nNo kubapelo lubuto,\nImye shiwi mulumbanye\nAleluya, Aleluya, Aleluya\n\n4. We mayo calo nshiku pe\nWatupe fyakulya fyonse,\nUlwimbo mwimbileni,\nFimuti na maluba, mwe,\nLangeni lulumbi lwakwe,\nToteleni Mfumu Lesa;\nAleluya, Aleluya, Aleluya.\n\n5. Abatemwana mu bantu,\nAbelelana, imbeni,\nTemwisheni Mfumu yenu.\nNa balecula nshiku pe\nBasansamuke babula\nShiwi ili lya kutota;\nAleluya, Aleluya, Aleluya.\n\n6. We mfwa yaisa Kuli fwe,\nMu kutalala, shiili,\nTatutina, we munensu,\nNiwe nkombe ya kwa Tata,\nWasendo mwana ku mwabo,\nWe mfwa mune, we mutembo;\nAleluya, Aleluya, Aleluya\n\n7. Fibumbwa fyonse fya panshi\nFilumbanye no mucinshi\nLesa wesu, Mfumu yesu.\nTasheni Tata no Mwana,\nMupashi nao Wabuta;\nLumbanyeni, batasheni;\nAleluya, Aleluya, Aleluya."
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "title": "INDIMI SHINGI NDEFWAYA",
+    "lyrics": "1. Indimi shingi ndefwaya\nSha kwimbile Mfumu;\nUlulumbi lwa kwa Lesa,\nLuse ne cikuku.\n\n2. Mwe Mfumu Lesa shikulu,\nUkwimba mungafwe;\nNo kushimikila kuno\nIfye shina lyenu.\n\n3. Yesu, ishina lisuma,\nLitamfye cikonko;\nE lyawama ku bapipa,\nMutende no mweo.\n\n4. Onaula maka yabi\nMubi akakula;\nAmusamba no mulopa,\nKanshi ansambe 'ne.\n\n5. Asosa, no kumfwe shiwi\nAbafwa baima,\nBasekela abakabi,\nBaanga bapina.\n\n6. Mumfwe, we wakoma matwe;\nCibulu, mulumbe;\nWe mpofu moneMfumwi yi;\nCilema ciluke.\n\n7. Mwe bena fyalo moneni\nKuli Lesa wenu;\nMuloleshe, mupusuke,\nMube ne cikuku."
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "title": "SUMBULENI IMITWE MWE",
+    "lyrics": "1. Sumbuleni imitwe mwe!\nMwe mpongolo sha pe.\nMusumbuke mwe fipata,\nImfumu ingile.\n\nBushe, nani imfumwi yi?\nTe Mfumu ikulu?\nYehofa uwakosa pe,\nWa maka mu bulwi.\n\n2. Sumbuleni imitwe mwe!\nMwe mpongolo sha pe,\nMusumbuke mwe fipata,\nImfumu ingile.\n\nLelo nani, imfumwi yi?\nMfumu Lesa wa maka,\nWa bukata, wa lulumbi,\nNi Lesa wesu pe;\nWa bukata, wa lulumbi,\nNi Lesa wesu pe.\n\nAleluya! Aleluya! Aleluya!\nAmen, Amen, Amen."
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "title": "TULUMBANISHA MAKA YE",
+    "lyrics": "1. Tulumbanisha maka ye\n'Shina lyakwa Yesu;\nAbangeli na bantu fye,\nBalumbanye shina,\nShina lya kwa Yesu.\n\n2. Abafwile balumbanye\nWanina ku mulu;\nWa kwishinte lya kwa Yese\nBalumbanye shina\n'Shina lya kwa Yesu.\n\n3. Abasumina panonse\nAbwa balubuka;\nNa baletulwa ku luse,\nBalumbanye shina,\n'Shina lya kwa Yesu.\n\n4. Abelelwa te kulaba\nIfyo achulile;\nBamuletele ubupe,\nBalumbanye shina\n'Shina lya kwa Yesu.\n\n5. Abena fyalo bandimi\nShonse sha panonse;\nBalete kuno mucinshi,\nBalumbanye shina,\n'Shina lya kwa Yesu.\n\n6. Ba panonse, 'ba mu mulu\nBonse bamuwile;\nBemba ulwimbo lumo fye,\nBalumbanye shina\n'Shina lya kwa Yesu."
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "title": "LUMBANYENI YESU UWATUUBULA",
+    "lyrics": "1. Lumbanyeni Yesu uwatulubula,\nImbisheni bonse ba panonse;\n\nCeleleni Yesu, mwe bali mu mulu,\nIshina lipelwo bucindamo.\nNga kakumba, Yesu abaka bana,\nMu maboko alabasenda pe.\nLumbanyeni, lumbuleni ubukulu,\nMwimbileni no lwimbo pe na pe.\n\n2. Lumbanyeni Yesu uwatulubula,\nAculile, apelelwe, afwa;\nWene libwe lyesu ilya bupususho,\nCeleleni Yesu watanikwe.\nTemwisheni Yesu watufwilile,\n'Luse, congwe, no kutemwa kwa pe.\nLumbanyeni, lumbuleni ubukulu,\nMwimbileni ni lwimbo pe na pe.\n\n3. Lumbanyeni Yesu uwatulubula,\nNaHosana ku mulu kwaumfwa;\nYesu wne abelelyo kuteka,\nLumbanyeni kayula ne Mfumu.\nUwa kwisa e ukacimfya bonse\nAlikwata maka no lulumbi.\nLumbanyeni lumbuleni ubukulu\nMwimbileni no lwimbo pe na pe."
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "title": "TUSEKELYO MWINE",
+    "lyrics": "1. Tusekelyo Mwine\nNi Mfumu ya bantu,\nTumutotele fwe,\nNo kwimbile Mfumu;\n\nImye shiwi, no mutima,\nSekela no kusekela\n\n2. Yesu ni Katula,\nAleteka bantu;\n'Lintu atufwila\nAnina ku mulu.\n\n3. Ubufumu bwakwe\nTekuti bupwe yo;\nUluse akwata\nLwa mfwa no lwa kumbo.\n\n4. Amaka 'kananye\nBasuke bacimbe\nBonse abalwani;\nKu Mfumu balambe.\n\n5. Imfumu ikesa\nKu kusenda nkuta,\nShiye kuli Lesa\nKwi sano lyashila."
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "title": "NATOTLWE LESA, WA MAKA YONSE",
+    "lyrics": "1. Natotelwe Lesa, wa maka yonse,\nAtemenwe calo kupela Mwane;\nUwatufwilile kwi paki lyesu,\nAtwiswilo mulu 'fwe twingilemo.\n\nMwimbile! Mwimbile! calo cumfwe naco,\nMwimbile! Mwimbile! babe no buseko;\nIsa kuli Lesa mu Mwana wakwe,\nUmulumbanishe, wa maka yonse.\n\n2. Ubu bulubulo ubwa mulopa.\nE bulayo bwine ku wasumina;\nNa ku wabipisha nga nasumina,\nKashita kenyako alaelelwa.\n\n3. Alitufundishe, alituwamishe,\nNa ifwe twalyanga mu Mwana wakwe;\nLelo tukacila mu kusekela.\nIlyo twamumona Yesu Katula."
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "title": "MAKANA NA MAKANA",
+    "lyrics": "1. Makana na makana\nYa bafwikwa tutu,\nIfita fya balubulwa\nFyanina ku mulu,\nFyapwa! fyonse nafipwa,\nUkulwa ne fibi;\nBeswileni ifipata,\nAba kabengile.\n\nAleluya! Aleluya!\nkuuwatufwilile;\nAleluya! Aleluya!\nNao alimine.\n\n2. 'Nyimbo sha Aleluya\nSha calo no mulu!\n'Kulisha kwa masese kwa\nTwebelyo bwanshisho.\nWe bushiku busuma,\nBwa fyabumbwa fyonse;\nWe nseko, ulefumyapo\nUbulanda bonse.\n\n3. E, tukaceleshanya\nMu mulu mwi shilya;\nPa kukumanye fubusa\nNo kushilekana.\nAmenso yakawama,\n'Yalile filamba,\nTabalimo bakashiwa,\nNeyo mukamfwilwa.\n\n4. Mwe Mfumu, bupalame\n'Bupususho bwenu;\nBa ku mulu mubalembe,\nMwe ka mube Mfumu.\nmwe bafwaikwa, mwise,\n'Basha bafuluka;\n'Bulangililo mubape,\nMwe Mfumu, katula."
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "title": "NE SESE NE PENGA 'BENGI BALIKO",
+    "lyrics": "1. Ne sese ne penga 'bengi baliko,\nNa mu cinso ca Mfumu baimbo lwimbo:\n\nKuli uyo watutemwa, watulubula,\nKuli wenya lulumbi inshiku shonse.\n\n2. Abalya babipa bali mu cinso,\nBalifwikwe fyabuta no kwimba pamo:\n\n3. Acita bapipa babe ba Mfumu,\nAtutula, twafundwa, twimbyo lwimbo lu.\n\n4. Twali fye mu mfifi, twali abasha,\nLelo alitusamba, twasangululwa;\n\n5. Tumulumbanishe Imfumu Yesu,\n'Kuti bambi pa kumfwa bamwimbilyo lu."
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "title": "PA BUSUMA BWA CALO",
+    "lyrics": "1. Pa busuma bwa calo,\nPa busuma bwa mulu,\nPa mulandu wa luse\nUli konse konse:\nShifwe kuli 'mwe lelo\nTwimbyo lwimbo lwa nseko.\n\n2. Pa busuma bwa nshita\nSha bushiku kasabu,\nBwa mpili na manika,\nBwa miti na maluba:\nShifwe kuli 'mwe lelo\nTwimbyo lwimbo lwa nseka.\n\n3. Panseko sha kutemwa\nKwa bafyashi na bana,\n'Fibusa fya panonse\nIfyatwafwa mu luse:\nShifwe kuli 'mwe lelo\nTwimbyo lwimbo lwa nseko.\n\n4. Pa mulandu wa bupe\nMutupela panonse,\nBonse ubutuntulu,\nBulafuma ku mulu:\nShifwe kuli 'mwe lelo\nTwimbyo lwimbo lwa nseko.\n\n5. Pa Cilonganinwe ci,\nIcipepa kuli 'mwe,\nCili mu fyalo fyonse,\nCilatasha kuli 'mwe:\nShifwe kuli 'mwe lelo\nTwaimbyo lwimbo lwa nseko."
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "title": "TULUMBANYE LESA",
+    "lyrics": "1. Twalumbanye Lesa\nNo tunwa ne mitima,\nKalenga wa maka\nShifwe uwatutemwa,\nE watukushishe\nKufuma ku bwaice,\nE utusunga pe\nKufika lelo.\n\n2. Mwe Lesa waluse\nTusungeni mupepi,\nMutwenshe mu nshila\nYenu iya mutende,\nMutupelye maka\nYa kwansha Satana,\nTusuke tufike\nKu bufumu bwenu.\n\n3. Tutotele Lesa\nShifwe, Mwana, Mupashi,\nBalumbwe panonse,\nBaleteka mu mulu,\nLesa umo wine\nKabumba wa fyonse\nKu kale ne lelo\nInshiku shonse."
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "title": "MWE LESA, KAFWA WA KALE",
+    "lyrics": "1. Mwe Lesa. Kafwa wa kale.\nTwamucetekela;\n'Cubo cesu ku cipupu,\nNe ng'anda yesu pe\n\n2. Abantu benu batemwa,\nApo mubabaka;\n'Kuboko kwenu kwa maka\nKwakulatucinga.\n\n3. 'Lintu mpili tashalipo,\n'Calo conse pamo\nMu nshita shonse mwe Lesa\nMwaikala umo.\n\n4. Kuli imwe myaka ingi\nNgo bushiku bumo;\n'Nshiku shesu nasho bwipi\nNgo mumyo lucelo.\n\n5. 'Myaka yaya ngopjmpana,\nAbantu balafwa,\nBalabwa fintu cilabwa\n'Ciloto lucelo.\n\n6. Mwe Lesa, Kafwa wa kale\nTwamucetekela;\nMulame fwe bantu benu\nAbo muletemwa."
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "title": "TATA WESU TULI PA NTANSHI PENU",
+    "lyrics": "1. Tata wesu tuli pa ntanshi penu;\nMukumane nefwe, mwe Mfumu yesu.\n\n2. Imitima yesu twapela imwe;\nMuisambishe, muwamye mwe Bene.\n\n3. Na 'ya menso yabe ya imwe Bene\nYaloleshe fyenu fyeka fya cine.\n\n4. Na maboka yesu yaleba yenu,\nYabombela imwe ku m'limo wenu.\n\n5. Na 'ya molu kuli imwe twapela,\nYende nemwe, yamukonke mu nshila.\n\n6. Ne milomo yesu ibe ya Kristu,\nIlande pe luse lwakwe ku bantu.\n\n7. Na 'ya matwi yabe yenu nshiku pe,\nYomfwikishe paifunde lya Mwine.\n\n8. Pano pene tuleipa kwa Lesa;\nTube fwe benu, mubili no  m'tima."
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "title": "LESA WANDI, LESA WANDI, MPUSUSHENI INE",
+    "lyrics": "1. Lesa wandi, Lesa wandi, mpususheni ine,\nLesa wandi, Lesa wandi, mpususheni ine,\nMwi shina lya kwa Yesu Kristu,\nWa kutemwa, wa cukuku, mpususheni ine.\n\n2. Lesa wandi, Lesa wandi, njeleleni ine,\nLesa wandi, Lesa wandi, njeleleni ine,\nMwi shina lya kwa Yesu Kristu,\nM'lopa wakwe unsambishe ku kubifye kwandi.\n\n3. Lesa wandi, Lesa wandi, pokeleni ine,\nLesa wandi, Lesa wandi, pokeleni ine,\nMwi shina lya kwa Yesu Kristu,\nMfumu yandi, Mwine luse, pokeleni ine.\n\n4. Lesa wandi, Lesa wandi, bakisheni ine,\nLesa wandi, Lesa wandi, bakisheni ine\nMwi shina lya kwa Yesu Kristu,\nMbakisheni ku fya bubi, mbakisheni ine."
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "title": "LESA EKACEMA WANDI",
+    "lyrics": "1. Lesa ekacema wandi,\nNshakabile pe,\nKu mulemfwe alentwala,\nKu menshi ya bumi.\n\n2. Umutima ambwesesha,\nMu Iwendo angafwa,\nMu nshila sha bololoke,\nPe shina lyakwe fye.\n\n3. 'Lintu nkenda mu mfwa ine\nNshakatine kantu,\nPantu Imwe mulensuiga.\nNo kunsansamusha.\n\n4. 'Cintamba mwanungikila.\nMu cinso ca babi,\nUmutwe wandi mwansuba,\n'Nkombo shaisula.\n\n5. Busuma bweka no luse,\nFyakulankonka pe,\nNa mu ng'anda ya kwa Lesa,\nNkekalililamo."
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "title": "MFUMU YA LUSE KACEMA",
+    "lyrics": "1. 'Mfumu ya luse Kacema,\nMusuma, talendaba;\nTe 'ti nkabile, andema\nNo ko ndi e ko aba.\n\n2. Ku menshi ya mweo na ko\nAmtwala alanwensha;\nNa ku mulemfwe wabako\nAndisha no kunyesha.\n\n3. Naluba fye no kuucla;\nAmfwayafwaya 'nsanga,\nAnango luse, ambula,\nKu mushi ayayanga.\n\n4. Nshitina ku mfifi ya mfwa,\nMwe Mfumu mwe babako,\nNkonto yenu ilenjafwa;\nMulembalikilako.\n\n5. Mwantebete ifyacila,\nNo luse mwalufima;\nMwaleko kwango kwashila\nKwisusha umutima.\n\n6. Ku cikuku muncitia,\n'Busuma bwafulisha;\nKu mwenu ko nkamwimbila,\nMwe Mfumu, mwandubula."
+  },
+  {
+    "id": 25,
+    "number": 25,
+    "title": "IMFUMU YESU KRISTU",
+    "lyrics": "1. Mwise mutote\nMwe ba busumino,\nIseni ku mwine ku Betlehemu;\nTuye tumone\nMwine wa ku mulu.\nMwise tumutotele.\n\nMwise tumutotele\nMwise tumutotele, Kristu 'Mfumu.\n\n2. Lesa wa bumi,\n'Mwine wa lubuto,\nUyo wafyalilwe mu Betlehemu;\nTata mo Mwana,\nNo buteko bonse;\nMwise tumutotela.\n\n3. Toteni bonse,\nMwe bali mu mulu,\nYangileni lelo mu Betlehemu:\nMulumbanyeni,\nE mwine wa fyonse;\nMwise tumutotele.\n\n4. Mwe mfumu nomba\nIfwe twamuposha,\nImwe mwafyalilwe mu Betlehemu;\nNimwana Lesa\nAishilyo muntu;\nMwise tumutotele."
+  },
+  {
+    "id": 26,
+    "number": 26,
+    "title": "UMFWENU BALEAULA",
+    "lyrics": "1. Ufwenin baleaula,\nKatula aisa;\n'Mitima yonse imbile\n'Kumupokelela.\n\n2. Aisa kakula babi,\n'Bakakwa na Ciwa,\n'Fikakulo aputula,\nNa fyonse fya fyela.\n\n3. Aisa fuma ku mulu,\nKubomba mu calo;\nNa pa menso ya shampofu\nAbiko lubuto.\n\n4. Aisa ndapa'balaswa,\n'Bali no bulanda;\nNo bupe bwakwe cikuku,\nApela bapina.\n\n5. Malumbo yesu Shikulu\nyamucelele pe\nNe ng'omba shonse mu mulu\nShimwimbile shonse."
+  },
+  {
+    "id": 27,
+    "number": 27,
+    "title": "SHISENI, MWE IMMANUEL",
+    "lyrics": "1. Shiseni, mwe Immanuel,\nMwise lubula Israel,\nKu bunkole alelosha\nAsuke 'se Mwana Lesa.\n\nAnga! Anga! Immanuel,\nAleisa, we Israel.\n\n2. 'Seni, Nkonto ya kwa Yesa,\nIseni, benu mutashe;\nBatuleni ku Gehena,\nBacimfye imfwa ne Ciwa.\n\n3. Shiseni, mwe Kasuba,\nTabutusheni mitima;\nIkumbi 'li litamfiwe,\nNo bushiku bwa mfwa bupwe.\n\n4. Shiseni, mwe Lufungulo,\nMutwiswileko ku mulu;\nMuwamishe mu nshila ine,\nYa ku bucushi mushile.\n\n5. Shiseni, mwe Mfumu Nkulu,\nMwe bapele 'bantu benu\n'Mafunde yene pa Sinai,\nMu kutinya no mucinshi."
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "title": "UMFWENI ABA KU MULU",
+    "lyrics": "1. Umfweni aba ku mulu\nBalelumbanye Mfumu;\nIlelo yatufwalilwa\nUkutuwikishanya.\nImemi mwe bena fyalo,\nNe ndimi imbeni nasho'\nAtufyalilwa, Kristu,\nMu mushi Betlehemu.\n\nUmfwenya ba ku mulu,\nBalelumbanye Mfumu.\n\n2. Mukankala Kristu Mfumu,\nBamulumba ku mulu;\nAli Lesa wa bapalwa,\nKu mushimbe afyalwa;\nAba ni Lesa mu buntu,\nAba fye mumtu munensu;\nPosheni Mfumu nkulu\nYesu, Lesa mu bantu.\n\n3. Ya mu mulu, ya mutende,\nYalungama, ya cine;\nUkutemwa ne fya luse\nYaletela fye bonse;\nYasho mucinshi wa m'mulu\nTube fwe abatuntulu,\nTube no mweo wa pe,\nTupalane no Mwine.\n\n4. Mwe Bafwaikwa ku bantu,\nMwikale kuno mwesu,\nNi mwe Mwana wa Mushimbe,\nMutwanshishe ifibi,\nTwimbe nabwa balubulwa;\nImfumu yatufyaliwa,\nUlulumbi mu mulu,\nNo mutende pa bantu."
+  },
+  {
+    "id": 29,
+    "number": 29,
+    "title": "BAKAKUMBA BAPEMPWILE",
+    "lyrics": "1. Bakakumba bapempwile\nMpanga ubushiku;\nUmungeli aikile,\n'Lulumbi lwa mulu.\n\n2. \"Mwilatina,\" asoseshe\nAbali no mwenso,\n\"Namuletels fye bonse\n\"Ilandwe lya nseko.\"\n\n3. \"Mu mushi wa kwa Dabidi,\n\"Afyalilwe lelo,\n\"Mfumu Kristu, Mupusushi:\n\"E bulangililo;\"\n\n4. \"Mwana munono wa mu mulu\nMulemusangamo;\nAlemoneka ku bantu,\nAli mu mukondo.\"\n\n5. Efyo wa sosa wa ntanshi,\nElyo lyamoneka,\nIbumba lya bangeli,\nBalumbanye Lesa:\n\n6. \"Ululumbi kuli Lesa,\nMutende mu calo,\nFya busuma fyatendeka\nNomba no kupwa yo."
+  },
+  {
+    "id": 30,
+    "number": 30,
+    "title": "LYAISHILE UBUSHIKU",
+    "lyrics": "1. Lyaishile ubushiku,\nIlandwe lya kale,\nLyafumine kubangeli\nAbasoso kuti:\n\"Mutende ube mu calo\nUfume ku mulu,\nBantunse babe tondolo,\nBomfwe abangeli.\"\n\n2. Ku fyabipa ne fya bulwi\n'Bantunse bacula,\nImyaka yapite ingi\nLya fyabipisha.\nAbelelwa te ba kumfwa\nUlwimbo lwa luse;\nShitataleni mwe bantu,\nMumfwe abangeli.\n\n3. Mwe bafininwa ku fibi,\nMwe basakamikwa,\nMwe baleenda bulendo\nLubomba lubomba.\nInukeni! nshita ipya\nYaiso lubilo;\nTusheni muno mu nshila\nMumfwe abangeli.\n\n4. Moneni nshinku shaisa,\nIshalesoselwa\nNa kasesema wa kale,\nInshiku shawama.\nElyo mutende ukesa\nFika konse konse;\nNe fyalo fyonse fikemba\n'Lwimbo lwa bangeli."
+  },
+  {
+    "id": 31,
+    "number": 31,
+    "title": "NI MU MUSHI WA KWA DABIDI",
+    "lyrics": "1. Ni mu mushi wa kwa Dabidi\nMwali tanga lya ngoma,\nUmo nyina abikile\nUmwana mu mulimba.\nNi Mariya e nyina;\nYesu Kristu e mwana.\n\n2. Aikele pano panshi,\nUli Mfumu ya bonse;\nNg'anda yakwe yali tanga\nNo busanshi mulimba,\nku bapina afyelwe,\nUyo e Mupusushi.\n\n3. Aumfwilw kuli nyina\nPa kukulo yo Mwana;\nAmutemwa 'sakamana\nNo mucinshi wayana.\nNomba bana bapale\nUlya mwana wa kale.\n\n4. Nomba talimo mwi tanga\nUmo ngombe shilala;\nLelo ali kuli ifwe,\nNa mu mulu mwa Lesa.\nIfwe tumupashanye\nNelyo tube baice."
+  },
+  {
+    "id": 32,
+    "number": 32,
+    "title": "AKAMUSHI BETLEHEME",
+    "lyrics": "1. Akamushi Betlehemu\nAkali tondolo,\nAbana bonse ba bantu\nBasendamo tulo.\nNangwi mfifi ya bushiku\nyali pano panshi,\n Uyo waiso lubuto\nAbo Mupusushi.\n\n2. Kuli Mariya afyalilwe\nYesu Kristu, 'Mfumu;\nNa bangeli balonene\nLumbula ku mulu.\nMwe ntanda shonse sha mu mulu\nShimikileniko,\n'Lulumbi lube kwa Lesa,\n'Mutende mu calo.\n\n3. Kanshi ubupe icalo\nCapelwa na Lesa;\nNabo bwaisa tondolo\n'Kwabulo kukafya.\nIfyo fine na ku bantu\nLesa apele pe;\nUbwa cine ne cikuku\nMuli 'fwe fikale.\n\n4. We Mwana wa mushilo, we\nWa mu Betlehemu,\nWise wikale muli 'fwe,\nUfumyo lubembu.\nTwaumfwo lwimbo ku mulu\nLwe landwe lisuma;\nmwise kuli 'fwe mwe Mfumu\nMwikale Katula."
+  },
+  {
+    "id": 33,
+    "number": 33,
+    "title": "KULI IFWE AFYALILWA",
+    "lyrics": "1. Kuli ifwe afyalilwe\nUwa Busubilo,\nBa mu mulu batotela\nNe bantu mu calo,\nBa mu mulu batotela\nNa bantu mu calo\n\n2. Uwa Mutende e shina,\nAfuma ku mulu,\nWa finjelengwe, Wa maka,\nWa bonse ni Mfumu;\nWa finjelengwe, Wa maka,\nWa bonse ni Mfumu.\n\n3. Amaka teti yakapwe,\nAkalabateka\nNo bololoke mu mulu,\nMutende mu calo;\nNo bololoke mu mulu,\nMutende mu calo.\n\n4. Kuli ifwe afyalilwe\nUwa Basubilo,\nWa finjelengwe, Wa maka\nAisa mu calo,\nWa finjelengwe, Wa maka\nAisa mu calo."
+  },
+  {
+    "id": 34,
+    "number": 34,
+    "title": "OWE , NSEKO ! IMFUMWI YI!",
+    "lyrics": "1. Owe, nseko! Imfumyi yi!\nNatumusengele;\nAbantu bamutotele,\nBa panonse bembe.\n\n2. Owe, nseko! Mupusushi!\nAbantu bembile;\nIfintu fyonse ifya mweo\nFisanswilisheko.\n\n3. Owe, nseko! Aleteka!\nNe cine, cikuku;\nAbena fyalo beshibe\nUkutemwa kwakwe."
+  },
+  {
+    "id": 35,
+    "number": 35,
+    "title": "MONENI MU MULIMBA",
+    "lyrics": "1. Moneni mu mulimba!\nKana katufyalilwa;\nKalayenwe kale fye,\nKatupusushe bonse,\n\nUbushiku bwapalwa!\nBwaco bwa cilubula;\nKristu Yesu Imfumu\nAfyalwa mu Betle'mu.\n\n2. E mwali mu mulimba!\nwabumbile ne ntanda;\nE Mfumu yacindama,\nE waisa tuwamya.\n\n3. Soseni mwe bacemi,\nMuli na mashiwi nshi?\nCinshi mwashe mpange fi,\nNo kwisa fye mu mushi?\n\n4. Ubushiku tumwene\nUlubuto lwa nkombe,\nShileimbile Mfumu,\nYafyalwa mu Betle'mu.\n\n5. Mwana Lesa washila\nUkutemwa kwakula!\nMwafumine ku mwenu\nKu kutula fwe bantu.\n\n6. Mufundishe na ifwe,\nTupalane na imwe\nTube 'ba kuicefya,\nBa luse, abafuka."
+  },
+  {
+    "id": 36,
+    "number": 36,
+    "title": "IFYO BANTU BA KALE",
+    "lyrics": "1. Ifyo bantu ba kale\nUlutanda bamwene,\nIlyo balucelele\nLwaleya, lwabalike;\nIfyo, fine, mwe mfumu,\nTutwalwe na ku mulu.\n\n2. Ifyo baya no kwanga,\nKuli imwe ku ng'anda,\nKu kumufukamina,\nUntu baletotela;\nIfyo fine, mwe Mfumu,\nTumufwaye ku mulu.\n\n3. Ifyo bantu baoele\n'Bupyo bwingi bwafina;\nNo kwanga, ifyo fine\nTumupele fya bupe,\nKuli imwe, mwe Mfumu,\n'Mupusushi, Shikulu.\n\n4. Yesu Kristu nshiku pe\nMu lwendo mutubake:\nFya mu calo nga fyapwa,\nMutufishe pa numa\nApashili lutanda\nLwa kutungulula.\n\n5. 'Calo cilya ku mulu,\nTabafwaya lubuto;\nNi'mwe kasuba uko;\nTukembila mu mulu\nAleluya ku Mfumu."
+  },
+  {
+    "id": 37,
+    "number": 37,
+    "title": "NANI ULYA MWI TANGA",
+    "lyrics": "1. Nani ulya mwi tanga\n'bantu baletotela?\n\nNi Mfumu, 'Landwe lisuma\nMfumu mwine walulumbi;\nTumuwile pa nkasa,\nBonse bamutotele.\n\n2. Nani ulya acula\nAli eka mu mpanga?\n\n3. Nani ulya batemwa\nWa mashiwi ya luse?\n\n4. Nani ulya ondapa\nBalwele na bacula?\n\n5. Nani ulya mu mfifi\nApepa kuli Wishi?\n\n6. Nani ulya ku muti\nAtufwila fwe babi?\n\n7. Nani ulya ku nshishi\nWafuma? Mupusushi!\n\n8. Nani wa pa cipuna\n'Calo conse ateka?"
+  },
+  {
+    "id": 38,
+    "number": 38,
+    "title": "MWASHO BUFUMU",
+    "lyrics": "1. Mwasho bufumu \nkumwenu ku mulu,\nPa kwishila ine pano,\nNa ku Betlehemu\nTakwali ne ng'anda\nyakuti muye fyalwamo:\nMwise mu mutima, 'Mfumu,\nE mo mube pe mu mwenu.\n\n2. 'Nkombe shashila\nShalimwimbeli,\nShacindike, mwe Katula:\nMwise mu mutima, 'Mfumu,\nE mo mube pe mu mwenu.\n\n3. 'Nama sha calo,\nNe fyuni pamo,\nFyakwete apa kwikala;\nNa kristu Yesu,\nMwana -Lesa M'kulu,\ntakwetw nelyo ni ng'anda;\nMwise mu mutima, 'Mfumu,\nE mo mube pe mu mwenu.\n\n4. Atuletele\nLandwe lisuma;\nLya kulubula ababi;\nLelo bamupata,\nBamufwike myunga,\nBamutanike pa muti;\nMwise mu mutima, 'Mfumu,\nIne ku muti ndetemwa.\n\n5. Mwalibwelele\nKu bukankala,\nNo mulu wamucindike,\nNomba muletwita\nKu mwenu ku mulu\nUko mwe mwatangila:\nMwe mfumu twaumfwo bwite,\nIne ifwe eko tuleya."
+  },
+  {
+    "id": 39,
+    "number": 39,
+    "title": "LYA KUTEMWO KUCILA",
+    "lyrics": "1. Lya kutemwo kucila\nIli shina lyabila;\nKwi shina lya kwa Yesu\nTwinike 'mitwe yesu.\n\n2. Yesu 'shina lyashiila\nKu baluba mu nshila;\nNa ku bantu bacula\nWene e ukatula.\n\n3. Yesu 'shina lyawama\n'Lya waisatulama;\nWaisa mu bucushi\nAbe fi Mupusushi.\n\n4. Yesu, lishina lyeka\nMu mashina yaseka,\nIlyo lyatulula\nKu bubi ubwakula.\n\n5. Yesu! e lya kutemwa,\nUmo buntu bwalemwa;\nYesu! e lyo lyawama,\nEmo tulebelama."
+  },
+  {
+    "id": 40,
+    "number": 40,
+    "title": "LULUMBI NO MUCINSHI",
+    "lyrics": "1. 'Lulumbi no mucinshi\nFyeba kuli imwe,\nAbaice ne ndimi\n'Hosana' balemba\n\n2. Ni mwe Mfumu ya Israel,\n'Mwana wa kwa Lesa,\nMwishina lyakwa mwine\n'Mfumu itotolwe.\n\n3. Ibumba lya bangeli\nBalemulumbanya,\nNa bantu ba panonse\n'Hosana' baasuka.\n\n4. Abantu ba ba Yuda\nBamutangilile;\nTwaisa mulumbanya,\nTwapepa kuli 'mwe.\n\n5. Na mu kucula kwenu\nBalimulumbanye;\nNomba mwaimishiwa\nTwacite fyo fine.\n\n6. Na imwe mwapokele\n'Malumbanyo yabo;\nNa nomba kuli ifwe\nMubulya mapep."
+  },
+  {
+    "id": 41,
+    "number": 41,
+    "title": "LINTU NAKUTUMANINA",
+    "lyrics": "1. 'Lintu nakutumanina\nMu bupalo bwenu,\nFyansekesha pakalamba,\nNafilwo kutasha.\n\n2. Ilyo nali umwaice\nMu nshila shayafya,\nMwalengafwilisha lyonse;\nNangwi ilyo nshishibe.\n\n3. Ilyo nalwele ubwa mfwa\nElyo mwamposeshe;\nIlintu namubifishe,\nMwalinjelele fye.\n\n4. Pa makana na makana\nYa bupe, natota;\nNabupoka no kutasha,\nNakulatotela.\n\n5. Mu nshita shonse sha mweo\nNakulamukonka;\nNa kulya kwine ku mwenu\nNkalamulumbanya.\n\n6. Mu nshita sha ciyayaya,\nNakulamwimbila;\nAwe nshita shacepesha,\n'Kumulumbanisha."
+  },
+  {
+    "id": 42,
+    "number": 42,
+    "title": "ISO KO NDI, WANAKA",
+    "lyrics": "1. \"Iso ko ndi, wanaka,\nNdekupo butusho.\"\nE shiwi lya kwa Yesu\nKu bakungumana.\nLyatwebe fye mutende,\n'Cikuku ne nseko,\nNo luse, e na fyonse\nIfishakapweko.\n\n2. \"Iso ko ndi, we mwana,\nNdekupo lubuto.\"\nE shiwi lya kwa Yesu\n'Lyaisa ne nseko,\n'Mitima yalifina,\nTwaluba mu nshila;\n'Bushiku natulosha,\nBwaca twasekela.\n\n3. \"Iso ko ndi, we wafwa\nNalakupo mweo.\"\nE shiwi lya kwa Yesu,\n'Lyaisa twafwako;\n'Mulwani alikosa,\nLelo watupa maka,\nNe fwe tukayansha.\n\n4. \"Na uyo walaisa,\nTeti mutamfye 'yo.\"\nE shiwi lya kwa Yesu,\nIlitamfyo mwenso,\nLitetwita fwe babi,\nFwe bashiwaminwa,\nUluse lukalamba,\nTufike kuli 'mwe."
+  },
+  {
+    "id": 43,
+    "number": 43,
+    "title": "ISO WANAKA",
+    "lyrics": "1. Iso Wanaka,\nUletusha,\nWe wa bulanda\nSansamuka,\nIwe waluba,\nMona ng'anda;\nYesu e ninga\nNe cibusa.\n\n2. Musao obe,\nIso tushe,\nE bumi bobe\nNo mutende;\nE shila nsuma,\nNe cilambu;\nE mo bashila\nBashuka.\n\n3. Nga naicena\nAnjikata;\nNga naikusha,\nAlemfunda;\nNga namupusa,\nAlensanga;\nE wantemwisha,\nE Katula.\n\n4. Ndemusubila\nNdemulumba\nNdemucindika,\nNdemutasha;\nImbe ne wenu\nInshiku pe\nNe mwe Shikulu,\nMwine bupe."
+  },
+  {
+    "id": 44,
+    "number": 44,
+    "title": "SHIWI LYAIKALA",
+    "lyrics": "1. Shiwi lyaikala,\nLitutungula;\nUntu asumina,\n'Nseko alepelwa.\n\n2. Nga babi baliko,\nLtupo buseko;\nLitusansamusha,\nLiletupususha.\n\n3. 'Lyo bulanda bwisa,\nNa ifwe twatunkwa,\nLiletufundisha,\nLitubakilila.\n\n4. Uwishibe nani,\nUbuseko bwe shiwi,\nBuntu tulepelwa,\nFwe balesumina?\n\n5. 'Fwe kuti twishibe\nFyonse litufundusha,\nKuti tumutemwe,\nNo kwikala nemwe.\n\n6. Ishiwi lya luse\nLyafwa aba mweo;\nIshiwi lya mweo\nLyafwa abalefwa."
+  },
+  {
+    "id": 45,
+    "number": 45,
+    "title": " MWE CILIBWE CA KALE",
+    "lyrics": "1. Mwe Cilibwe ca kale\nKamfisame muli mwe;\nUmulopa na menshi\nFyasumine kuli 'mwe,\nE kundapwa kwa fibi,\nNsagululwe, muntule.\n\n2. Nelyo kamo nshikwete,\n'Lupanda njikata fye;\nMumfwike ndi ni bwamba,\nNgafwe ne mbulwa maka,\nNomba njise, nimbipa,\nMunsabe nikesa fwa.\n\n3. Te kubomba kwandi yo,\nKwinganwamya nge lambo;\nNe lyo naba no mute,\nNo kulile nshiku pe;\nFyonse tafilubula,\nNi mwe Mweka mutula.\n\n4. 'Lintu nkaleko mweo\nYakashibata menso;\nNo kuyo ko nshishibe,\nPa cipuna mumone;\nMwe Cilibwe ca kale\nKamfisame muli mwe."
+  },
+  {
+    "id": 46,
+    "number": 46,
+    "title": "LESA WESU ATEMENWE CALO",
+    "lyrics": "Lesa wesu atemenwe calo;\nAtumine, atumine Yesu,\nKutufwila, kutufwila fwe babi.\nAimine, aimine ku mfwa.\nAile, aile ku mulu.\nAlebeta, alebeta ababi.\nUyu Yesu, uyu Yesu ni Mfumu\nYa ku mulu, ya ku mulu na panshi\nTusumine, tusumin Yesu.\nAtupele. atupele ubumi."
+  },
+  {
+    "id": 47,
+    "number": 47,
+    "title": "YESU, 'YU MWANA LESA, YESU",
+    "lyrics": "1. Yesu, 'yu Mwana Lesa, Yesu,\n'Mulop twasambwa, ifwe,\nMwikale ne fwe, 'mpulumushi shonse\nTupose, Yesu Kristu\n\n2. Lesa Tata, Yesu Mwana wenu\nAfwililya bantu bonse,\nTumulumbanye, Yesu e katula,\nWa maka yonse, no luse.\n\n3. 'Mfumu yesu, tuli mu mfifi fye,\nPa kutemwe fya mu calo\nTwaliluba fye, mutukkule\nMu minyololo, tuli basha.\n\n4. Mu mafunde, Yesu atupele,\nAti: \"senda Landwe lyandi\n\"Mu calo conse, ndemupa maka\nKubwesha bonse, kuli ine."
+  },
+  {
+    "id": 48,
+    "number": 48,
+    "title": "SHINA LYA YESU BUSUMA",
+    "lyrics": "1. Shina lya Yesu busuma\nKu ba basumino!\nLilefumya ubulanda,\nNo kutamfyo mwenso.\n\n2. Lileposha abalanda,\nNabo abacula,\nFyakulya ku abansala\nNa bo abanaka.\n\n3. 'Libwe lyandya po nakula,\nNi nkwela ya maka,\n'Cibikilo icafusha\n'Bwingi bwa cikuku.\n\n4. Yesu ni Kakumba wandi,\nNi Mfumu Katula,\nMwine wandi, mweo wandi;\nMubulya mapepo.\n\n5. 'Mutima wandi ushipe,\nNo luse lwicepa;\nLelo lintu namumona\nNakulamupepa.\n\n6. Nsuke nshimike fya luse\nNo mweo na maka;\nNe nyimbo she shina lyenu\nShintekyo mutima."
+  },
+  {
+    "id": 49,
+    "number": 49,
+    "title": "MWE LESA, MWE LUSE LWINE",
+    "lyrics": "1. Mwe Lesa, mwe luse lwine\nMufumine mu mulu,\nTube ng'anda shenu shine\nMubemo butuntulu.\n\n2. Yesu, ni mwe ba cikuku,\nKutemwa kwine kwine,\nMwiselima mu cituku,\nMumenshemo 'fya cine.\n\n3. Mwe ba maka ku kutula,\nIkaleni muli 'fwe,\nNo mweo wenu wakula\nUlekusha na ifwe.\n\n4. Tube 'benu ababomba,\nNga bashila mu mulu;\nTumutashe, mwe bafumba\nNo bukata bukulu.\n\n5. Lengeni fwe, mwe kutemwa,\n'Bantu bapya bashila;\nBana benu abalemwa,\nBene bene balila.\n\n6. Tube ne mwe mu bukata,\n'Bana benu kwi sano,\n'Ba mitime yaikata\nku cikuku na mano."
+  },
+  {
+    "id": 50,
+    "number": 50,
+    "title": "NI KACEMA WESU",
+    "lyrics": "1. Ni kacema wesu\nYesu Kristu\nMu maboko yakwe,\nTukatina nshi?\nTuye tumukonke,\nAletangila,\nNangu ku mulandu,\nNelyo ku nika.\n\n2. Yesu ni kacema,\n'Lintu asosa,\nAmashiwi yakwe\nYatusekesha.\nNelya kalipila\nAba no luse\nAtutungulula\nFwe mpanga shakwe.\n\n3. Yesu ni kacema,\nAtufwilile,\n'Kuti atusambe\nAtupushushe,\nAtulemba bonse\nNe shina lyakwe;\nAti, \"Abantemwa\n\"Bali banandi.\"\n\n4. Yesu ni kacema,\nAtusunga pe,\nAbabi ne ciwa\nTe kutwipaya.\nNga twapalamine\nMfifi ya imfwa,\nTeti tukatine,\nTukansha ne mfwa."
+  },
+  {
+    "id": 51,
+    "number": 51,
+    "title": "YESU E KAAFWA WESU",
+    "lyrics": "1. Yesu e kaafwa wesu,\nUlubembu asenda,\nCisuma tutwale fyonse\nKwa Lesa mu kupepa.\nNanga ifwe twayanshiwa,\nTwikatisho kulombo;\nNangu tulecula-cula,\nTupepe mu mitima.\n\n2. Bushe tuli no kweshiwa?\nBushe, tulecula pe?\nIfyo fine twinenuka,\nKuli Yesu tulombe.\nKaafwa umbi takuli\nWa mpofu no wa luse,\nYesu atwishiba bonse.\nE calenga tupepe,\n\n3. Nga twanaka no kufinwa,\nNo kumfwisho buali,\nYesu e katula wesu,\nMu mapepo tumwebe.\nIlyo fibusa fyatusaha,\nYesu takatushe yo.\nMu maboko atubaka,\nTukasango butusho."
+  },
+  {
+    "id": 52,
+    "number": 52,
+    "title": "ISHIWI LYA MFUMU LILETI",
+    "lyrics": "1. Ishiwi lya Mfumu lileti, we fumye cili mu linso lyobe\nPanuma walamona bwino mu linso lys mubiyo.\n\nWe munyina, we munyina, we fumye cili mu linso\nPanuma walamona bwino mu linso lys mubiyo.\n\n2. We kafinya balefumya cakutobola mu linso lyobe\nLyene walamona bwino mu linso lys mubiyo.\n\n3. Lingikeninmitima yenu ku muntu umo na umo\nMwalaba icakumwenako nabo basumine.\n\n4. Busumino ubwakweyeka ku mubiyo tabwilila\nTufumye ifyabipa fyesu elyo basumine."
+  },
+  {
+    "id": 53,
+    "number": 53,
+    "title": "WE LUNKUBWA LWA FYUMA",
+    "lyrics": "1. We lunkumbwa lwa fyuma (nobe) watwala bengi mu fibi\nImicitile yabo (yonse) yapalana fye ne Ciwa.\n\nWe lunkumbwa (nobe) watwala bengi (mu fibi)\nnobe we ulebembwa (nafyo) ukapingulwa\n\n2. Fwe balumendo na bakashana natucenjele ne fyuma,\nAlepoke fyuma 'babi bakapingulwa nafyo,\n\n(Kutota mapi)\n3. Tupose fyonse tuli nafyo, lunkumbwa no bukowesho\nNga tukabe fubusa fyakwe, tukapwano mweo.\n\n4. Ananiya, Geashi (bene) e batemenwe fyuma,\nLunkumbwa no bupupu (bwabo) e fyabatwele ku mfwa.\n\n(Kutota mapi)\n5. Ulu lwimbo twaimba (lelo) lukaba ni nte yesu,\nMwe baleibe fyuma fya bene mukapingulwa nafyo.\n\n(Umuku wantashi, Kwimba no kutota; umuku wa cibili, belatota, kwimba fye te kutota.)"
+  },
+  {
+    "id": 54,
+    "number": 54,
+    "title": "YESU ATUTEMWA BONSE",
+    "lyrics": "1. Yesu atutemwa bonse,\nAtemwa pe\n'Nshiku shonse aba nefwe\nAtemwa pe.\nYesu aletungulula,\nNa mu nshila tukaluba\nNga tayulepalamina\nAtemwa pe.\n\n2. Yesu atupelo bumi,\nAtemwa pe.\nMu mitima twamutemwa,\nAtemwa pe.\nAtusamba no mulopa,\nAletulanga mashiwi\nYa kwa Lesa Umupashi,\nAtemwa pe.\n\n3. Alefumya mpulumushi.\nAtemwa pe.\nAtutwala na ku mulu,\nAtemwa pe.\nAkulatwafwa na maka,\nAtucincintilile mfwam\nNa balwanya ba mu nshila,\nAtemwa pe."
+  },
+  {
+    "id": 55,
+    "number": 55,
+    "title": "KULI KAPILI ‘KUTALI",
+    "lyrics": "1. Kuli kapili ‘kutali\nKu musumba ku nse,\nUko Kristu atanikwe,\nAtule few bonse.\n\n2. Te’ti twishibe ‘fikali\nIfyo aumfwili;\nTwasubila ni pali ‘few\nWe ne aculile.\n\n3. Atufwilile few babi,\nTube abawama;\nTufike ukwaikala\nBasambwa, basaama.\n\n4. Takwali umbi musuma\nWa kutufutila;\nAisulako ku mulu,\nAlanga nshila.\n\n5. Atutemwesha few bonse\nTuletetekela;\nTumutemweshe na ifwe,\nNo kumubombela."
+  },
+  {
+    "id": 56,
+    "number": 56,
+    "title": "PA KULOLESHA LUPANDA",
+    "lyrics": "1. Pa kulolesha lupanda\nUko Mfumu yamfwilile,\n‘Fyuma fyandi kanshi fya fye,\nNe cilumba na co capwa.\n\n2. ‘Mfumu indeshe mu fibi,\nNseke mufwa ya kwa Yesu;\nFyonse fya fye fintu ntemwa\nNdeposa pa mulopa wenu.\n\n3. Ku nkasa, maboko, mutwe,\nMone fya luse fyafuma,\nTafyakumene na kale,\n‘Luse ulu no bulanda.\n\n4. Nkwata conse ‘ca na ‘calo\nNga cabe cice cakupa;\nLwakulo luse e pamo ne palo\nUmweo wandi ndemupa."
+  },
+  {
+    "id": 57,
+    "number": 57,
+    "title": "WA KUCULA ISHINA",
+    "lyrics": "1. Wa kucula ishina\nLya Mwana wa kwa Lesa,\nAlubwilya babipa,\nAleluya, Mupusushi!\n\n2. ‘Bantu bamusoweke,\nAmfwilile ne mubi,\n‘Mulopa wansumine,\nAleluya, Mupusushi!\n\n3. Twabipilwa, twabipa\nWene e wa kaele,\nBushe apwo kutula?\nAleluya, Mupusushi!\n\n4. Aimikwe ku kufwa,\nAkutile “Nacipwa,”\nMu mulu nomba ‘fika\nAleluya, Mupusushi!\n\n5. Ikese Mfumu Yesu,\n‘Kututwala ku mwesu,\nTukembila mu mulu,\nAleluya, Mupusushi!"
+  },
+  {
+    "id": 58,
+    "number": 58,
+    "title": "‘CINE YESU ANCULILE",
+    "lyrics": "1. ‘Cine Yesu anculile,\n‘Mfumu yamfwilile;\n‘Mfumu wakwe walashilwa\nIne muntu mubi.\n\n2. Ni pa bupulumushi bwandi\nAtetele Kale;\nKu lupanda Kwamoneke\nUbwingi bwa luse.\n\n3. ‘Lintu Kristu e Katula\nAfwililya bantu,\nKasuba takamoneke,\nTakabalike yo.\n\n4. ‘Filamba fyandi fyacepa\nUbupe ku Mfumu;\nKuli imwe ndeipela,\nEco ndecita fye."
+  },
+  {
+    "id": 59,
+    "number": 59,
+    "title": "MWE BANTU TALALENI",
+    "lyrics": "1. Lekenyo kulanda,\nMoneni Mfumu yenu\nIli pa lupanda\nAmenso yakwe kale\nYamulolekeshe\nNo kumutemwa bonse\nMwe bantu iseni\n\n2. Mwitina kupalama\nKu Mfumu ya mweo\nIli mu kufwa nomba\nPa mulandu wenu.\nNangu aleculisha\nAtemwo kumona\nAbantu mu kupepa,\nBalemwibukisha.\n\n3. Mwe bantu palameni\nFukameni bonse\nNo kutotele Mfumu\nPa kutemwa uku\nMumupele mitima\nTusumine nomba\nUkumukonka lyonse,\nInshiku shonse pe."
+  },
+  {
+    "id": 60,
+    "number": 60,
+    "title": "EE BULANDA",
+    "lyrics": "1. Ee bulanda!\nIfilamba fyandi\nFipone pa makasa ya Mfumu\n\n2. Ee bulanda!\nMfumu munjelele\nNe wa mpulumushi napapata.\n\n3. Ee bulanda!\nIfyo mwanculile!\nBubi bwandi e bwamucushishe.\n\n4. Ee bulanda!\nFilamba fyafula\nUmwenso wanjikata, ntuleni.\n\n5. Ee bulanda!\nIshiwi ndeufwa\n“Tata mubelele tabeshibe.”\n\n6. Ee Kutemwa,\nKwa kwa Lesa wesu,\nKwasokoloka mu lupanda lu!"
+  },
+  {
+    "id": 61,
+    "number": 61,
+    "title": "OWE, OWE MWE BANTU UMFWENI SHIWI",
+    "lyrics": "1. Owe, owe mwe bantu umfweni shiwi\nElya soswe lelo lyafika mu mitima\nLolekesha pa lupanda, mone Mfumu.\n\n2. Owe, owe Kanshi ni pali ine\nMfumu yandi yaculile, yamfwilile\nPa bubi ubo ncita, ubo ncita.\n\n3. Owe, owe filamba fyaisula menso\nNdelila pa nkasa sha kwa Yesu,\nAndubwile ne mubi, ndi mubi cine\n\n4. Owe, owe tekuti twishibishe\nUyu mulandu wakwa Yesu wakwa uwacita,\nNo luse no kutemwa pali ifwe\n\n5. We katula, Mulubushi, naisa kuli iwe,\nUnjibukishe lintu uli mu bufuma,\nNapapata we Mwana wakwa Lesa."
+  },
+  {
+    "id": 62,
+    "number": 62,
+    "title": "YESU BALIMUSULILE",
+    "lyrics": "1. Yesu, balimusulile,\n'Mfumu ya ku Galili\nMwaculile, tupusuke,\nNi mwe mwatulubwile,\nMwe Katula wa bucushi,\nMwasende nsoni shesu,\nMuli imwe twalishuka.\n'Shina lyenu lya mweo.\n\n2. E lambo Lesa 'lisonta,\nFibi fyesu kusenda,\nLuse e Iwamutumine,\nLwa kutuwikishanya.\n'Bantu benu baelelwa.\nMulandu wa mulopa.\nIcipata caisulwa\nKuti bonse bengile.\n\n3. Yesu muli mu lulumbi\nUkwikalilila pe;\nAbatulwa bamutasha,\nKu cipuna kwa Shifwe\nUko muletulombela,\nE cifulo twapelwa.\nPe fye muletupepela\nTusuke tukafike.\n\n4. 'Mucinshi lulumbya maka,\nFya kulinga tupele;\nAmalumbo yashakapwe,\nYatwamino kuleta;\nMutwafwe, mwe ba kutulwa\nNe nyimbo shawamisha;\nTwimbile Umupusushi,\nTulumbanye 'Manyule."
+  },
+  {
+    "id": 63,
+    "number": 63,
+    "title": " YESU NI KU KALFALI",
+    "lyrics": "1. Yesu ni ku Kalfali\nNdefwayo kwikala,\nKuti njishibe fyonse\nIfya luse Iwenu.\n\nKalfali, Kalfali,\nE ku mutima wandi,\nIne nsangweko pe,\nE ku mweo wandi.\n\n2. Eko atula babi,\nBamonako bumi;\nEko balesekela.\nNo bumi bapelwa.\n\n3. Pa kwisa kwa kwa Kristu\nEko tukasangwe,\nNa mu mulu mwa Lesa\nKalfali tukemba."
+  },
+  {
+    "id": 64,
+    "number": 64,
+    "title": "TULETASHO WATUFWILA",
+    "lyrics": "1. Tuletasho watufwila,\nWafwila bonse pa Muti;\nNe lyo abantu basula,\nCacisha fyonse fya panshi.\n\n2. Pa Muti ulya palangwe\nCikuku cine ca Mfumu;\nAsende membu sha ifwe,\nAleto luse lwa m’mulu.\n\n3. Umuti! ufumyo bubi;\nUlepa mako wacula;\nUsansamusha ku mfifi,\nNo kulowesha fyalula.\n\n4. Ukosho m’tima wa kumfwa,\nKu kulwa e uleafwa;\nUfumyo mwenso wa mu mfwa,\nUbalikila balefwa.\n\n5. Umuti e watwangasha;\nWalango luse ulwa pa;\nNi umo mubi atusha;\nNe nkombe shimbe nshita pe."
+  },
+  {
+    "id": 65,
+    "number": 65,
+    "title": "BALONGANA ‘BABUFI BAPANGANA ‘KUMUTANIKA",
+    "lyrics": "1. Balongana ‘babufi bapangana ‘kumutanika;\nBamutanike Yesu apabulo mulandu wakwe.\n\nMoneni ‘Mwana: moneni ‘Mwana,\nWaibela ‘wa kwa Lesa\nAtanikwa.\n\n2. Mwe natutontonkanye ‘mitemenwe ya kwa katula!\nImfwa ilya yali yesu, ukuti tube no mweo.\n\n3. Pa capindama aibulilile emfwa ya bantu nse;\nCilubula cesu twalubukilamo ku Mulwani.\n\n4. Fyali fyakutulofya ifyaponene pali Yesu;\nCa cine kwali kushipa kwakwe kwalengele atufwile.\n\n5. Muli wene icebo ca kutemwa casokoloka;\nTuli nankwe nomba, e katula uwatulwilile.\n\n6. Bushe katula wa musango uyu tamulabe\nMwa?\nCine tutemwe Yesu, ifwe pana tulemutemwa."
+  },
+  {
+    "id": 66,
+    "number": 66,
+    "title": "MONA UMWANA WA MPANGA",
+    "lyrics": "1. Mona Umwana wampanga\nAlesenda ulubembu lwesu lonse.\n\nMwana wa mpanga\nWatusendela ulubembu lwesu lonse.\n\n2. Asendelyo mubili wakwe\nTasosele nelyo kamo pa lupanda.\n\n3. Pa lupanda lolekesha\nNo kumona ifyo wenya tuculule.\n\n4. Umfwikisha umusowa\nUntu wene atuculile few bantu.\n\n5. Mu mulopa wakwe wine\nEmo ulubembu lwesu lulesambwa."
+  },
+  {
+    "id": 67,
+    "number": 67,
+    "title": "PALYA PA LUPANDA MWE YESU AMFWILE",
+    "lyrics": "1. Palya pa lupanda mwe Yesu amfwile\nPa mutwe pali ngala, ngala ya myunga\nAlilile ‘Eloi mwe Lesa mwe,\nLama sabakatani cinshi mwanshila.\n\n2. Ku ninga e ku ninga Yesu abuka\nAlicinfya imfwa mwe lelo mutende\nNdesekala Shikulu abuka mwe\nSekeleni bonse mwe Yesu wa bumi.\n\n3. Pa kunina ku mulu Yesu atile,\nLoleleni Mupashi mulelomba pe\nM’pashi wa mushilo wise pali ‘mwe\nKumwafwa imwe bonse kuti mukose\n\n4. Soseni ku fubusa na ku ba lupwa\nNa ku mitundu yonse ikasekela,\nMwitina ncito iyi ya mucinshi\nNshita yenu ikesa ilyo m’katemwa."
+  },
+  {
+    "id": 68,
+    "number": 68,
+    "title": "KATULA WANDI WATUNGULULWA",
+    "lyrics": "1. Katula wandi watungululwa\nKwati ni mpanga, bubi bwandi.\n\n2. Alipepele mu Getsemane\nBushiku bonse, bubi bwandi.\n\n3. Katula wandi alitanikwe\nAsumya m’lopa, bubi bwandi.\n\n4. Alimfwilile pa capindama\nAlishikilwe, bubi bwandi.\n\n5. Alibushuwe mulya mu nshinshi\nAcimfya imfwa, bubi bwandi.\n\n6. Alimine kuya ku mulu\nKumpapatila, bubi bwandi.\n\n7. Katula umo mu calo conse\nWakumpususha, bubi bwandi."
+  },
+  {
+    "id": 69,
+    "number": 69,
+    "title": " KRISTU NASHUKUKE LELO",
+    "lyrics": "1. Kristu nashukuke lelo,\nAcindikwe Shikulu!\nE kasuba ka mushilo:\nAcindikwe Shikulu!\nSantulweni ulwimbo,\nAcindikwe Shikulu!\nMwe ba panshi na ba m’muli,\nAcindikwe Shikulu!\n\n2. Nomba tumwimbile nyimbo,\nKristu Mfumu ya mu mulu;\nAculile pa bubi,\nAlubula ifwe babi.\n\n3. Imfwa yakwa ya bukali\nYafutila bonse Kale;\nE wa mweo, wa maka\nAletula no kubaka.\n\n4. Tucindeke Lesa Mkulu\nLumbeni mwe ba mu mulu;\nBa cikuku, ba luse,\nTata, Mwana, no Mupashi."
+  },
+  {
+    "id": 70,
+    "number": 70,
+    "title": "YESU ALIYAIMA",
+    "lyrics": "1. Yesu aliyaima;\nImfwa teti itutinye,\nIne nimba njishiba\nKu mfwa Yesa akanjita.\nAleluya!\n\n2. Yesu aliyaima;\nPa cipuna aikala;\nNalakonko ko aba,\nPama nankwe ku kwikala.\nAleluya!\n\n3. Yesu aliyaima;\nNa wene alimfwilile,\nNakulamubombela,\nNo kumulumbanya pepe.\nAleluya!\n\n4. Yesu aliyaima;\nPantu luse lwafulisha,\nUmweo ne mfwa naya,\nTeti fitupasukanye.\nAleluya!\n\n5. Yesu aliyaima;\nTeti ntine nelyo kamo,\nImfwa nomba e mwinshi\nWa kwingilila ku mweo.\nAleluya!"
+  },
+  {
+    "id": 71,
+    "number": 71,
+    "title": "KULWA KWAPWA NO KUCULA",
+    "lyrics": "1. Kulwa kwapwa no kuculo,\nMpalume yesu yalyansha,\nNa bangeli balumbanye;\nAleluya!\n\n2. Amaka ya mfwa yafilwa,\nPantu Kristu ayonaula,\nKubyo kupunda kwashila.\nAleluya!\n\n3. Nshiku shitatu shapita,\nAimo Mumi ku bafwa,\nAlumbwe ku ciyayaya,\nAleluya!\n\n4. Afune fyela fye kumbo,\nAponya yonse mulando,\nEmbilwe pe ne sho nyimbo.\nAleluya!\n\n5. Mwe Mfumu mwaliculishe,\nKu mfwa mwalitufumishe,\nTwikale natumwimbile.\nAleluya!"
+  },
+  {
+    "id": 72,
+    "number": 72,
+    "title": "MWE BANA INSANSA.",
+    "lyrics": "1. Mwe bana insansa\nBulanda nabupwisha,\nMutanikwe wesu\nNasangwe mumi Lelo.\n\nKristu uwafwile\nNga tatutubwike bwa fye\nBusumino besu,\nCine Kristu aliima.\n\n2. Fya mfifi fyalipwa\nTwaenda mu lubuto,\nKristu naanshe mfwe\nBuseko bwesu bwafulisha."
+  },
+  {
+    "id": 73,
+    "number": 73,
+    "title": " MU NSHISHI ALELE",
+    "lyrics": "1. Mu nshinshi allele,\nYesu katula,\n‘Kulindilo kuca,\n‘fumu yandi,\n\nMu nshinshi alima,\nAyanshisha balwani bonse\nAlima katula kututulako,\nNomba pa cipuna\nAba na Lesa;\nAlima, alima\nAleluya, alima.\n\n2. Kwa fye balindile\nYesu Katula,\nKwa fye bafungile\n‘Mfumu yandi.\n\n3. ‘Mfwa tayamwikete,\nYesu katula;\nWene ayanshishe,\n‘Mfumu yandi."
+  },
+  {
+    "id": 74,
+    "number": 74,
+    "title": "OWE! UKWIMA KULIPO",
+    "lyrics": "1. Owe! Ukwima kulipo,\nNe nseko, mutende;\nOwe! Ilibwe tapali,\nIninga ili fye.\n\nYesu emine, ‘fyasosa,\nEmine mu mfwa ye lindi,\nSekela, imbila ukwima,\nYesu emine Mupusushi.\n\n2. He, he! Insalu sha mufwe\nNashifungwa bwino\nHe, he! Ininga ili fye,\nYesu e talipo.\n\n3. Yangu! Aenda panonse,\nNomba talecula;\nYangu! Ululumbi lwakwe,\nKonse lwalumbuka.\n\n4. Mona! Kulipo Ukwima,\nNe shiwi ne nyimbo;\nMona! Kwaleta ubupe,\nUkwansha kwa Mfumu."
+  },
+  {
+    "id": 75,
+    "number": 75,
+    "title": "YESU WENE AKATEKA",
+    "lyrics": "1. Yesu wene akateka\nKonsha kasuba katula;\n‘Bufumu teti bukapwe.\n‘Myaka isuke ikapwe.\n\n2. Bakalamupepa bonse,\nBakalamulumbanya pa;\n‘Shina lyakwe lyatemwikaw,\nUbushiku na kasuba.\n\n3. Abantu ba ndimi shonse\nBamutemwe, bamwimbile;\nAbana na bakalmba\nBakalalombo bupalo.\n\n4. Abatekwa bakashuka,\nBafungwa bakafungulwa,\nAbanaka bakatusah,\nAba nsala bakekuta.\n\n5. Mulete bonse, mwe bantu,\nMucinshi luse ku Mfumu,\nBangeli beke no kwimba\nPamo na ba muno calo."
+  },
+  {
+    "id": 76,
+    "number": 76,
+    "title": "TUCELELE IMFUMU",
+    "lyrics": "1. Tucelele imfumu\n‘Mwana wa kwa Lesa;\nYafumine ku mulu,\nPa calo kuteka.\nAisa ono busha,\nKukakula nkole,\n‘Kufumye fyabipisha,\n‘Kutela mu cine.\n\n2. Akesa fya nge mfula\nIloka pa calo,\nBuseko no kutemwa\nE fikamenamo,\n‘Kutangilie ntashi\nMutende uleya;\nNo bololoke bwine\nPa numa bwakonka.\n\n3. Shikamuwile mfumu\nShikaleto bupe\nNdupwa shikatotela\nShikamwimbila pe\nPantu akalateka\nMu fyalo ne fyalo;\nKonse ukwe fipele\nFingapupukila.\n\n4. Bonse bakamupepe\nNshiku ne nshiku pe,\nBufumu bukakula,\nTe kuti bukapwe,\nAwe tacakaaluke\nCipingo cakwe ci;\nLikalabelela\nIshina lya luse."
+  },
+  {
+    "id": 77,
+    "number": 77,
+    "title": "YESU PE FYE MWABAPO,",
+    "lyrics": "1. Yesu pe fye mwabapo\nKakumba musuma;\n‘Shina lyenu lyabila,\nMu mitima yesu.\n\n2. Twalitemwa na kale,\nTwalitontonkanya;\nNa muno bukalamba\nTwalilitemwisha.\n\n3. ‘Lingi ku bonaushi,\nNga twafikileko,\nAmubula ‘ba ne few,\nMwe katula wesu\n\n4. Ilingi na mu mfifi,\nNga twaliwilemo,\nLelo mwalitwimiishe,\nE mwatupiseshe.\n\n5. Mwe kakumba musuma,\nTwamucetekela\nNi mwe ba mulatulisha\nMutwimya nga twawa.\n\n6. ‘Shiwi lyenu lwa maka\nMu mfwa tukalyumfwa,\nMukatufishe bonse\nKwi cinka kumyenu."
+  },
+  {
+    "id": 78,
+    "number": 78,
+    "title": " YESU PE FYE MWABAPO,",
+    "lyrics": "1. Apwe penga lya kwa Lesa likomfwikwa mu cala,\nApo bukaca bwa lubuto tu tu,\nApo abasalwa bakaya longana pe shilya\nApwekete na mashina, nkabeko.\n\nApwakete na mashina,\nApwakete na mashina,\nApwakete na mashina,\nApwakete na mashina nkabeko\n\n2. Ubushiku bwa kutinya apwa bafwa bakema,\nNo kumono bukankala bwa kwa Kristu;\nApo abasalwa bakaya longana kwa Lesa,\nApwakete na mashina nkabeko.\n\n3. Aleni tulebombela Shikullwifwe nshiku pe,\nTuye landa ku bantu ifya mweo,\nNge milimo yapwa, ne few twaya mu calo cilia,\nApwakete na mashina nkabeko."
+  },
+  {
+    "id": 79,
+    "number": 79,
+    "title": "MUFWIKE NGALA KRISTU MFUMU!",
+    "lyrics": "1. Mufwike ngala Kristu Mfumu!\n‘Mikulo yinse ilumbanye;\nLulumbyu, mucinshi kwi shina,\nNomba ne nshiku pe.\n\nFwe tukamucite Mfumu;\nMu calo cilia ca lulumbi!\nAkabe Mfumu yesu pe,\nTukamulumbanya.\n\n2. Muceleleni mwe bangeli,\nMu masese ne nyimbo shonse,\n‘Bena fyalo baleyawile\nMfumu ya sha Mfumu.\n\n3. Ni kacimfya acimfyo bubi;\nMupashi ateko mutima.\nMwi shina lyakwe tukanshya pe;\n‘Mfumu ya pen a pe."
+  },
+  {
+    "id": 80,
+    "number": 80,
+    "title": "UWAFWIKILWE IMYUNGA",
+    "lyrics": "1. Uwafwikilwe imyunga\nNomba alumbukwa,\nCitebo cakwe cisuma\nCi;emusamika,\n\n2. 'Cifolo cakwe ku mulu\nCili cakwe ceka,\n'Mfumu ya sha Mfumu shonse,\n'Lubuto ulwa pe.\n\n3. 'Buseko bwa ba mu mulu,\nNa ba panshi pamo,\n'Luse lwakwe baishiba,\nIshina batemwa.\n\n4. Lupanda lwakwe lwa nsoni,\n'Cikuku caluko,\nLwabaletelo mutende\nNe nseko sha mweo.\n\n5. Baculile Mfumu panshi,\nMu mulu bateka,\nEbo capelwo kwishiba\n'Kutemwa kwakwe pe.\n\n6. 'Lupanda kuli fwe bumi,\nNi mfwa kuli Yesu,\n'Bucetekelobwa bantu,\n'Landwelyabo lya pe."
+  },
+  {
+    "id": 81,
+    "number": 81,
+    "title": "LINTU YESU ASHALIKYA",
+    "lyrics": "1. 'Lintu Yesu ashalikya\n'Bananganga bakwe,\nkasansamusha apele\n'Kuba ne fwe.\n\n2. Aishile tusangula\n'Kuba ba cikuku;\nAfwaya-fwaye mitima\nMwa kwikala.\n\n3. Ishiwi lyakwe twaumfwa,\nLiletepelesha,\nLyaleshe fibi, lyatwebe\nFya kwa Lesa.\n\n4. 'Cikuku cintu twakwata,\n'Kwansha kwesu konse,\nNe fisuma fyamitima,\nFili fyakwe.\n\n5. Mwe, Mupashi wa bupe,\nIfwe natuwila,\nMwikale muli 'fwe benu,\nMu mitima."
+  },
+  {
+    "id": 82,
+    "number": 82,
+    "title": "MWISE, MUPASHI BULESA",
+    "lyrics": "1. Mwise, Mupashi bu Lesa\nIseni na maka;\nMube ne fwe mu ngande yi,\nFwe bantu banaka.\n\n2. Mwise, Lubuto lwa, 'mulu,\nTumone 'fye cine;\nTwende mu nshila ya mweo,\nUmwaendo Mwine.\n\n3. Mwise, Mulilo waoca,\nFipye fibi fyesu;\nTube capelwe cashila\nKwi shina lya Yesu.\n\n4. Mwise, mwe Mume wabomfya,\nKuli 'fwe bauma,\nMumeshe no kufulisha\nFitwalo fisuma.\n\n5. Mwise, mwe Nkunda yatemwa,\nNo luse lwenu 'lu;\nBafwane 'benu ba panshi,\nNge fyo ba ku mulu.\n\n6. Mwise, mwe Mwela wakuka,\nTube bapimpisha;\nNa bana bonse ba bantu,\nBabe abomfwisha.\n\n7. Mwise, Mupashi wa mweo,\nWa cikuku conse;\nYesu alangwe ku bantu,\nBabe 'bakwe bonse."
+  },
+  {
+    "id": 83,
+    "number": 83,
+    "title": "MWE MUPU BULESA",
+    "lyrics": "1. Mwe Mupu bulesa,\nIseni mupite,\nNtemwe pe fyo mwatemwa;\nMunjimye, nkacite.\n\n2. Mwe Mupu bulesa,\nPuteni pali ne,\nNkacule ne mwe, washipa,\nWashila, wa cine.\n\n3. Mwe Mupu bulesa,\nMwise no kwingila;\nImbe no mweo wacisha,\n'Mulilo washila.\n\n4. Mwe Mupu bulesa,\nNga mwaputa ine,\nNkaba no mweo ushipwa,\nkwa Lesa wa cine."
+  },
+  {
+    "id": 84,
+    "number": 84,
+    "title": "MWE MUPASHI WA KWA LESA",
+    "lyrics": "1. Mwe Mupashi wa kwa Lesa,\nMu bwingi bwa bupe bwenu,\nKonshe kwa bantu baenda\nMwikile palya baluba.\n\n2. Peleni ndimi sha maka\nSha kusose shiwi lyenu,\nNo bupalu bwa ku mulu,\nKonsho kwe landwe lyumfwikwa.\n\n3. 'Mfifi 'sangukyoubuto,\nNo bulwi bubyo mutende,\n'Bafilwa mubapya maka,\nNo luse lwansho bukali.\n\n4. Mwe Mupashi, balungikwe\n'Bantu bonse kuli Lesa;\nUmweo mubapemene,\n'Kuti basumine bonse.\n\n5. Ulupanda lubacimfye,\nKabese babatishiwe,\n'shina lyakwe lilumbulwe;\nAbantu balitotele.\n\n6. Lesa Shifwe alefwaya,\n\"Bantu bonse bapusuke;\n'Kutemwa kwakwe kucitwe\n'Kuti yesu abe Mfumu."
+  },
+  {
+    "id": 85,
+    "number": 85,
+    "title": "UMUPASHI WA LUSE",
+    "lyrics": "1. Umupashi wa luse,\nNdefwaisho luse 'ne;\nNa mashiwi ya kwafwa\nMuli ne yamoneke;\nNo kushipa, ne congwe\nKansose fya kwa Kristu.\n\n2. Umupashi wa cine,\nNdefwaishe cine 'ne,\nMbe na mano yafula,\nYa kumulumbanisha:\nNe micitile yandi\n'Kuti imubombele.\n\n3. Umupashi Mufuke\nLeka mbe mufuke 'ne;\nKanjisalyo mutima\nIlyo esa katunka;\nNo kwisula panuma,\nKuti mubalikemo.\n\n4. Umupashi Tondolo,\nTondolo kanjikale;\n'Fintu cani cakula;\nKu mushili catula;\nNgo lubuto kacelo\nUlumfumyo impepo.\n\n5. Mwe Mupashi wa maka,\nAya yene ndefwaya;\n'Kuti nkonse nshiku pe;\nTe mu maka yandi fye;\nUbucetekelo 'bu\nBukamfisha ku mulu.\n\n6. Umupashi wabuta,\nIne Kamupashanye,\nMumpatule ku fibi,\nNsale fisuma Fyeka;\nMungafwe kuti mpele\nFyandi fyonse kuli 'mwe."
+  },
+  {
+    "id": 86,
+    "number": 86,
+    "title": "MWISE, TULI SHAMPOFU",
+    "lyrics": "1. Mwise, tuli shampofu,\nTupelwe ulubuto,\nUmupashi wa mulu,\nKasansamusha.\n\n2. Tuli babi, tusambwe;\nTwalwala, mutuposhe;\nTwaluba, tulondolwe;\nKasansamusha.\n\n3. Twashiwa ababusu,\nTupelwe fya ku mulu,\n'Luse, nseko, cikuku,\nKasansamusha.\n\n4. Umutende ngo mume,\nWise utunashe fwe,\nFya kwa kristu tuangwe\nKasansamusha.\n\n5. Mutupepele bonse,\nLumbuleni kwa Shifwe\n'Kukabilisha kwine,\nKasansamusha.\n\n6. Twishibe bwino Tata,\nTumfwishe mu mitima,\nIfyo twasangululwa,\nKasansamusha.\n\n7. Tuletwe kuli Lesa\nMi nshila yawamishi,\nKu mulu tukasendwa,\nKasansamusha."
+  },
+  {
+    "id": 87,
+    "number": 87,
+    "title": "YESU M'TUME M'PASHI",
+    "lyrics": "1. Yesu m'tume M'pashi,\nEsefunda bantu bonse.\n\n2. Ifwe tulelila;\nMuleba ne fwe no luse\n\n3. Mwakak Israel;\nBakeni ne fwe fwe benu.\n\n4. Yesu m'tumyo m'lilo;\nIfibi fyonse ufyoce\n\n5. kacema wa bantu,\nCemeni ne bumba lyenu\n\n6. Mwana Lesa M'sumu,\nNi mwe Mfumu ku mutima.\n\n7. Tulemutotela,\nTulecindika no kwanga."
+  },
+  {
+    "id": 88,
+    "number": 88,
+    "title": "CILONGANINO CABA",
+    "lyrics": "1. Cilonganino caba\nPali Yesu Kristu,\nCane cilengo cipya\nCa shiwi na menshi\nAishile cifwaya,\nUkuba nabwinga,\nCashitwa no mulopa,\nAlicifwilile.\n\n2. Baitwa bena fyalo\nKu kufyalwa cipya,\n'Bucetekelo bumo\nNe mfumu imo fye;\nCitashe shina limo\nCilyo cimo cilya,\nUbusubuli bumo\nEbo cakwatisha.\n\n3. Mu ncito no bulanda,\nPamo na mu bulwi;\nCilindilo mutende\nUwa ciyayaya;\n'Lintu ifya lulumbi\nFikesa moneka,\nElyo cilonganino\nKuti calatusha.\n\n4. Calumdana panonse\nNa Lesa patatu,\nCilomfwana na balya\nAbaletusho 'ko,\nMwe banga, mwe bashila!\nMwe Mfumu tupeni\nPamo nabwa bafuke\nTukekale nemwe."
+  },
+  {
+    "id": 89,
+    "number": 89,
+    "title": "MWE LESA WA KU BETELE",
+    "lyrics": "1. Mwe Lesa wa ku Betele\nMwe batulisha pe,\nNi mwe mwaletungulula\nBantu benu kale.\n\n2. Tulefukama Kuli 'mwe,\nNo kumupapata,\nMwe Lesa wa kwa Abramu\nMube Lesa wesu\n\n3. Mu nshiku shenu sha mweo,\nTutungululeni,\nMwakulatupele filyo\nTufwukwe kuli 'mwe.\n\n4. Mutubake twapapata\nShisuke ndo shipwe,\nkabinge mulya mwa Shifwe,\nTukabelelela.\n\n5. Ubu bupalo twalomba\nEbo twafwaisha,\nEfyo mukaba, mwe Lesa\nWesu wa pe na pe."
+  },
+  {
+    "id": 90,
+    "number": 90,
+    "title": "CIFULO TWATEMWA",
+    "lyrics": "1. Cifulo twatemwa,\nIca bucindamo,\n'Nseko emo shaba\nShacila sha calo.\n\n2. Ing'anda twatemwa,\nUmwa kulongana,\nUmo nemwe mwaba,\nEmo tukumana.\n\n3. 'Mashiwi twatemwa,\nYa mweo, mutende,\nYatusansamusha,\nYatusekesha pe.\n\n4. Ukwimba twatemwa,\nPa bupe bukulu,\nLelo twafuluka\nUkwimba ku mulu.\n\n5. Yesu twamutemwa,\nTupelwe cikuku,\nCa kumutemwisha\nkuno na ku mulu."
+  },
+  {
+    "id": 91,
+    "number": 91,
+    "title": "BATATA, BATATA TULI PANO",
+    "lyrics": "1. Batata, batata tuli pano\nApo tulelumbanya Imwe.\n\n2. Twalomba, twalomba mucipale\nIci cilonganino caafya.\n\n3. Natumfwa, natumfwa ukulila\nKwa bantu 'babulo kwishiba.\n\n4. Balenda, balenda na mu nshila\nShintu shaya ku bnaushi.\n\n5. Mukoshe, mukoshe 'bantu benu\nKuti babe ni nkombe shenu.\n\n6. Mutume, mutume ba kusosa,\nBashime landwe lisuma.\n\n7. 'Bufumu, 'Bufumu bwenu bwise\nNo lubilo mu calo conse."
+  },
+  {
+    "id": 92,
+    "number": 92,
+    "title": "LESA MU NGANDE YI",
+    "lyrics": "1. Lesa mu ngandeyi,\nTata wa maka\nPa makasa yenu twalongana,\nIfwe twatotela\nLesa wamushilo\nPa bufuke, luse bwenu,\nTulumbe, mu nyimbo\nPa bupususho bu\nLesa mu ngandeyi.\n\n2. Kristu mu ngandeyi\nIfwe mwi shiwi,\nFwe ba nsansa twasubila\nKu bubi tutulwe.\nBulanda, cikonko\nFyaba lubuto, ninsansa,\nTulumbe, mu nyimbo\nFikakilo fyaya\nKristu mu ngande yi.\n\n3. Ng'anda iyi yenu,\nMwe wa Shila mwe\nMitima yesu e ng'anda,\nIkalenimo pe!\nMilimo icitwe,\nUkufwaya kwenu kwise.\nTulumbe , mu nyimbo\nNa kwi pele-pele\nTumubombele pe."
+  },
+  {
+    "id": 93,
+    "number": 93,
+    "title": "'KACELO PE 'LUSE LUPYA",
+    "lyrics": "1. 'Kacelo pe 'luse lupya\nLutushibusha, lutwimya,\nLutupususha mu mfifi,\nLutubwekesha ku bumi.\n\n2. Uluse lupya nshiku pe,\nLuba mupepi na ifwe;\nLututula, lutwelela,\nLufundishe fya kwa Lesa.\n\n3. Tulumbanye Mfumu yesu\nMu ncito shenu she lelo\nEmo twikanye fyabipa,\nTupalame kuli Lesa.\n\n4. Mutwenshe mu luse lwenu\nMutufishe na ku mulu,\nMutwafwe kuti twikale\nMu luse lwenu nshiku pe."
+  },
+  {
+    "id": 94,
+    "number": 94,
+    "title": "YESU E PO MUBE",
+    "lyrics": "1. Yesu e po mube\nMaka ya mweo,\nUkupepa kube\nUkwa mushilo.\n\n2. Puteni Mupashi\nUbe na bonse;\nBulande fumyeni\nMu m'tima onse\n\n3. Efyo tukendesha\nPa lwendo ulu,\nTukalalolelo\nKuca mu mulu."
+  },
+  {
+    "id": 95,
+    "number": 95,
+    "title": "MWI SHINA LYA KWA YESU",
+    "lyrics": "1. Mwi shina lya kwa Yesu, Mwe Tata,\nNatulongana, tulepapata;\nMube no luse, tuli bapumbwa,\nNamumfwe nyimbo sha kumulumba.\n\n2. Mwe batusakamana nshike pe,\nKu luse lwenu mupe fya bupe;\nMwe batucita pe 'fye bukata,\nKu minwe yenu muletwikata.\n\n3. Na ifwe twaba bafye, twaluba,\nUbubi bwine bwaisabuba\nTuli fye no bulanda, mwe Tata,\n\n4. Mwi shina lya kwa Yesu 'mwapaka,\nMu luse lwenu lwine lwa ntaka,\nMu m'lopo waitilwe pali fwe,\nTwiswileniko nomba mwe Shifwe."
+  },
+  {
+    "id": 96,
+    "number": 96,
+    "title": "MWE LESA WANDI, MUBE NA INE",
+    "lyrics": "1. Mwe Lesa wandi, mube na ine;\nYaise mfifi; mwise mwe Cine;\nTakwaba kwafwa uko nkashine,\nWa kwafwa ni mwe, mube na ine.\n\n2. Lulepwa bwangu lwendo lwesu 'lo;\n'Fwa panshi fiya nge fya mu tulo;\nFyonse fyaluka, fintu namwenw;\nMwe bashaluka, mube na ine.\n\n3. Mwali no luse kale kuli ne;\nNe lyo ne mubi nakaninine\nMwakano kunsha;cikuku cine:\nNa ku ntashi fi mube na ine,\n\n4. Ndefwaya Imwe, ndemukabila;\nKu bubi maka yenu yandwil;\nMumbaka, mwenshe, ku luse lwine;\nNomba bwaila, mube na ine.\n\n5. Mwaba na ine te kuti ntine,\nNa fyo ficusha te'ti fifine;\nne mfwa na maka ya bubi bwine\nNkacimfya, pantu mwaba na ine.\n\n6. Lekeni mone ifyo mwafwile,\nNa kumfwa yandi mumbalikile;\nBwaco bwa m'mulu, e bunsamine;\nKu mfwa, ku mweo, mube na ine."
+  },
+  {
+    "id": 97,
+    "number": 97,
+    "title": "BWA LELO BWAPWA, MWE KABUMBA",
+    "lyrics": "1. Bwalelo lelo bwapwa, mwe kabumba:\nKwishiwi lwenu bwaila;\nKu kuca kwena twamulumba,\nTutashe pa kusaila.\n\n2. Ibumba lyenu lilolela\nPa kuye calo ku kuca,\nMu fyalo e limubombela,\nLilola fye talitusha.\n\n3. Ilyo ku calo na ku bemba,\nLucelo lwaya ku ntashi,\nLyaime shiwi-elya bemba,\nLya bamupepa pe panshi.\n\n4. Kasuba e katuwila,\nKabusha bantu kwi samba;\nBaima na bo, bamwamgila,\n'Milimo yenu batamba.\n\n5. Mwe Lesa mwaba Mfumu ine,\n'Bufumu bwenu tabupwa;\nBukula pe mu basubile\nKu sha nko shone ne ndupwa."
+  },
+  {
+    "id": 98,
+    "number": 98,
+    "title": "AKASUBA KAWA",
+    "lyrics": "1. Akasuba kawa,\nNomba bwaila;\n'Milimo naipwa,\n'Bantu batusha.\n\n2. Nomba kuli mfifi,\n'Ntanda shabeka,\nInama ne fyuni\nFilesandema.\n\n3. 'Banaka bapelwo\nTulo tusuma;\nNo bupalo bwenu\nTuleshibata.\n\n4. Mupele abana\nBamumone 'mwe;\nMutule bacoba\nBa pa cambeshi.\n\n5. Mutekye balwele\nAbakalipwa;\nAbacite fibi\nMulebelela.\n\n6. No bushiku buno\n'Bangeli bene\nBatubaka bwino,\nBatupempula.\n\n7. Ngo bushiku bwaca\nMukanjimye'mwe,\n'Mutima wabuta,\nMpalana ne mwe.\n\n8. Tulumbanye Lesa,\nWishi na Mwane,\nMupashi Mushilo,\nNshiku shonse pe."
+  },
+  {
+    "id": 99,
+    "number": 99,
+    "title": "NI MWE KASUBA KA MWEO",
+    "lyrics": "1. Ni mwe kasuba ka mweo,\nTebushiku nga mulipo;\nIkumbi limo liisa\nKu menso ku kumufisa.\n\n2. 'Lintu nalala mu tulo,\nNo kushibata amenso,\nAmatontonkanyo yaba\nYa kuli 'mwe, Mupusushi.\n\n3. Mube na ine 'kacelo\nTapali 'mwe te kwikala,\nMube na ine bwaile,\nTapali 'mwe natine mfwa.\n\n4. Nga umocwa bana benu,\nNaulungana ilelo,\nMweMfumu mulombe nomba,\nWene mu fibi elala.\n\n5. Abalwele mubalinde,\nNa mapalo ya kuli 'mwe;\n'Bakulosho bushiku bu\nBalale bwino mu tulo.\n\n6. Mukatupaya 'kacelo,\nTatulaenda mu calo,\nTukasuke tukafike\nKu mulu, mu luse lwenu."
+  },
+  {
+    "id": 100,
+    "number": 100,
+    "title": "MUTUFUMYE NO BUPALO",
+    "lyrics": "1. Mutufumye no bupalo\nMu mitima yese pe;\nTube no kutemwa kweni,\nTwange mu luse lwenu;\nMutukoshe, mutukoshe,\nPwendela panonse.\n\n2. No mucinshi twatotela\nPa mashiwi yasuma;\nYabe fyakulya fya mweo,\nYekale mu mitima;\n'Cinso cenu, 'cinso cenu\nCibe ne fwe nshiku pe.\n\n3. Elyo lintu twapalama\nNo kufuma mu calo,\nNi ku mulu tukasendwa,\nTunakile ne nseko;\nTukekala, tukekala,\nNa Yesu ishiku pe."
+  },
+  {
+    "id": 101,
+    "number": 101,
+    "title": "LESA WANDI NATOTELA",
+    "lyrics": "1. Lesa wandi natotela\nMapalo yonse napelwa;\nMunteke bwino bushiku\nNtushe mu kuboko kwenu.\n\n2. Munjelele Mfumu yandi\nFyonse fyabipa nincite;\nKaba mu calo, na Imwe\nPa kulala mbyo mutende.\n\n3. Tulumbanye Lesa wesu\nE mutula palo lyesu,\n'Ba mu calo, 'ba mu mulu\nLumbeni Lesa patatu."
+  },
+  {
+    "id": 102,
+    "number": 102,
+    "title": "MWE MFUMU TWALETA BANA",
+    "lyrics": "1. Mwe Mfumu twaleta bana\nNo kutetekela;\nBamone fyo mwalayana,\nMulesekela.\n\n2. Abali fyo mwapalile,\nIlyo meali panshi;\nNa besu nabo babile\nNomba na ku ntanshi.\n\n3. Ku bwaice mwingalama;\nBafume Ku fyona;\nBaweme no kulungama\nKu fikesa pano."
+  },
+  {
+    "id": 103,
+    "number": 103,
+    "title": " KATULA AISA KANA",
+    "lyrics": "1. Katula aisa kana,\nLesa wamaka lishina;\nBaisatota bangeli\nKwati fye mwana alele.\n\n2. Uwatendeka ku bunya\nUkulangd Lesa sana,\nAleti mu mulu mwe,\n'Abana bese kuli ne!\n\n3. Natuleta aba bana,\nKuli 'mwe mu ng'anda yenu\nKu Mupashi mubatishe,\nKu luse lwenu mubishe.\n\n4. Nkombe shenu shibabake,\nBende mutende mu nshila,\nMubake kasunga wabo,\nMubalembe na mashina.\n\n5. Mwe bomfya bwino ku bana\nMalumbo yenu yayana,\nLekeni nu tu tutashe\nShifwe, Mwana, no Mupashi."
+  },
+  {
+    "id": 104,
+    "number": 104,
+    "title": "BULENI UBWIKASHI",
+    "lyrics": "1. Buleni ubwikashi,\nMupelwe no bu bwine;\nUtushita ne nshiku,\n'Kuti mulumbanyemo.\n\n2. Buleni amaboko,\nKamubombele nayo;\n'Makaso kuti yabe\nya lubilo kuli 'mwe.\n\n3. Buleni shiwi lyandi,\n'Kuti mwimbile imwe,\n'Milomo kuti ibe,\nNa mashiwi kuli 'mwe.\n\n4. Buleni fyuma fyandi\nTeti mukaninine;\nBulenya maka mano,\nKamubombele nayo.\n\n5. Buleni mifwayile,\nNomba taili yandi,\n'Mutima ube wenu,\nKuti mwikalemo pe.\n\n6. Bulenyu luse ulu,\nLintu mwampa mwe Mfumu;\nMumbule ime wine\n'Kuti mbe wenu wa pe."
+  },
+  {
+    "id": 105,
+    "number": 105,
+    "title": "MWE TATA MUBASUMINISHE BEMININE PA NTANSHI YENU",
+    "lyrics": "1. Mwe tata mubasuminishe beminine pa ntanshi yenu,\nSumineni bapokeleleni, sumineni babe benu mu cine.\n\n2. Mwe Yesu aba bantu benu, Mwafwile pa kubalubula\nBenu lelo, umfweni baleti twabika Imwe mu mitima yesu.\n\n3. Na imwe Mupashi washila, 'seni nomba mwikale nabo,\nBafweni ukwenda bwino, umutende wisule mu mitima yabo,\n\n4. Bacite milimo isuma, bapeleni bonse amaka,\n'Kuti bende mubulungami basuke bafike kuli 'mwe ku mulu,\n\n5. Mwe tata mutashiwe, na Imwe Yesu, Mulubushi wesu,\nNa imwe Mupashi mu basangulule Lesa umo fye acindikwe."
+  },
+  {
+    "id": 106,
+    "number": 106,
+    "title": "NI KUNO TWAMONANA, MWE MFUMU",
+    "lyrics": "1. Ni kuno twamonana, mwe Mfumu,\nNi kuno njibukisha ifyenu;\nNi kuno njikatisha cikuku,\nNo bunake naposa pali 'mwe.\n\n2. Kandyo mukate uwa kwa Lesa;\nKanwe na Imwe waini wa mulu;\nKuno kampose fisendo fyonse,\nKuno njishibe kutemwa kwenu.\n\n3. E nshita ya kulyo no kulumba;\nIfyakulya fi mwantebetela;\nNi kuno kandye, kankokoleko\nNe mwe, mu nshite yi yawamisha\n\n4. Twaima bwangu; nacipwa cilyo,\nLelo kutemwa kwenu kwashala;\nMukate na waini bafumyapo,\nLelo mulipo, muli katula.\n\n5. 'Cilyo cimo cikonke cibiye;\nFyonse fwatusontela ku mulu;\nFyatupe nseko, fwe ba panonse,\nShintu tukaba na sho kwa Yesu."
+  },
+  {
+    "id": 107,
+    "number": 107,
+    "title": "NSHAWAMINA, MWE MFUMU YANDI",
+    "lyrics": "1. Nshawamina, mwe Mfumu yandi,\nMwingile mu mwandi,\nSoseni shiwi limo line,\nLimposhe ne mubi.\n\n2. Nshawamina, nangu cimo\n'Mutima walyuma,\nMwikale shani muli 'ne?\nSoseni ndepola.\n\n3. Nshawamina, mwe Lesa wandi\nNamukanya shani?\nMwandubwile no mulopa,\nUkuti mpusuke.\n\n4. Mwise ndisha pa mulalilo,\nIcilyo ca Mfumu;\nMumpelyo kutemwa na maka,\nMukushe no mweo."
+  },
+  {
+    "id": 108,
+    "number": 108,
+    "title": " KRISTU E WATULUBULA",
+    "lyrics": "1. Kristu e watulubula'\nE o tuleibulula;\nTulanga ne mfwa yalula,\nAsuke 'se.\n\n2. 'Mubuli watutobelwe\nMu cilyo cino wapelwa;\nKu luse lwakwe tulelwa;\nAsuke 'se.\n\n3. No mulopa baitila,\nPa muti apwatufwila,\nUmwangashi watwilwila,\nAsuke 'se.\n\n4. Ukucula kwakwe kale,\nPamo no kubwela kwakwe\nFyalundwa ne cintu ici\nAsuke 'se.\n\n5. Lisuke penga lyumfwikwe,\nNe filindi fikasuke,\nNe shiwi likulu ili:\nAkabwela.\n\n6. Ukusubila kusuma!\nTwiikala na bulanda,\nTulinde no kusumina\nAsuke 'se."
+  },
+  {
+    "id": 109,
+    "number": 109,
+    "title": "KU CINTAMBA CA MFUMU",
+    "lyrics": "1. Ku cintamba ca Mfumu,\nTulye fyakula fwesu\nFya mukate wa mulu.\n\n2. Twafukama kili 'mwe,\nTumfwe fyo mulya pepi,\nLuse lwenu tutashe!\n\n3. Twabebeto lupanda,\nTwaikatwo bulanda,\nPa fyabipa twacita,\n\n4. Tufimpule mwangashi\nFwe bonse twibikishe\n'Mulopa wasumine.\n\n5. Fibi mutukakula,\n'Busumino bufule,\nUmutende mutupe.\n\n6. Mututugulule pe\nTukasukya tufika\nNo kwikala ma Imwe."
+  },
+  {
+    "id": 110,
+    "number": 110,
+    "title": "NI KATULA, PA MFWA YAKWE",
+    "lyrics": "Ni katula, pa mfwa yakwe, abulile umukate ati,\nNdemupela, ndemupela umubili, umubili wandi\nMwe buleni, mwe buleni umukate, umukate, mulye\nIbukisha, ibukisha, ukutemwa, ukutemwa, kwandi\nAbulile, abulile, ulukomba, ulukombo, ati\nE mulopa, e mulopa wasumine, wasumine imwe.\nIlayano, ilayano, lyafishiwa, lyafishiwa, lelo\nImfwa yandi, imfwa yandi, ndemufwila, ndemufwila, bonse\nKukufumya, kukufumya, ulubemba, ulubembu, lwenu.\nMulecita, mulecita kwibukisha, kwibukisha Ine."
+  },
+  {
+    "id": 111,
+    "number": 111,
+    "title": "YESU NI NTULO YA NSANSA",
+    "lyrics": "1. Yesu nintulo ya nsansa\nNtulo ya mweo, lubuto\nFwe batemwe shina lyenu\nTwapilibuka ku calo\n\n2. 'Cine cenu ca pe na pe,\nMwatula bonse 'bamwita;\nKu bamusanga, ba luse,\nKu bamufwaya, Musuma.\n\n3. Twasonda mwe, mwe Fyakulya,\nTwafwayo kulye nshiku pe;\nTwanwa, mwe kafukauka,\n'Cilaka naciputuka.\n\n4. 'Mitima yamufuluka,\nKonse uko twaikala;\nTwaanga nga twamumona,\nTwashuka nga twamwikata.\n\n5. Mwe Lesa mube ne fwe pe,\nInshita shibyo mutende;\nMutanfye mfifi ya fibi,\n'Lubuto mubengeshimye."
+  },
+  {
+    "id": 112,
+    "number": 112,
+    "title": "APO NDEILINGULULA 'NDI MUBEMBU",
+    "lyrics": "1. Apo ndeilinguula 'ndi mubembu;\nIne na maka yandi yeka yeka ndefilwa,\nYe! Shukulu mwafwilile ulubembu lwandi.\n\n2. Tata nsambilisheni 'kuti njishibe;\nUkutemwa uko mwamtemenwemo pa kale,\nPa kutuma Yesu abe cilubula candi.\n\n3. Nomba kandoleshe 'capindama ca kwe;\nIngu mfwe ukutemwa kwena cine ndepola,\nPantu wen ni Mpalume ya bantu nse bonse.\n\n4. Nomba fwe bonse ilyo tucili pano;\nTwibukishe mfwa yakwe no kubushiwa kwa kwe,\nUkunina kwa kwe, mpaka akasuke esa.\n\n5. Tusambilisheni bonse 'kutolela;\nKasuba ka kwe wenw na bangeli,\nPantu ako kasuba ka kwe ka kupingula."
+  },
+  {
+    "id": 113,
+    "number": 113,
+    "title": "TULI PANO PA MULALILO",
+    "lyrics": "1. Tuli pano pa mulalilo,\nYesu aleti munjibukishe.\n\n2. Alaile abantu bakwe,\nCiteni ici munjibukishe.\n\n3. Acili ne fwe no kusosa,\nCiteni ici munjibukishe.\n\n4. Alebeba ba busumino,\nCiteni ici munjibukishe.\n\n5. Pa kupoko mukate uyu,\nCiteni ici munjibukishe.\n\n6. Pa kupoko lukombo ulu,\nCiteni ici munjibukishe.\n\n7. Filekosho busumino,\nCiteni ici munjibukishe."
+  },
+  {
+    "id": 114,
+    "number": 114,
+    "title": "MWE LUSE LUTUNTULU NO LWA BUPE",
+    "lyrics": "1. Mwe Luse lutuntulu no lwa bupe,\nTwainamo ko muli, tutila,\nLekeni batemwane inshiku pe\nAbo mwapo bumo ubwashila.\n\n2. Mwe Mweo wine, shibamwishibishe,\nBabe no luse, basubilane;\nMubafwe bapame, bashipikishe,\nKu mweo, ku mfwa kwine, bafwane.\n\n3. Mubape nsseko 'shiwamyo kucula,\nMupe no mutende uleteka;\nBabe no lubuto lwakwa katula,\nNo mweo ku mwene ukwabeka."
+  },
+  {
+    "id": 115,
+    "number": 115,
+    "title": "MWE BA SHIFWE, KALENGA",
+    "lyrics": "1. Mwe ba Shifwe, Kalenga,\nMano, luse, maka,\nMu Edene mwaufya,\nMwi bala mwabaka;\nKu bwinga buno mwise,\nMulete ;fya bupe,-\nBabe fye no mutende\nNo kutemwana pe.\n\n2. Mwe Yesu mwafumbile\nKu bwinga ku kana,\nE po mube, mupale,\nAbaleupana;\nKu musamwe bamwene\nMusanshe no wenu,\nPa kusonda beshibe\nE ca bupe cenu.\n\n3. Mwe Mupashi wa cine,\nWa luse, washila,\nMwise mubaponene,\nMulekukutila;\nMufunde no kuwamya,\nBaleba bafuka;\nMuteke no kubensha,\nBaleba bashuka.\n\n4. Abakula apafye, Tata,\nBashaba na Imwe;\nYesu tapala ng'anda,\nTamwaba aba musamwe;\nAbabo mo muli mwe,\nTakuli cingona;\nUluse no mutende\nE fyo bakamona."
+  },
+  {
+    "id": 116,
+    "number": 116,
+    "title": "ABAFWA BASHUKA",
+    "lyrics": "1. Abafwa basuka\nNga bali kwa Yesu,\nBalakile mitwe\nPa cifuba cakwe.\n\n2. Kulya kwawamisha,\n'Mfifi tailiko;\nNi Yesu bamona,\nBamutemwa uko.\n\n3. Ifyabacushishe,\nFya muno mu calo,\nNomba fyapwa fyonse,\nTafibacusha 'yo.\n\n4. Kakumba musuma\nAtungululako;\nKushili bulanda,\nKuli fye inseko.\n\n5. Twailile filamba,\nFwe bashiwa pano,\nTwabalosha cibi,\nTulefulukako.\n\n6. Ishiwi ne nseko,\nNo kutemwa kwakwe,\nFwe bonse ba pano\nNomba teti tumfwe.\n\n7. Munenst we, waya\nTwalikutemwisha;\nTwakulila nomba,\nYesu alilile.\n\n8. Bwangu bukesa ca,\nIshiwi tukomfwa,\nKuli 'fwe akati:\n\"Bukeni, angeni.\""
+  },
+  {
+    "id": 117,
+    "number": 117,
+    "title": "PAMO NA SHIKULU!",
+    "lyrics": "1. Pamo na Shikulu!\nYe, efyo nacibe:\nE mweo wine ku mulu,\nKu bakwe beshibe.\nMu caloe mo ndi,\nNgo mweni ndelila\nLelo ndosha menso yandi\nKu mwesu kwashila.\n\n2. Ku ng'anda kwa Tata,\nKwacishe fya panshi!\nNdelola fye ku cipata,\nKu mushi ku ntanshi.\nNabo wafuluka\nIcalo nalumba,\nApa kwikala babuka,\n'Bashila ba bumba.\n\n3. Pamo na Shikulu!\nYe, Tata, mwasosa,\nNe shiwi 'li lituntulu\nKabili lyakosa,\nMwikale na ine,\nTe kuti mfilule;\nMulendema, njise nine;\nMulelwa muntule.\n\n4. Nga nkaleko mweo,\nNkapula mukati,\nPa kufwa ninshi mfyuke mfwa,\n'Mweo naya sanga,\nLyene nkeshibisha,\nYangwe! 'fyo natemwa\nIshiwi 'li kusosa pe;\n\"Pe fye kuli Lesa!\"\n\n5. 'Kulile shiwi 'li,\nKwe penga lya mpela,\nKumfwikwa konse ku nshishi;\n\"Pe fye kuli Lesa!\"\nLishiwi lya kwima,\nKupenda kwa kucimfya\nKabili, \"Pe fye kwa Lesa!\"\nAmen, 'fyo fine."
+  },
+  {
+    "id": 118,
+    "number": 118,
+    "title": "MILIMO MUKUSHE",
+    "lyrics": "1. 'Milimo mukushe,\nMube ne fwe bonse;\nKu maka yenu mosose,\nBomfwe aba bantu.\n\n'Milimo mukushe,\nIseni twalomba;\nPano twafuluka Imwe\nMwise, mu tu pale.\n\n2. 'Milimo mukushe\nMulumbuke konse,\n'Kutemwa kwenu kube pe\nMu mitima yesu.\n\n3. 'Milimo mukushe,\nMupalya mashiwi;\nNe citetekelo naco\nCikule muli 'fwe.\n\n4. 'Milimo mukushe,\nBalapilya bengi;\n'Shina lyenu lilumbuke,\nMutupale bonse."
+  },
+  {
+    "id": 119,
+    "number": 119,
+    "title": "SHINGANGA ALI MUPEPI",
+    "lyrics": "1. Shinganga ali mupepi\n'Shina lyakwe ni Yesu;\nAtubelele uluse,\nUmfwe shiwi ni Yesu.\n\nBulaulwimbo lusuma,\nLwe shian lya kwa Yesu,\n'Shina ili lyacila;\nYesu, Mfumu Yesu.\n\n2. Lubembu lwesu lwasambwa\nMwi shina lya kwa Yesu\nUmwe wakwe mwapelwa\nMusuku mube nankwe.\n\n3. Lyafumye fibivno mwenso,\nIshina lya kwa Yesu;\nNatemwa shina lya Mfumu,\nNatemwe mfumu Yesu.\n\n4. Twimbe bonse tutashe mwe\nIshina lya Yesu;\nTusubile Mbila yakwe,\n'Mbila ye pusukilo.\n\n5. Inga twafika ku mulu\nTukamumona Yesu,\nTukamwimbilo lwimbo lu\nLwe shina lya kwa Yesu."
+  },
+  {
+    "id": 120,
+    "number": 120,
+    "title": "NDEFWAYA IMWE PE",
+    "lyrics": "1. Ndefwaya Imwe pe,\nMwise twende;\nMusose fye, mumpe\nUmutende.\n\nNdefwaya mwe batula!\nNi mwe fye nkabila;\nMumpale ne wacula,\nNamwishila.\n\n2. Ndefwaya Imwe pe,\nMube m'pepi;\nIfibi fyanshiwe,\nUko muli.\n\n3. Ndefwaya Imwe pe,\nKu kucula;\nMwiseikala pe,\nNo kuntila.\n\n4. Ndefwaya Imwe pe,\nMumfundishe;\nNe fyunu fya cine\nNkafifishe.\n\n5. Ndefwaya Imwe pe,\nMwe bashil;\nNjaluke wenu pe\nUwabila."
+  },
+  {
+    "id": 121,
+    "number": 121,
+    "title": "CINTU CAKUTUSUNGUSHA",
+    "lyrics": "1. Cintu cakutusungusha,\nIca kupapusha nganshi,\nMwana Lesa aishile\nUkwisa fwilo mwaice.\n\n2. Ninjishibe fyo ca cine;\nAsalilyo kuicefya,\nAculishe, alifwile\nPantu mwine antemwisha.\n\n3. Njishibe fyo engantemwa\n'Ne mwaice mukakashi;\n'Kutemwa kwakwe kwakula\nImfwi lyo kuti mutemwe.\n\n4. Ca kupap pakwishiba\n'Kutemwa kwakwe kwa cine\nLelo kupapo kucila\nApo mutemwa panini.\n\n5. Kamutemwishe, mwe mfumu\nKamwimbile mu mutima,\nNakulaya ndamutemwa,\nNsuke mumone 'fyo mwaba."
+  },
+  {
+    "id": 122,
+    "number": 122,
+    "title": "SEKELELENI! KALUBULA 'ISA",
+    "lyrics": "1. Sekeleleni! Kalubula 'isa,\nTambeni mibele, e ya buLesa.\n\nCindikeni, lumbuleni uyo afwile,\nCindikeni, mulesamwa, atulubwile.\n\n2. Sekeleleni! Kasuba katula;\nImfif ileya; fyapwe filufya.\n\n3. Sekeleleni! Atumwene lambo;\nAfute milandu, asendo lwambo.\n\n4. Sekeleleni! Abelelo lise;\nAfumye fibifya, akushe ntuse,\n\n5. Sekeleleni! Anashe filwani;\nAtucimfishe mfwa; atupo mweo.\n\n6. Sekeleleni! E uteka nomba;\nAtusakamana no kulalomba.\n\n7. Sekeleleni! Akesapingula;\nWa maka, wa ntaka, akalamula."
+  },
+  {
+    "id": 123,
+    "number": 123,
+    "title": "ISHIWI NDEUMFWA",
+    "lyrics": "1. Ishiwi ndeumfwa;\nLyanjita kuli 'mwe,\nUkunsamba no mulopa\nUntu mwansumine.\n\nYesu ndeisa,\n'Kwisa kuli mwe\nMunsambe no mulopa\nUntu mwansumine.\n\n2. Nangula ndi mubi,\nYesu antemwisha,\nAlefumya ulubembu\nAlempela maka\n\n3. Yesu alemfwaya,\nMu kutemwa kwakwe,\nNe subilo alempela\n'Luse no mutende.\n\n4. Yesu alempela\n'Maka mu mutima,\nNe cikuku alentula,\nAmfumya mu fibi.\n\n5. Yesu amfwilile,\nPantu nabipalwa,\nAlemfwaya 'musubile\nMu mutima wandi."
+  },
+  {
+    "id": 124,
+    "number": 124,
+    "title": "MWE UMFWENI IMBIA NSUMA",
+    "lyrics": "1. Mwe umfweni imbila nsuma.\nKale twalya baluba;\nYesu afumine ku mulu,\nCine atupuswishe.\n\nNa ni uwatupuswishe?\nCine cine mwana-Lesa!\nMusango nshi? Atanikwe!\nNi kwi aya? Ni ku mulu!\nEkwa letupapatila.\n\n2. Takwali umbi Kutufwila,\nNelya bamalaika;\nUwatanikwe pa lupanda,\nE Mwana wa kwa Lesa.\n\n3. Iso subile muntu ali,\nNo kumufukamina;\nElyo ukomfwo luse lwakwe,\nCine akakutula."
+  },
+  {
+    "id": 125,
+    "number": 125,
+    "title": "BONSE NATULUMBE LESU WESU",
+    "lyrics": "1. Bonse natulumbe Lesa wesu\n'Luse atubelela;\nTumutemwe pantu atutemwa,\n'Buku lyakwe lyatweba.\n\nYesu mwine, aishile\nKuno twaba fwe bantu;\nUkufwayo kupususha\nFwe bonse balubile.\n\n2. Bonse fwaisheni Lesa wesu,\nPantu akulatwafwa;\nCalilembwa Lesa aleumfwa\nBonse balepalama.\n\n3. Bonse subileni Lesa wesu,\nEmo tuleshukila;\nAlefwaya tumucetekele,\nIyi nshila isuma."
+  },
+  {
+    "id": 126,
+    "number": 126,
+    "title": "MWE KATULA MWINCILILA",
+    "lyrics": "1. Mwe katula mwincilila,\nNdemupapata,\nIlyo muleita bambi,\nMwilancilila.\n\nYesu, Yesu,\nMumfwe ndekuta,\nIlyo muleita bambi,\nmwilancilila,\n\n2. Kampalame kuli Imwe,\nMpele uluse,\nKamfukame no bufuke,\nNsangyo mutende.\n\n3. Mubusuma bwenu bweka\nNcetekela pe,\nKu poshiwa mu mutima\nE cabupa fye.\n\n4. Nimwe mweo ne cimwemwe,\nNimwe cikuku;\nUmbi panshi nshimumwene,\nnangu mu mulu."
+  },
+  {
+    "id": 127,
+    "number": 127,
+    "title": "NOMBO KWISHIBA NAISHIBA",
+    "lyrics": "1. Nombo kwishiba naishiba,\nYesu antula, alemposha;\nAmfumya mu mfifi, na ku mfwa;\nNi ku mutima, ankosha ndi.\n\nNdi ne cimwemwe, ndesamwa pe,\nNdetasha Yesu, Mfumu yandi,\nNdi ne cimwemwe, ndesamwa pe,\nNdetasha Yesu, Mfumu yandi.\n\n2. Ndi ne cimwemwe, ndesaminwa\nIfyacindama fya kwa Lesa:\nKu m'tima wandi kwamoneka\n'Maka ya Mfumu, no kutemwa.\n\n3. Nombo mutima watalala:\nYesu na ine, bucibusa,\nNdemubombela, ndelolela;\nNa pakwikala akampela."
+  },
+  {
+    "id": 128,
+    "number": 128,
+    "title": "ONSE UTEMENWE! BOMFWE BONSE",
+    "lyrics": "1. ''Onse utemenwe! bomfwe bonse\"\nTumeni imbila mu calo conse!\nLekeni beshibe abantu bonse;\n\"Utemenwe engesa!\"\n\nOnse watemwa! onse watemwa!\nBileni monse mu mpili ne nika;\nUwito waluba ni Shifwe Lesa;\n\"Utemenwe engesa!\"\n\n2. Onse uleisa ecelwako;\nE kuli no mwinshu, waisulwako:\nNe nshila ya mweo yene yabako:\n\"Utemenwe engesa!\"\n \n3. \"Onse utemenwe\" Lesa 'bila;\n\"Onse utemenwe\" cebo cashila;\n\"Onse utemenwe\" mweo wacila:\n\"Utemenwe engesa!\""
+  },
+  {
+    "id": 129,
+    "number": 129,
+    "title": "MWISE KWA YESU, MWIKOKOLA",
+    "lyrics": "1. Mwise kwa Yesu, mwikokola,\nKu mbila kwamoneke nshila;\nAli mupepi, aleita,\nAleti, \"Iseni.\"\n\nTukasamwa pa kumonana,\nNga twasambwa twaba bashila;\nTukekala ne mwe, Ka tula,\nKu mwesu nshiku pe.\n\n2. Mumunakile uwatile,\n\"Abana bese kuli Ine\"\nAleni Yesu tumutemwe.\nMwikokola, seni.\n\n3. Tontonkanyeni e po ali,\nIshiwi lyakwe shiumfweni,\nAleti, \"Imwe bana bandi,\nMwikokola. 'seni\""
+  },
+  {
+    "id": 130,
+    "number": 130,
+    "title": "KULYU BWITE BULEFUMA KWI SHILYA",
+    "lyrics": "1. Kulyu bwite bulefuma kwi shilya,\n'Leteni ulubuto,'\nKulya bantu ba kuya pokolola,\n'Leteni ulubuto.'\n\nUlubuto lwa mbila nsuma\nLubalikile konse,\nUlubuto lwa mbila nsuma\nLubalike pe na pe.\n\n2. Ili shiwi lya ku Makedoniya;\n'Leteni ulubuto,'\nFya bupe fyesu twakulatambika,\n'Leteni ulubuto.'\n\n3. Icikuku ca kwa Yesu cice pe\nTutume ulubuto,\nNe mibeleya kwa Yesu twishibe,\nTutume ulubuto.\n\n4. Twinenuna mu kubombe milimo,\nTutume ulubuto,\nTulonganya ba kwingila kwa Yesu,\nTutume ulubuto."
+  },
+  {
+    "id": 131,
+    "number": 131,
+    "title": "TANDE NSHIKU SHONSE MBUTO SHA BUSUMA",
+    "lyrics": "1. Tande nshiku shonse mbuto sha busuma,\nTanda ku lucelo, na po kawa fwe;\nTulelolyo mwela, nshita ya kusepa,\nNga twaya tutila, tukasamwa pe.\n\nTukasamwa pe, tukasamwa pe\nNga twaya tukasamwa pe.\nTukasamwa pe, tukasamwa pe\nNga twaya tukasamwa pe, tukasamwa pe.\n\n2. Tanda ku kasuba na ku cintelelwe,\nWilatina mfula, nangu buwani;\nTulecula nomba, limbi tukasepa;\nNga twaya tutila, tukasamwa pe.\n\n3. Kanshi fwe balila, kanshi fwe banaka,\nTuletande mbuto sha Mfumu ine;\nNgo mulimo wapwa, ikesa tupoka\nNga twaya tutila, tukasamwa pe."
+  },
+  {
+    "id": 132,
+    "number": 132,
+    "title": "NA LIMBI 'IYO WE MUTIMA WANDI",
+    "lyrics": "1. Na limbi iyo we mutima wandi,\nShiwi lya Mpusushi;\n'Mfumu nomba leka ntale mone,\nBushe musubile?\n\nEya; eya; Lesa njafweniko\nKuba wenu!\nMwanshita mu mulopa wafina\nWya! ndeba wenu.\n\n2. Mu cikuku emo mpokelela\nKutemwa kwenu 'ku;\nMuli Kristu e mo ndesubila,\nMucetekela pe.\n\n3. Mwaishibe fyo nshikwete maka\nNdatina ukuwa,\nNimpenya maka mutumikile,\nYenu yefulisha.\n\n4. Na nomba Mfumu twamupapata\nMubafwe 'ba bonse\nKuti bembe no mutina umo,\n\"Eya! ndeba wenu.\"\n\n5. Kale bonse abamulombele\nAbati, \"Mutwafye,\"\nBwangu bwangu, \"Eya!\" mwabaswike\nNa kuli fwe nomba."
+  },
+  {
+    "id": 133,
+    "number": 133,
+    "title": "KATULA UMO WINE",
+    "lyrics": "1. Katula umo wine,\nWa bonse ba m'fyalo;\nNi Yesu kristu Mwine,\nLishinte ne Ntuo\n\nTakuli limbi shina,\nTakuli na shia,\nKano Kristu uwafina,\nWatemwa, washila.\n\n2. Ilambo limo line\nLya pa bubi bwesu,\nKu mwinshi na ko kumo,\nNe nshila ni Yesu.\n\n3. Ku mwesu kwa pe kumo\nUkuli Ba Shifwe;\n'Nasubi baba ba,o,\nKui Shikulwifwe."
+  },
+  {
+    "id": 134,
+    "number": 134,
+    "title": "IMPONGOLO YAISUKA",
+    "lyrics": "1. Impongolo yaisuka,\nE umo kulefuma,\nUkubuta kwa pa Muti\nUkulang kutwemwa.\n\nUluse lwakule cibi,\nYaliisuka nyingile!\nIne! ine! yaiswilwa ine!\n\n2. Impongolo e ya bonse\nBalefwayo kutulwa;\nBakalamba na baice,\nBa ndimi ne mikowa.\n\n3. Ingikeni nomba line,\nUluse luciiko;\nPokeleleni cimuti\nCilelange cikuku.\n\n4. Kwi shilya tukayabika\nCimuti capindama\nTukayapoke cilongwe;\nKu Mfumu tukapalwa."
+  },
+  {
+    "id": 135,
+    "number": 135,
+    "title": "BUSHE, IWE NAUNAKA",
+    "lyrics": "1. Bushe, iwe naunaka,\nNaupelelwa?\n\"Iso ko ndi,\" Yesu ati,\n\"Ushishe.\"\n\n2. Bushe, akwete filaso\n'Kuti mwishibe?\nE, pa mbafu pa makasa\nNe ndupi.\n\n3. Bushe, alifwele ngala\nPa mutwe wakwe?\nCine ngala alifwele,\nYa myunga.\n\n4. Nga namusanga, namukonka\nCinshi akampa?\nUmulimo ne filamba,\nFyapona.\n\n5. Nga namukonka mupepi,\nCinshi ku ntanshi?\nUbulanda ne filamba\nfikapwa.\n\n6. Nga namulombo kumbula\nBushe akane?\n'Waishile tula bantu,\nTakana.\n\n7. Nga nakonka, namutemwe,\nBushe ampale?\n\"Ba mu calo, ba mu mulu\nBati, \"E\""
+  },
+  {
+    "id": 136,
+    "number": 136,
+    "title": "BULE SHINA LYA KWA YESU",
+    "lyrics": "1. Bule shina lya kwa Yesu,\nWe walila, wacula;\nLinasho bulanda bwesu,\nNa ku fibi litula.\n\nIshina lyayemba!\ntube na lyo, lyesu pe.\nIshina lyayemba!\ntube na lyo, lyesu pe.\n\n2. Bule shina lya kwa Yesu,\nLibe 'nkwela yobe pe,\nKu nifwi ya m'lwani wesu,\nNa ku fyonse fibepa.\n\n3. Temwe shina lwakwa Yesu;\nLipelo mutende pe,\nLibutusha mu nda shesu;\nLiletwafwa twende pe.\n\n4. Lumbe shina lya kwa Yesu;\nKu maboko apoka;\nYesu abo bumi bwesu;\nNa ku lu se asoka.\n\n5. Takalumbe shna, Yesu,\nNga twafika kwi sano\nUkuli ne Mfumu Yesu,\nLyasame fisamo."
+  },
+  {
+    "id": 137,
+    "number": 137,
+    "title": " UMFWA, WE MUTIMA WANDI",
+    "lyrics": "1. Umfwa we m'tima wandi,\nNi shikulu, aleti:\n\"Bushe, cine watemwa?\"\n\n2. \"Nakukakwile kale,\n'Filaso napseshe;\n'Lubuto nakupele\n'Mfifi yobe nalwile.\n\n3. \"Bushe, nyina alabe\n'Mwana untu afyele?\nNalimo kalaba,\nIne ndamwibukisha.\n\n4. Ine nabo luse\nLwacile fya mu mulu,\nLwacilye fya mu calo,\nLwa cine lwacile mfwa.\n\n5. \"Ukamono mucinshi\nLuntu Tata ampele;\nUkekala na ine,\nPa ciouna candi pe.\"\n\n6. Iye ndi no bulanda,\nNshamutemwishe cine\nLelo imwe natemwa,\nNakulamutemwisha."
+  },
+  {
+    "id": 138,
+    "number": 138,
+    "title": "YESU KALE AMFWAILE",
+    "lyrics": "1. Yesu kale amfwaile,\nNalyum mweni kutali;\nPa kuntula aposele\n'Mweo wakwe pali ne.\n\nNamutemwa, aleluya,\nNamutemwa Mulubushi,\nNamutemwa Yesu Kristu,\nAmfilile pa kaifali.\n\n2. Yesu nomba alefwaya\n'Kuti nkonke nshiku pe;\nMu makasa um mwine\nAendele panonse.\n\n3. Yesu mwine aka bwela;\n'Kututwala ku mwakwe\nE ko tukalaseka\nMu musumba wakwe pe."
+  },
+  {
+    "id": 139,
+    "number": 139,
+    "title": "AFUMINE KU MULU",
+    "lyrics": "1. Afumine ku mulu,\nYesu Mulubushi,\nAishile ngo muntu,\nYesu Mulubushi.\n\nImbeni ulwimbo lu,\nEbeni bonsha bantu;\nAfumine ku mulu,\nYesu Mulubushi.\n\n2. Afwilile ku muti\nYesu Mulubushi,\nKu kutula na ine,\nYesu Mulubushi.\n\n3. Mu mulu abe Mfumu,\nYesu Mulubushi,\nTunakile, tutemwe\nYesu Mulubushi.\n\n4. Ku mulu akekila\nYesu Mulubushi;\n'Kututwala ku mwakwe,\nYesu Mulubushi."
+  },
+  {
+    "id": 140,
+    "number": 140,
+    "title": " KUFWAYA ABALUBA KWEKA",
+    "lyrics": "1. Kufwaya abaluba kweka,\nNo kupapata luse luse,\nYesu ati \"Seni kuli ine\"\nEfyo ne lelo akebeta.\n\nAkauyeni . . . mu tumishi tonse . . .\n'Kubaleta . . . abaluba . . .\n'Kubaleta . . . ku Mwine kacema .\nYesu Mwana . . . wa kubafwila.\n\n2. Tubafishe kuli Yesu umwine,\nAbanaka na ba cula,\nNo kubalanga ipusukilo,\nBeshbe mwa kumweno mweo\n\n3. Tufwaya kube nkombe sha luse.\n'Kukonka Kristu 'nshiku shonse\nTwafwe abawa nabwa banaka,\nBaluba tubalange Yesu.\n\n4. Tucetekele nshita ikesa,\nYeswa 'kabwela mu lulumbi,\nNatwipeleshe ku milimo yu,\nBanenswa bengi bapusuke."
+  },
+  {
+    "id": 141,
+    "number": 141,
+    "title": "YA KWA YESU IMBILA",
+    "lyrics": "1. Ya kwa Yesu imiba -\nAtula!\nKu nko shonse ni mbila\nAtula!\nSoseni ci ca cine\nKu babifya bacula;\nE lifunde lya Mwine,\nAtula!\n\n2. Mulebila pabuta,\nAtula!\nMulekusho kukuta\nAtula!\nMwe ba bemba. mulange,\n'Calo conse cisamwe :\nAtula!\n\n3. Na pa kulwa mubile,\nAtula!\n'Wa pe e o wafwile,\nAtula!\nMwimbe na po pafita,\nNo mutima wafula,\nNe mfwa nayo yapita,\nAtula!\n\n4. Yaya fye na pa mwela,\nAtula!\nNa ba nko basekela\nAtula!\n'pusukilo bukulu!\nE co twimbe nshiko pe,\nAtula!"
+  },
+  {
+    "id": 142,
+    "number": 142,
+    "title": "SHIKULU YESU NDEKUTA",
+    "lyrics": "1. Shikulu Yesu ndekuta,\nKano mwangafwa nalafwa,\nPusukilo mundetele,\nMumbulu fintu ndi.\n\nMumbule ifyo ndi,\nMumbule ifyo ndi,\nYesu Kristu mwafwilile\nMumbule ifyo ndi,\n\n2. Nga nanaka, nabipilwa,\nMwansumine umulopa,\nMuncitile co mwatemwa,\nMumbule fintu ndi.\n\n3. Mumone ine Katula\nMuncitile co mwatemwa\nMutendeke no kupwisha,\nMumbuke fintu ndi.\n\n4. Nshikwete maka 'kucita\nCintu cimo kuitala\nMuntule pe, imwemweka\nMumbule fintu ndi."
+  },
+  {
+    "id": 143,
+    "number": 143,
+    "title": "BWELA,MWANA WALUBILE",
+    "lyrics": "1. Bwela, mwana walubile!\nWiso alekwita;\nWiluba pe mu fibi fi,\nWilaba mulanda:\nBwela, bwela.\n\n2. Bwela, mwana walubile!\nYesu alekwita;\nApapata no mupashi,\nIsa muno ng'anda;\nBwela bwela.\n\n3. Bwela, mwana walubile!\nWiposa fye nshita;\nKu mfwa takuli no luse,\nE nshita atupa;\nBwela, bwela."
+  },
+  {
+    "id": 144,
+    "number": 144,
+    "title": "YESU AITA BABI",
+    "lyrics": "1. Yesu aita babi,\nabapokelela fye;\nBonse abalubile,\nBonse bangabwela fye\n\nImbileni, mwe bonse,\nYesu aita babi;\nAli no luse lonse,\nAbapokelela fye.\n\n2. Mwinse, mubyo mutende,\nEco ati, umfweni,\n'Bubi bonse asende;\nMwe banaka iseni.\n\n3. E usambo lubembu,\nE uposho mutima;\nNomba ku cilye cakwe,\nTeti ntine nakalya.\n\n4. Yesu mweo wa babi,\nNo busuma ne cine;\nAbaisa asambe,\nBakekala ku Mwine."
+  },
+  {
+    "id": 145,
+    "number": 145,
+    "title": "BWELA WE WALUBA, WE WANAKA",
+    "lyrics": "1. Bwela we waluba, we wanaka\nMona kacema alepapata;\nAlefwaya ukukupususha,\nMupokelele, wilakokola.\n\nAlepapata, aleita pe,\nUmfwa Kacema alekwita,\nAlepapata, aleita pe,\nAlesosa, \"Isa kuli 'ine!\"\n\n2. Alekupembela we ulefwa,\nWe walolele kutali kwine\nAliposele umweo wakwe\nKuti umone umweo iwe.\n\n3. Umfwa imbila lya kwa Katula,\nAsendele mpulumushi\nAkupelyo umweo wa pe na pe.\n\n4. Isa mu musango wa cine,\nYesu e mwinshi wa kwingililapo\nKacema alekwitano luse;\nWingilemo tekuti ulube."
+  },
+  {
+    "id": 146,
+    "number": 146,
+    "title": "MWE YESU MWALINTEMWA",
+    "lyrics": "1. Mwe Yesu mwalintemwa,\nNi kui 'imwe ndeisa;\nIco 'mwela waima,\nYampuma na mabimbi;\nMfiseni mwe Katula,\nKu fikali fya panshi,\nNkamone 'Pusukilo,\nKu mwenu 'ko ku mulu.\n\n2. Kafwa umbi nshikwete,\nKani imwe, Shikulu:\nMwinsha fye, napapata,\nMulensunga nshiku pe.\nNdemucetekela pe,\nMuli Katula Wandi,\n'Mutwe wandi mucinge\nMu cintelelwe cenu.\n\n3. Kristu ndwmufwaisha,\nNimwe mweo na maka,\nMuleimya abafwa,\nMwe muti wa balwala,\nShina lyenu lisuma,\nIne muntu wabipa,\nNjisula no bubi,\nMwa cine ne cikuku.\n\n4. 'Luse lwenu lwafula,\nLwakunsamba ne mubi,\nNsambeni no ku mbaka,\nMbe wa cine ne subi,\nNimwe kamfuku,\nNwenshepo mweo wape,\nFukauka muli 'ne\nMweo ushipelela."
+  },
+  {
+    "id": 147,
+    "number": 147,
+    "title": "NIMWE NDESUBILA",
+    "lyrics": "1. Nimwe ndesubila,\nMwali pa Kalfali,\nMulubushi;\nMungumfwa mwi pepo,\nNsambeni fye nomba,\nNatendeka lelo\nKuba wenu.\n\n2. Mwe munsenamine,\nNo ku nkoselesha,\nMulenjimya;\nPantu mwamfwilile,\nKuti ntemwe imwe,\nLelo ne nshikupe;\nMu mutima.\n\n3. Nga nayenda nh nfifi,\nYaisa macushi,\nntungululwe;\n'Mfifi 'be kasuba,\nMumfute filamba\nMwindeka ntanduke\nKuli imwe.\n\n4. Ngo lwendo lwa mweo,\nLukapwa mu calo,\nMukansenda;\nMunjikate, twende,\nNo mwenso munsende\nMunsende kuli 'mwe,\nNalubwa."
+  },
+  {
+    "id": 148,
+    "number": 148,
+    "title": "INE, UMWEO WANDINI YESU",
+    "lyrics": "1. Ine, umweo wandi ni Yesu;\nAmfwile kale pa muti,\nAfuto mulandu wa bubi;\nYes Yesu.\n\n2. Ine, cishima cili kwa Yesu;\nNdesambwa pe mu mlopa,\nUbubi bwandi bulepwa:\nYesu, Yesu.\n\n3. Ine, Kabaka nimwe, ba Yesu;\nNga mwansha ine, nalafwa;\nMwindeka imbe ne wafwa;\nYesu, Yesu.\n\n4. Ine ndesamwa kuli 'imwe Yesu;\nKatula wandi ni imwe;\nMwikale pamo na ine:\nYesu, Yesu."
+  },
+  {
+    "id": 149,
+    "number": 149,
+    "title": " MWE MPUKA BA KRISTU",
+    "lyrics": "1. Mwe mpuka ba Kristu,\nImeni, muyelwa;\n'Maka ya kwa Lesa yenu,\nMu Mwana yapelwa.\n\n2. Lesa wa maubumba!\nWakos o bali,\nNe Mfumu Yesu alumba,\nA cinifye fikali.\n\n3. Shipikisheni fye\nKu maka ya Mwine;\nNe fya BuLesa sendeni,\nMube buntu bwine.\n\n4. Mwende nga bapika,\nMube 'bashinama;\nMwaumfwa kuli Mushika,\nNe shiwi mwalama.\n\n5. Muye pe ku ntanshi,\nMupepe no kulwa;\nNyanteni fya mfifi panshi,\nMunashe ne fyalwa.\n\n6. I lyo kwapwo kulwa,\nMwapwisha na fyonse,\nMukasanga mwe bakulwa,\nBatuntulu bonse."
+  },
+  {
+    "id": 150,
+    "number": 150,
+    "title": "MU BUSHIKU BWA BULANDA",
+    "lyrics": "1. Mu  bushiku bwa bulanda\nAbanyendo balaya,\nBalalumba no kuloba\nKuntu kwabo walaya.\n\n2. Kulya kwabo kubekesha\nNi Kasomoku ntanshi;\nAbe senge bakoshanya,\nBenda bashipa nganshi.\n\n3. Lumo lwasho lwa kwa Lesa\nKu lukuta lwashila;\nE lutamfye fingatinya,\nE lulanga ne nshila.\n\n4. Cimo ico baendela\nNe subilo lyakosa,\nKumo kwine kulolela\nKuli ifyo Lesa 'sosa.\n\n5. Lumo lwimbo lu lwa kwanga\nLwa kwa Shibo na Mwane;\nLumo lwendo no kupanga,\nKumo kwesha bayane.\n\n6. Kumo kwanga nga bafika\nKu musumba mo wa pe;\nShibo umo ekwateka,\nUli no luse lwe pe."
+  },
+  {
+    "id": 151,
+    "number": 151,
+    "title": "MWE BASHILIKALE",
+    "lyrics": "1. Mwe bashilikale,\nMwaya ku buta,\n'Lupanda lwa Mwine\nLuletangila.\nYesu Mfumu yesu,\nAkulatwensha,\nNo luunga lwesu\nTwakulasenda.\n\nMwe bashilikale,\nMwaya ku buta,\n'Lupanda lwa Mwine\nLuletangila.\n\n2. Pa bwanshisho bwesu\nBaletamfiwa;\nElyoba kwa Yesu,\nTwendeni, twanshe.\nNa pa kwimba Kwesu\nKumbo kwatenta,\nImbileni Yesu,\nShisansuleni.\n\n3. 'Bumba lya kwa Lesa,\nCilonganino;\nBane tuleenda\nNga bamushilo\n'Fwe mubili umo\nTatwapatulwa\nMu becetekelo.\nNelyo mu luse.\n\n4. E twendeni, bane,\nNa bonse pamo,\nNa mashiwi twimbe\nUlu lwimbo\n'Lulumbi no luse\nLube kwa Kristu;\n'Bantu balubulwa\nBailembo lu."
+  },
+  {
+    "id": 152,
+    "number": 152,
+    "title": "MWIMININENI YESU!",
+    "lyrics": "1. Mwiminineni Yesu!\nMwe ifita fyakwe,\nImyeni uluunga,\nMwikalulofya mwe.\nAletutangilila,\nAssuke abacimfye,\nAbe Mfumu eka.\n\n2. Mwiminineni Yesu!\nSuminine bonse,\nKalweni na balwani,\nEko alemwita;\nKabiyeni mwe bonse,\nMuye mulwe nabo,\nIkatisheni bonse,\nMube abashipa.\n\n3. Mwiminineni Yesu!\nMu maka yakwe fyr;\nAmaka ya bantunse,\nTe kuti yamwafwe.\nShangileni pepeni,\nMulemulolela;\nKabiyeni bonse.\n\n4. Mwiminineni Yesu!\nUbuta bukapwa,\nMu calo kulwa pepe,\nMu mulu mutende,\nUyo wayasha fyonse\n'Citebo apelwa,\nAkaba no mutende\nUyo ushakapwe."
+  },
+  {
+    "id": 153,
+    "number": 153,
+    "title": "MWE FITA FYA LUPANDA",
+    "lyrics": "1. Mwe fita fya lupanda\nFya kulwila fwaleni;\nSatana e wa maka,\nLweni fita, koseni.\n\n2. Na mu calo ca mfifi\nImyeni uluunga,\nUlu lufunguluke,\nKu ntanshi lusumbulwe.\n\n3. Mu mishi ya bulanda,\nTamwaba na mashiwi,\nMwe nkombe sha kwa Yesu\nKabiyeni ne landwe.\n\n4. Kuntu kwabe finshngwa\nBatwalileni cine;\nUko kwabe fyabipa,\n'Bupisusho mwananye.\n\n5. Ku banaka, 'baluba,\nBebeni no mutende;\nKu baposwa, 'balanda,\nSoseni umutende.\n\n6. Sungeni abapina,\nSansamusheni bonse;\nMu maka ya kwa Lesa,\nTamfyeni fibi fyonse.\n\n7. Fungululenyu lunga,\nNo lupanga lwe shiwi,\nFisuke fyalo fyonse\nFikabe fya kwa Yesu."
+  },
+  {
+    "id": 154,
+    "number": 154,
+    "title": "WE FIBI, FUMA",
+    "lyrics": "1. We fibi, fuma\nKatula 'lipo\nTakakokole\nUkwisa ntula.\nIne ndepena fye\nWenya 'lengwafwa\nNga tuli na Kristu\nNdasule nkuta.\n\n2. Ilyo pafita\nECilongoshi\ncandi, kukonka\nmga takuli menshi\n'Bantu bandua\n'Shiwi asosele\nAkalifisha.\n\n3. Kale luse lwakwe\nE cishibilo,\nTeti andeke\n'Kutotobela\nIfya Ebenesa\nNinjibukisha.\nFinengo kwishiba\nAkalangafwa.\n\n4. Tekuti ngwinte\nIfimponena\nIfya kwafywe fi\nAnjeba kale.\nBonsha bakamona\nUbupususho,\nmu mulanda yengi\nbakonke Mfumu.\n\n5. 'Fya my lukumbo\nIfyo anwene\nFya kuluka mwe!\nteti tulande.\nInshila yayafya\nUmwa 'twendele!\nWene alecula\nbushe ifwe 'yo?"
+  },
+  {
+    "id": 155,
+    "number": 155,
+    "title": " MWE MPUKA YA BALENDO",
+    "lyrics": "1. Mwe mpuka ya balendo,\nMuleya ku ntashi,\nNa Yesu ngo munenu,\nKwa Yesu e mutwe.\n\n2. Mwaanga nga mwabomba\nIfyo abombele;\nMwaanga nga mwacula\nIfyo aculile.\n\n3. 'Lupanda asendele,\nAmusendele 'mwe;\nIngala alifwele,\nAlimufwalile.\n\n4. Fya kumwesha fyaisa,\n'Malanda mwakwata,\nKabili fyamutunka,\nImfwa ikapwisha.\n\n5. Ifi fyabe fisano\nFya mutengo 'kuku\nFileba ng mutanto\n'Kunina ku mulu.\n\n6. Mwe mpuka ya balendo,\nLoleshenyu mulu,\nUko ifya cikonko\nFikabe cilambu."
+  },
+  {
+    "id": 156,
+    "number": 156,
+    "title": "ILINTU MUTENDE ULEYA NA INE",
+    "lyrics": "1. Ilintu mutende uleya na ine,\nNangwa malanda yesa pe;\n'Kuti njishibe ni mwe mwafundishisha\n'Mutende, 'mutende kuli ine.\n\n'Mutende. . . kuli ine. . .\n'Mutende. . .mutende kuli 'ne.\n\n2. Satana nga ntunka, ngo kwisa kweshiwa,\nNaishibe landwe ili;\nAlimfwilile. Kristu nandubula,\n''Mutende, 'mutende kuli ine.\n\n3. Impulumushi shintu naulungene,\nTe shimo fye, lelo shonse,\nShalipampaminwa na ku lupunda,\n'Mutende, 'mutende kuli ine.\n\n4. Na ine ndefwaya njikate Kristu;\nNga yakamfimba mabimbi,\nTe kuti ntine; mu mfwa nga mu mweo,\n'Mutende, 'mutende kuli ine.\n\n5. E kwisa kwenu ndepembela,mwe Mfumu,\nKu mwesu te ku cilindi;\n'Penga lwa mungeli. 'shiwi lya Mfumu,\n'Mutende, 'mutende kuli ine."
+  },
+  {
+    "id": 157,
+    "number": 157,
+    "title": "UMUTENDE,MU CALO CABIPA",
+    "lyrics": "1. Umutende, mu calo cabipa?\n'Mutende, Yesu atepelesha.\n\n2. Umutende, nge cuto yapamfya?\n'Kutombela Yesu e kuutusha.\n\n3. Umutende, ' bulanda bwafula?\n'Mutende, Yesu pa cifuba.\n\n4. Umutende, mfuluka ku mwesu?\n'Mutende mu kulamwa na Yesu.\n\n5. Umutende, fya ntanshi fyafiswa?\nYesu twaishiba, aleteka.\n\n6. Umutende, nge mfwa ilenshinga?\nNa maka Yesu anshishe imfwa.\n\n7. E cisuma; fyonse fikaleka,\n'Mutende wa ku mulu watwita."
+  },
+  {
+    "id": 158,
+    "number": 158,
+    "title": "NDI WENU MFUMU, NALYUMFWA SHIWI",
+    "lyrics": "1. Ndi wenu Mfumu, nalyumfwa shiwi,\nLyanjebelyo kutemwa;\nLelo ndafwayo kupalamako\nPepi pepi kuli imwe.\n\nMpalamikwe pepi mwe Mfumu,\nKulyo 'ko mwamfwilile,\nMpalamikwe pepi pepi mwe Mfumu,\nKulyo 'ko mwandashilwe.\n\n2. Kangobelwe mu kumubombela,\n<pwelwa maka. cikuku;\nMpunamineko no busumino,\nNdosho mo mufwaila.\n\n3. E yaweme nshita napepamo,\nIlyo mufukamine;\nNa ine nsoshanya ne mwe Lesa,\n'Fyo nsosa ne cibusa.\n\n4. Kwalibo kutemwa nshingeshiba,\nKano ninshi nkabuke;\nKwabakwe nseko nshingakumamo,\nKano ntushe pe ne mwe."
+  },
+  {
+    "id": 159,
+    "number": 159,
+    "title": "YESU NAMUTEMWA SHIKULU WANDI",
+    "lyrics": "1. Yesu namutemwa Shikulu wandi\n'Cibwe-camba candi Umupusushi,\nKatula wa luse, nkamwimbila fye pe,\nE imwe mwalinga, e imwe mwalilnga,\nE imwe mwalingo kulumbanya.\n\n2. Namutemwa pantu mwantemwa ine\nMwalinculile cibi ku kaufale,\nImpumi yenu yalaswa ne myunga\nE imwe mwalinga, e imwe mwalilnga,\nE imwe mwalingo kulumbanya.\n\n3. 'Kuti namutemwa mu mweo, mu mfwa,\n'Kuti namutotele nshiku shonse,\nNo Kwimba ningemba ne mfwa pa mpumi,\nE imwe mwalinga, imwe mwalilnga,\nE imwe mwalingo kulumbanya.\n\n4. Ilyo tukamono lulumbi lwenu,\nNa benu banino kuba nr mwe pe,\nMu bumpashanya bwenu nkapundila.\nE imwe mwalinga, e imwe mwalilnga,\nE imwe mwalingo kulumbanya."
+  },
+  {
+    "id": 160,
+    "number": 160,
+    "title": "MWE MFUMU M NSOSHE, NSOSE",
+    "lyrics": "1. Mwe Mfumu munsoshe, nsose\nMisango yenu ya mweo,\nIfyo mufwaya, kamfwaye\nAbana benwa naluba.\n\n2. Mutungulule 'ne wine,\nNtungulule abaluba,\nMundisho kuti 'ne ndishe\nAbana benwa na nsala.\n\n3. Munkoshe mu kwiminina\nPa libwe lya maka yenu,\nNtambikyo kuboko kwandi,\nKuli abo abanwena.\n\n4. Mumfundisho kuti mfunde\nFintu fyenu ifya cine,\n'Mashiwi yandi yengile\nMu ba mitima yakosa.\n\n5. Mumpelyo butushoo bwenu,\n'Kuti nsose no kutemwa;\nAmashiwi ayalinga\nKu bafilwa, 'ba bulanda.\n\n6. Mumpale mwe Mfumu yandi,\nKutyu mutima wisule,\nMatontonkanyo, 'mashiwi\nYalango kutemwa kwine.\n\n7. Munengyo Kumubombela\nUko konse mwansontela,\nNsuke mumoneku mpumi,\nYalango kutemwa kwine."
+  },
+  {
+    "id": 161,
+    "number": 161,
+    "title": "UBUFUMU BWISE",
+    "lyrics": "1. Ubufumu bwise,\n'Bwa lusho lubuto,\nBulete kuno mutende\nKu mulu, na mano.\n\n2. Mu mitima yesu\nMwise mutekemo,\n'Cilaka ca bololoke\nKacibelelemo.\n\n3. Ubufumu bwise,\nBwangu bapalwemo;\nMashiwi musalanganye\nYatupe cikuku.\n\n4. 'Bena fyalo bonse\nBwangu bapalwemo;\nBabe bamunyina bonse,\nBakele fye pamo.\n\n5. Ubufumu bwise,\nNe cipuna cenu,\nMucibike panwesonde,\nMupale ba calo."
+  },
+  {
+    "id": 162,
+    "number": 162,
+    "title": "MWE KRISTU, KATEKA",
+    "lyrics": "1. Mwe Krisyu, Kateka,\nMwe bakose cibi,\nMutobe ku maka\nUlumya lwababi.\n\n2. ' Buteko bwa luse\nNo bwa kutemwana,\nMwileka tupuse,\nNo kulapatana.\n\n3. Muleke filepwa\n'Fikali no kulwa,\nNa fyonse fyatipwa\nFilesho kutulwa.\n\n4. Mwe Mfumu, iseni,\nNgo mwela wakuka\nTusansamusheni\nFwe bamufuluka.\n\n5. Abantu basula,\n'Mimbulu Isaka;\nUkwanga kwabula,\nAbenu banaka.\n\n6. Ku fyalo kutali\nImfifi yakula;\nMwebeko bene,\nMwe Kristu, Katula."
+  },
+  {
+    "id": 163,
+    "number": 163,
+    "title": "UPEPE LESA",
+    "lyrics": "1. Upepe Lesa!\nWilapepa fintu fimbi;\nUlemutemwa ku mutima\nNo kucila bantu bambi.\nUpepe Lesa!\n\n2. Leko kulapa!\nMwi ishina lya kwa Lesa\nKano nga waya lubulula\nKu Mfumu iya milandu.\nLeko kulapa!\n\n3. 'Nshiku sha Lesa\nUlepepe Mfumu bwino\nWilafumina ku milimo,\nUtushe no kepepela\n'Nshiku sha Lesa.\n\n4. Abakufyele\nAbatemwe, ubalele,\nUbalombele Lesa obe;\nUbalonganye ku mwakwe,\nAbakufye.\n\n5. Wilaipaya!\nUtemwe no wa misoka;\nUluse upashanye Lesa\nUluse akubelela\nWilaipaya.\n\n6. Wilayangala!\nNo bwangalo bwabipisha.\nFumyapo umutima obe\n'Kuti Lesa obe 'kwafwa.\nWilayangala!\n\n7. Sulo bupupu!\nWikabila ulepula,\nUpulataba no mulandu;\n'Bupupu bwapata Lesa.\nSulo bupupu!\n\n8. Wibepa bufi!\nNga walubuka Mfumu;\nKubepo bufi e lisambi:\nIbukisha ku milandu,\nWibepa ubufi.\n\n9. Fumyo mutima\nKu mukashi wa mubiyo;\nWibembuka na ushaupwa,\nKubutwa ne fibi fyonse,\nFumyo Mutima.\n\n10. Fyuma fya bene\nWilakumbwa no kukumbwa;\nShita pa kuti fibe fyobe\nWilafipoka ku maka,\nFyumu fya bene."
+  },
+  {
+    "id": 164,
+    "number": 164,
+    "title": "UKUPEPA",
+    "lyrics": "1. Upepe ku macaca,\nUpepe akasuba;\nUpepepa cungulu,\nUpepyo bushilu.\nNo m'tima onse wine,\nFya panshi ufumye\nKumubyo lefukama,\nMu nkama upepe.\n\n2. 'Fibusa ibukisha,\nPepela babiyo;\nPepela aballwani,\nNga balekucusha.\nUlombe ngo li weka\nIfyo ulebulwa;\n'Mapepo yonse lomba\nMwi shina lya Yesu.\n\n3. Nga wabulwe cifulo,\nMu nkama upepe\nLelwa matontonkanyo,\nYabuta yabepo.\nYengile muli lwe\nNo mwine ku mulu\nKulyu Yo umfwa pe.\n\n4. Tatuli no bupalo,\n'Bwalingana bulwa\nShifwe aletupela\nBulya nga twalomba.\nUli ne nsoni, bushe?\nKuli Yesu pepa,\nIbukisha, sekela,\nLesa 'likutemwa."
+  },
+  {
+    "id": 165,
+    "number": 165,
+    "title": "MWE MFUMU, E CAWAMISHA",
+    "lyrics": "1. Mwe Mfumu, e cawamisha,\nBwaca no bwailo kwisa\nKuli imwe no kepepa.\n\n2. Kuno ukuli tondolo,\nTatulatendeke ncito,\nTwalombe lelo bupalo.\n\n3. Nga bwaila inshiku pe,\nTwisa fisama kuli 'mwe,\nUkuti tumutotele.\n\n4. Mubyo lubuto kacelo,\nKuli ifwe ni pa lwendo,\nTulwishe fibi mwi pepo.\n\n5. Nge ncito cungulo,\nTwaisa yebelelapo,\nKabinge mubyo lubuto,\n\n6. Ni mwe Lubuto lwa fyalo,\nTutungululeni na pano,\nKacelo pe ne cungulo."
+  },
+  {
+    "id": 166,
+    "number": 166,
+    "title": "PEPENI LESA MU MUSHILO WAYEMBA",
+    "lyrics": "1. Pepeni Lesa mu mushilo wayemba;\nToteni ukwali, muletina;\nMwise ne cumfwila cine cishilemba,\nMufuke; pantu Lesa lishina.\n\n2. Ifisakamina bikeni ukwali;\nWa maka wa luse alesenda,\nAleafwa no kubaka ku sha nkali,\nAlecita cisuma we wenda.\n\n3. Wiba no mwenso pantu walisaluka,\nTasale cinso tapende fyuma;\nIcine cayemba no luse lwafuka,\nE fya Lesa 'ti fisuma.\n\n4. Nga twatule fi, atemwa kufimona;\nAlepa fwe balanda ukwanga;\nKu batutuma na batine fipona,\nAmano no luse alelanga.\n\n5. Pepeni Lesa mu mushilo wayemba;\nToteni ukwali, muletina;\nMwise ne cumfwila cine cishilemba,\nMufuke; pantu Lesa lishina."
+  },
+  {
+    "id": 167,
+    "number": 167,
+    "title": "TWAISA, TWAISA M' NGANDA",
+    "lyrics": "1. Twaisa, twaisa, m' nganda yenu\nKupepa imwe, mwe Mfumu.\n\n2. Iseni, iseni kuli ifwe;\nTulelindilila mwe Bene.\n\n3. Mubule. mubue ukutota,\nTuletotela imwe pano.\n\n4. Umfweni, umfweni, mwe Shikulu,\nIfyo twalalomba ku Mfumu.\n\n5. Tulomba, tulomba, shi mufushe\nbe bumba lyenu ilya panshi.\n\n6. Bakeni, bakeni, ifwee bonse\nPa kweshiwa ku fibi fyonse.\n\n7. Fwe babi mutusambe;\nIfilonda fyesu muposhe.\n\n8. Tubute, tubute imitima,\nTupashanye Yesu ubusuma.\n\n9. Twafweni, twafweni, mwe Shikulu.\nTutemwe imwe Lesa M'kulu."
+  },
+  {
+    "id": 168,
+    "number": 168,
+    "title": "MWE CENGE CA LUSE, NTUNGULUSHI",
+    "lyrics": "1. Mwe cenge ca luse, Ntungulushi,\nNyensheni mwe;\nBwaila ye, kwalepa ku mushi!\nNyensheni mwe.\nNshileti mone ifya kutali;\nNdeyenda naikato to muli\n\n2. Kale nshali ifyo, nshali walomba,\n\"Nyensheni mwe,\"\nNali wasala fye nshila nomba\nNyensheni mwe;\nNali wapumba, nati njikale,\nMwe Lesa, Ye! labeni sha kale.\n\n3. Mwe bafwa kuli nomba, nyensheni;\nIfyo fine.\nMwafwe mu mpili, m'nika. cesheni\nUbwa cine:\nElyo kwaula nkomfwa kwashila,\nKwa batemwikwa batangilila."
+  },
+  {
+    "id": 169,
+    "number": 169,
+    "title": "MWISE NJAFWA, LESA M'KULU",
+    "lyrics": "1. Mwise njafwa, Lesa m'kulu,\nUkwenda muno calo;\nNanaka, muli na maka,\nM'njikate ku kuboko;\nCilyo cine ca mulu,\nMulendisha mu calo.\n\n2. Ku ntulo mone amenshi\n'Yabeka, mpembula;\nNo m'lilo wenu ne kumbi\nFibe fintungulula;\nMwe bakosa, mwe Katula,\nNcingeni pe ku maka.\n\n3. Pa kufika ku m'longa wa mfwa,\nMunjikate, munyenshe;\nImwe mwacimfishe imfwa,\nMunjabushe, mumfishe:\nNkamulumba, mwe Kacimfya,\nAmalumbo aya pe."
+  },
+  {
+    "id": 170,
+    "number": 170,
+    "title": "WE MULENDO ULEYS KWI?",
+    "lyrics": "1. We mulendo uleya kwi?\nTeka mutima obe.\nUbombesha kuni kwine\n‘Suke Mfumu ise.\n\nLindilileni, lindilila, lindilila.\n\n2. Ubupanda kuli Lesa\nTulemwebe fye cine.\nUbombeshe unakishe\nElyo’ kesa tusha\n\n3. Bushe ‘li mushilikale\nWe kalinda?\nBushe ukeminina pe\nKu menso ya Mfumu?\n\n4. Mukomfwe penga likalila\nKu muli.\nImwe bonse mukeme\nPe shina lya ntashi.\n\n5. Koloke, Ho! Koloke, Ho!\nNi mwe bantu bakwani?\nKoloke, Ho! Koloke, Ho!\nNi few bantu bene Yesu! Lindilila!"
+  },
+  {
+    "id": 171,
+    "number": 171,
+    "title": "LESA MUTUPALE",
+    "lyrics": "1. Lesa, mutupale\nMube no luse pe\nLekeni mpumi ya Mfumu\nItubalikile.\n\n2. Calo cishibishe,\nNe mikowa yonsu,\nCikuku cenu cisuma\nCiletula bonse.\n\n3. Bacindike imwe,\nBantu bacindike;\nMikowa isekelele,\nBonse bamwimbile.\n\n4. Imwe mupingule\nMwalilungamisha;\nMuteke bantu mu cine,\nBonse ba mikowa.\n\n5. Bantu bamilumbe,\nBamulumbe bonse;\nBanono na bakalmba\nBatashe imwe pe.\n\n6. Calo catatwala;\nLesa ‘tume palo;\nAbantu balamutina\nKu mpela sha calo."
+  },
+  {
+    "id": 172,
+    "number": 172,
+    "title": "YESU NYENSHA NILUBA",
+    "lyrics": "1. Yesu nyensha, niluba,\nNyesha bwino mu nshila;\nNdi bwino nga mulipo,\nMuli ‘mwe njikalemo.\n\nNyensha, nyensha\nYesu nyensha, niluba;\nNyensha bwino mu nshila\nNshiku shonse ne nshita.\n\n2. Ni mwe cubo kuli ‘ne,\nNga matunko yesu pe;\nNdi fye ngo li mupepi,\nNcetekela muli ‘we.\n\n3. Yesu nyensha ku mpela,\nYa bwikalo na ku mfwa;\nNsuke mfike kwi shilys\nKulyo bulanda bwapwa."
+  },
+  {
+    "id": 173,
+    "number": 173,
+    "title": "MU BULANDA BONSE UBO USANGA",
+    "lyrics": "1. Mu bulanda bonse ubo usanga,\nMu kushuka konse, mu kupelelwa,\nPenda fintu fyonse Lesa akupa\n‘Cine uletasha pantu fya fula.\n\nPende fintu fyonse fisuma!\nPende fya bupe bwa kwa Lesa!\nPenda kale, penda na nomba,\n‘Cine uletasha pantu fya fula.\n\n2. Wafininya no kucula we mwana?\nCapindama usendele cafina?\nPenda fintu fyonse Lesa akupa,\nUkwimba no kwanga nelyo wacula.\n\n3. Wibika mutima pa fya panonse,\nLosha menso kuli Kristu ku ntashi,\nPenda fya bupe bwakwe ifyacisha,\nNe fya ku mwabo uleo atangila.\n\n4. Nomba mu kulwisha konse witendwa\nLesa mukalamba alekumona,\nWenw aishibe nshila uleya,\nLwendo lonse mwine akulakwafwa."
+  },
+  {
+    "id": 174,
+    "number": 174,
+    "title": "MWE MFUMU NYENDE NA IMWE",
+    "lyrics": "1. Mwe Mfumu, nyende na imwe\nMu nshila sha milimo pe;\nMunjebe bwino mungafwe,\nMu mulilo no bulanda.\n\n2. Mungafwe ncincishe bantu\nNe shiwi lya luse lwenu;\nNdetungulula baluba,\nKu nshilla yenu yawama.\n\n3. Mumpelyo mute' na imwe\nNyende mu bucibusa pe\nMu milimo ncetekela\nMwi subilo nkacimfya.\n\n4. Lubuto lwenu lube pe\nMu nshila yandi panonse;\n'Mutende wenu mumpele,\nMwe Mfumu njikale ne mwe."
+  },
+  {
+    "id": 175,
+    "number": 175,
+    "title": " KU MINWE LESA NJIKATA",
+    "lyrics": "1. Ku minwe Lesa ‘njikata,\nNdeendo lwendo na Tata;\nMu mfifi ma mu kubuta\nNi Tata e wanjikata.\n\nAnondola Lesa Tata,\n‘Minwe yakwe yanjikata;\nImbe mukonshi wa cine,\nPantu alondola ine.\n\n2. Inshila nga yayafisha,\nKu fibi fingi nga ‘mpisha,\nIshiwi lyakwe lyanjita;\nNi Tata e wanjikata.\n\n3. Mwe Tata, nyende pe ne mwe,\nNo kuba fye ne cimwemwe;\nNsekele na ku fyapona;\nWanyenshe fi, e umona.\n\n4. Ngo lwendo lwandi napwisha,\nNo luse lwenu lwanfisha\nKu mwesu uko ndelola,\nNi Tata e wanondola."
+  },
+  {
+    "id": 176,
+    "number": 176,
+    "title": "MFISA MWE MFUMU MWE BENE",
+    "lyrics": "1. Mfisa mwe Mfumu, mwe bene.\nMu lwafyo lwenu,\nLubuto lobe lumfimbe,\nNkumone pa menso.\n\nMfisa, mfisa\nWe Mupusushi mfisa,\nWe Mfumu ndama\nMfisame muli ‘we\n\n2. Icipupu canyimina,\nKuno uko ndi,\nMpisha ku mulu waciko,\nNsumbulwe kuli ;we.\n\n3. ‘Musana nga wafunika\nMu kuculisha,\nPa kukuta, “Mfumu ngafwa,”\nWe mwine ngasuka.\n\n4. Mfisa, Mfumu napapata,\nNshili na maka,\nWe wa maka Mupusushi,\nNi we mulubushi."
+  },
+  {
+    "id": 177,
+    "number": 177,
+    "title": "YESU MUTWENSHE",
+    "lyrics": "1. Yesu, mutweshe,\nTuye tutushe,\nNelyo nshila ilecusha,\nTukakonka no kukosa;\nTungululeni,\nTwende na imwe.\n\n2. Nshila yayfye,\nCiwa capimfya,\nTwitwishika no kutina,\nTube few abasumina;\nTwende tushipe\nNa ku balwani.\n\n3. Apo twacula,\nNga batusula;\nNga twatunkwa no kweshiwa,\nMwise twafwa mwe kacinfya;\nTulosha menso\nUko ku mwesu,\n\n4. Yesu mutwenshe\nTuya tutushe\n‘Ntungulushi yak u mulu,\nMutucinge muno calo,\nTusuke tube\nPamo na imwe."
+  },
+  {
+    "id": 178,
+    "number": 178,
+    "title": "ULIKO MUSUMBA",
+    "lyrics": "1. Uliko musumba,\nUsuma ku mulu;\nTakuli cintu ca kukowesha\nIcingafikako.\n\n2. Katula ninjisa,\nNo kumupapata\n‘Kuti munsambe,\nKu fyapipa fyandi.\n\n3. Kristu ndefwaisho\nKubo mwana wenu;\nMunsunge bwino, munsunge bwino\nPa kuluba kwandi\n\n4. Kuti njikaleko,\nKu mulu na imwe;\n‘Kubuta tutu, ‘kubuta tutu\nMu calo ca luse."
+  },
+  {
+    "id": 179,
+    "number": 179,
+    "title": "UMWEO MWAPELE",
+    "lyrics": "1. Umweo mwapele\nMulandu wa ine;\nMwati mundubule\nMbwele ku mfwa kwine:\nMwafwilile ine,\nMwe Lambo lya cine.\n\n2. Mwapishishe myaka\nMwali no kunaka;\nMwati, “Nkalabaka\nKu m’tende wan taka”\nMwapishishe ine\nMona pe ‘fye cine\n\n3. Ku mwenu kwabuta\nMwashile; mwaise\nMu calo ‘mwafits,\nNa babi bacusha:\nMwaishile ine,\nMunkwata mwe Mwine.\n\n4. Mwe mfumu, mwacula\nYe, mwacula cibi;\nMwatile, “Ndetua\nAbafwa mu fibi”\nMwaculile ine,\nMonyo mweo wine.\n\n5. Mwafumya kwi sano\n‘Busuma bwa bupe,\n‘Fya maka fya mano,\nNo mweo nshiku pe;\nMwalete fya bupe,\nNa ine nkamupa.\n\n6. Ndemupo mutima,\nNe wene, ndebomba;\n“fyandi ndemufima,\nNalayana nomba:\nN\\mwaipa kuli ne,\nNaipa kuli mwe."
+  },
+  {
+    "id": 180,
+    "number": 180,
+    "title": "IFYO NDI, -NSHITELEBWILA",
+    "lyrics": "1. Ifyo ndi, -nshitelebwila\nUmulopa wansimune\nKuli imwe, mwe banjita,\nMwe Mfumu, naisa.\n\n2. Ifyo ndi,-nshilepembela\nKufumya cimo cabipa,\nKulim mwe, mwe ba kunsamba\nMwe Mfumu, naisa.\n\n3. Ifyo ndi,-mwalinjishiba,\nNapenampena ne fingi,\nKulwishanya mu mutima,\nMwe Mfumu, naisa.\n\n4. Ifyo ndi-‘mupina, ‘mopfu,\nKampoke fyuma fya mpomfu;\nUkufisanga ku mwenu;\nMwe Mfumu, naisa.\n\n5. Ifyo ndi-mwampokelela,\nKunjelela no kunsamba,\nFya mwalaya nasumina,\nMwe Mfumu, naisa.\n\n6. Ifyo ndi-‘kutemwa kwenu,\nKwayanshe filwani bwangu,\nNomba, mwe mfumu, ndi wenu;\nMwe Mfumu, naisa."
+  },
+  {
+    "id": 181,
+    "number": 181,
+    "title": "YESU ALETWITA BONSE",
+    "lyrics": "1. Yesu aletwita bonse,\nTwime, twende, tukonke;\nKwi shiwi lyanaka ‘leti,\n“Mwina Kristu, unkonke,”\n\n2. Ifyo baumfwa na kale\nKuli bemba Galili,\nBaleke fyonse fya panshi,\nBatemwe mfumu iyi.\n\n3. Aletwita nefwe lelo,\nAti, “Fyafye wiyesha,\nWilolela fya mu calo;\nMwina Kristu ntemwisha.”\n\n4. Ku kutusha no kubomba,\nKu kucula no kwanga,\nAisako, aletweba,\nMuntemwe no musamwe.\n\n5. Aletwita; mwe Ba luse,\nMuletwafwo kwitaba,\nTupe mitima, tuteshe,\nNo kubomba kuli mwe."
+  },
+  {
+    "id": 182,
+    "number": 182,
+    "title": "BUNO BUSHIKU KUSHUKA",
+    "lyrics": "1. Buno bushiku kushuka\nApo nasanga katula;\n‘Mutima wandi wayanga;\nNdebeba fye ‘bantu bonse.\n\n‘Kushuka! ‘Kushuka!\nApo ansamba ku fibi!\nNo kumfundisho kupepa\nNo kunsekele nshiku pe;\n‘Kushuka! ‘Kushuka!\nApo ansamba ku fibi!\n\n2. ‘Mulandu onse upwile!\nNe wa kwa Yesu, wafutwa;\nAnkula ine no luse\nNa ine nomba ndekonka.\n\n3. Utushe fye we mutima\nWifuma ku Mfumu yobe;\nSango mutende lwa Lesa;\nFisuma fyonse ukwete.\n\n4. Lesa aumfwe layano,\nAkulaumfwe nshiku pe,\nIsuke imfwa ikese,\nNkalumbe Mfumu ya luse."
+  },
+  {
+    "id": 183,
+    "number": 183,
+    "title": "MWE YESU NINSUMINO",
+    "lyrics": "1. Mwe Yesu ninsumino\nKumutumikila;\nMube ‘pepi na ine\nShikulu, Cibusa.\nTeti ntine fyabipa\nNga muli mupepi;\nNelyo kuluba luba\nNgo li ntugulushi.\n\n2. Ngumfwe muli kuno ndi,\nFya calo filipo,\nNamone fintwi fingi\nNe filentunkapo.\n'Balwani nabo bali\nMukati na kunse;\nMwe Yesu mumpalame,\nMumbake ku fibi.\n\n3. Ngumfwe fyo mulelanda\nNe shiwi lyawama,\nKukana umfwe fya fye,\nNelyo ifyabipa.\nSoseni njishibishe,\nNo kuntungulula;\nSoseni ngufwikishe,\nMwambako mutima.\n\n4. Mwe Yesu mwalaile\nBonsha bamukonka;\nBakaba uko muli,\nCifulo cisuma.\nMwe Yesu nalailyo\nKutumikila pe;\nMumpele icikuku,\nMwe Shikulu nkonke.\n\n5. Nkamone nkasa shenu,\nNyendemo ne mwine;\nNakulakonka bwino,\nMu maka yenu pe.\nNtungululwe, munjite,\nMunjikatishe pe;\nElyo mumpokelele,\nKu kulu kuli ‘mwe."
+  },
+  {
+    "id": 184,
+    "number": 184,
+    "title": "ESHA PE, USHILE, UMFWE KU MFUMU",
+    "lyrics": "1. Esha pe, ushile, Umfwe ku Mfumu;\nIkala kwa Yesu, Ulyeko iwe.\nTwemwa bana bakwe, Afwa banaka.\nFwaye palo lyakwe, Ne cebo baka.\n\n2. Esha pe, ushile, ‘Calo ciumya\nIkala ku mabali,Yesu awamya;\nWabe bakeshiba Yesu apala.\n\n3. Esha pe, ushile, Leka akwenshe,\nWende nankwe pamo, Wiya pa natanshi:\nPabipa, pawama, Wende na Yesu;\nE was ale nshila, E mweo wesu.\n\n4. Esha pe, ushile, Teko mutima;\nEba yesu fyonse, Kuti fyashima.\nEnda no Mupashi, poke fya bupe,\nE fyo uwaminwe, ku mweo w ape."
+  },
+  {
+    "id": 185,
+    "number": 185,
+    "title": "TE KUTI NKANE YESU YO",
+    "lyrics": "1. Te kuti nkane Yesu yo,\nNdemucetekela;\nPa muti ancito mweo,\nNe shiwi lindela.\n\nPa muti, pa muti yashibulwa menso,\nNe cafina candi casendwa fye;\nMwandubwile, mwansenda no mwenso\nNomba mwampelo kusamwa pe.\n\n2. Ni Yesu Mwine Katula,\nIshina ndelumba,\nTasebanya abakula\nKulya ku musumba.\n\n3. Ilayano lyakwe lya cine\nKuti ambakila\nIco napele ku Mwine\nKu nshita yashila.\n\n4. Akanumbula ne shina\nKuli Lesa Wishi,\nNo kunjikasho washina\nKu mwabo ku mushi."
+  },
+  {
+    "id": 186,
+    "number": 186,
+    "title": "TULEYAKU KUBYALA",
+    "lyrics": "1. Tuleys ku kubyala\nKu ntashi tukasanga\nFisabo fya fulisha\nIfya kukushe mibili.\n\nFisabo fya fulisha,\nFisabo fya fulisha,\nFisabo fya fulisha,\nIfya kukushe mibili.\n\n2. Twatota no kutota\nKuli Lesa wesu\nPa kutupela fyonse\nNo bupalo bukalamba.\n\n3. E calenga mwe mfumu\nTwalomba kuli imwe\nTubyale mu mitima\nIfisabo fya mipashi."
+  },
+  {
+    "id": 187,
+    "number": 187,
+    "title": "TULIMA NO KUTANDA",
+    "lyrics": "1. Tulima no kutanda\nImbuto shisuma;\nLesa wena musuma\nImfula atuma;\nAtupa na kasuba,\nNo mwela wa kumya;\nAmeshe mbuto panshi,\nNe filyo afumya.\n\nFyonse fisuma\nFyafuma ku mulu:\nMutotela, mutotela\nPa luse lwakwe 'lu\n\n2. Umwine e kabumba\nWafyonse fyabapo;\nAmesha amaluba,\nTube 'bacebapo;\nAenshe ntanda na sho,\nNa bemba n mwela;\nKu tuni, na fwe bana,\nIfilyo apela.\n\n3. Twatotela, Ba Tata,\nKu fyonse fisuma;\nKu mweo na ku bumi,\nKu filyo mwatupa;\nFyonse fya bupe bwenu,\nLesa wa luse 'mwe;\nNa ifwe tube 'benu,\nTukuke, tutemwe."
+  },
+  {
+    "id": 188,
+    "number": 188,
+    "title": "MFUMU YA MULU NA PANSHI",
+    "lyrics": "1. 'Mfumu ya mulu na panshi\nKuli 'mwe lubyo lulumbi,\nTulangyo kutemwa shani\nKuli imwe?\n\n2. Twaikala n mutende\nPantwi fisuma twapelwa,\nKuli imwe twatotela,\nMwatupa fye.\n\n3. 'Mwana wenu umo wine,\nMwabike lambo lya cine,\nNo luse lwafula lwine\nMutupe fye.\n\n4. Mupashi washilishiwa,\n'Maka no mweo no luse,\nAishilyo kuba ne fwe,\nMwatupa fye.\n\n5. Bantwa bengi balubulwa,\n'Mpulumushi shaelelwa,\nBa Tata twamutotela,\nMwatupa fye.\n\n6. Twatotela kuli Imwe,\n'Mweo, 'mutende na fyonse,\nTwikalilile nenu pe,\nMwatupa fye."
+  },
+  {
+    "id": 189,
+    "number": 189,
+    "title": "YEMWE, TUYEMFYA BANE",
+    "lyrics": "1. Yemwe,\nTuyemfye bane, tuleyemfyo bwinga,\nTulesefyo bwinga bwa Mwana wa Mpanga\nE shibwings wesu Mwana wa kwa Lesa,\nTulumbanye Mfumu ya kutemwe kwesu\nTutemwe bane, tusekele bonse,\nPakupela Mfumu ubu bupe bwesu.\nIlambo lya cine e mitima yesu,\nTuyemfye bane, eya tuyemfye bane.\n\n2. Mwe mfumu\nTwaleto bupe bwa kutemwa kwesu,\nMbalala ne fyumbu ne fipushi.\nAmanni no bunga no lupiya.\nE kutemwe kwesu kuli Tata wesu,\nTwapapata Tata ifwe bana benu,\nMupokelele mulambulo wesu\nTwaipela kuli mwe tuli bantu benu.\nTuyemfye bane, eya tuyemfye bane.\n\n3. Tata,\nTulemutotela pa bumi bwesu,\npa fipatala na babomfi bonse.\nPa masukulu na bakafundisha,\nNa baletuteka na bafyashi besu.\nPa fifwalo fyesu, na pa filyo fyonse.\nNa pa kutufwila mwatwanshishe mfwa.\nNa pa busuma bwa maluba yonse,\nTulumbanye Mfumu ni Yesu kristu.\n\n4. Bonse,\nTutotele Mfumu pa bupe bukulu\nAtumine yesu kwisa tupususha,\nE ni Mfuma yesu, akateke calo,\nne mikowa yonse ikamutotela,\nPantu e mukulu washamfumu shonse,\nTwatotela Tata ifwe bantu bene.\nLumbanyeni Mfumu e kabumba wesu\nMwe fibumbwa fyonse fya mu calo conse."
+  },
+  {
+    "id": 190,
+    "number": 190,
+    "title": "LESA ABE NEMWE NSHIKU PE",
+    "lyrics": "1. Lesa aba nemwe nshiku pe,\nku cikuku amufunde,\nNga mwe mpanga amukumbe\nLesa aba nemwe nshiku pe.\n\nTukumane, tukumane,\nKu makasa ya Mwine;\nTukumane, tukumane,\nLesa aba nemwe nshiku pe.\n\n2. Lesa aba nemwe nshiku pe,\nKumapindo amucinge,\nNo kuteya pe ifingi:\nLesa aba nemwe nshiku pe.\n\n3. Lesa aba nemwe nshiku pe,\nNge filwani fyamuwila,\nWene alefukatila;\nLesa aba nemwe nshiku pe.\n\n4. Lesa aba nemwe nshiku pe,\nLuse lwape amulange,\nKu mfwa kwine lumusange;\nLesa aba nemwe nshiku pe."
+  },
+  {
+    "id": 191,
+    "number": 191,
+    "title": "NOMBA PA KWINGILA",
+    "lyrics": "1. Nomba pa kwingila\nKu mwaka upya,\n'Mashiwi yawama\nYatukosesha.\n'Shiwi lya kwa Tata,\nLyatusosesha;\nIshiwi lya maka\nLyatusekesha.\n\nTwende no kushipa\n'Bana ba Mfumu,\nPantwi shiwi lyakwe\nLibelelela.\n\n2. Lesa ali ne fwe\nIfyo asosa,\nAlatwafwa lyonse,\nTeti tutine.\n\"Ine ndemubaka,\n'Kuboko kwandi\nKulemufishisha.\nKu cinso candi.\"\n\n3. 'Mwaka uletampa\nMu luse lwakwe,\nBonse bakamona\nFya bupe fyakwe\nBabi na balanda\nBalwelwe pamo\nKuli aba bonse\nKulyu bupalo.\n\n4. Teti atulabe,\nNangu kutusha,\nPantu alaile\n'kuba na ifwe.\nTumucetekele\n'Mwako no wine,\nLesa ali ne fwe\n'Nshiku shonse pe."
+  },
+  {
+    "id": 192,
+    "number": 192,
+    "title": "MWAKA UMBI WALIPITA",
+    "lyrics": "1. Mwaka umbi walipita,\n'Nshita ya lubilo;\nTwaise lelo kupepa\nNo kwimbo lwimbo.\n\nTwaisa. . . .Twaisa. . .\nTwaisa mucelela,\nTwaisa. . . Twaisa. . .\nTwaisa no lwimbo.\n\n2. Twaisa lumbanya Yesu\nNo kwimbilo luse\nLwa uwatwita ku mulu\nNo watubaka pe.\n\n3. Twalumbanishisho bupe\nBwa mwako yu wapwa,\nTwaimba layano lyakwe\nNo kusanshikisha.\n\n4. Yatote mitima yesu\nUmwaka walipwa,\nTwacetekela mwe Yesu\nPali uno upya."
+  },
+  {
+    "id": 193,
+    "number": 193,
+    "title": "TATA TWENDE NE MWE PE",
+    "lyrics": "1. Tata twende ne mwe pe,\nImbe wenu 'nshiku pe,\nMulenengo wa cine,\nncite ne fyo fiyene.\n\n2. Ku fyayafye fyafula,\nImwe kuti mwantula;\nMulembaka mu nshila,\nImbe wenu wabila.\n\n3. Nga caise cakwesha,\nKuti mwaba bantesha;\nNa po naba fye neka;\nMulencinga ku maka.\n\n4. Nga nabuta ku m'tima,\nNi mwe; fyaye fyafina!\nE lyo nabo watemwa,\nKuli Tata natemwa.\n\n5. Imbe ne wacita pe\nPanwe sonde 'fya bupe;\nMulendsha kwi sano,\nE ko imbe, ndi mwano."
+  },
+  {
+    "id": 194,
+    "number": 194,
+    "title": "TULI ABANA BANONO",
+    "lyrics": "1. Tuli abana abanono,\nTatwafyelwe bakankala,\nBushe, twalacitila nshi\nYesu waluse, Musuma.\n\n2. Abana bonse ba Mfumu\nBacite ifyo yafunda;\nBatemwe Yesu, bakonke,\nBaleshe ne fibi mu nda.\n\n3. Fwe bana nga twaikusha,\nNe cipyu cesu calula.\nTulolesha mitima yesu,\nTwisosa fyafye, twisula,\n\n4. 'Banensu nga batucenda,\nBasosa fintu fyabipa,\nTwasuke fye bwino bwino,\nTupale Yesu washipa.\n\n5. Tutemwe, tusangalale,\nKubute pe na ku mwesu;\nTucite bonse cisuma,\nTukange 'fi 'fya kwa Yesu.\n\n6. Abana nangu banaka\nBasende fye capindama;\nBatemwe Yesu, balumbe,\nbatashe fyonse 'fyawama."
+  },
+  {
+    "id": 195,
+    "number": 195,
+    "title": "BANA BA KWA KRISTU",
+    "lyrics": "1. Bana ba kwa Kristu\nLintu muli mu nshila\nImbileni katula\n'Milimo yakwe.\n\nTuleenda ku mwesu,\nMu nshila yakwa Lesa,\nBamo nabatangila,\nTukasanga bafika.\n\n2. Inuneni amenso\nKu musumba wabuta,\n'Nganda ilya e ya pe\n'Mfumu yesu ilipo.\n\n3. Mwilatina, enda fye,\n'calo cilya cisuma;\nYesu Kristu mu nshila,\nAletwafwe nshiku pe.\n\n4. Mwe Mfumu twasumna,\nNo kusule fya calo,\nImwe mule tubaka,\nTwalakonka mu mpela."
+  },
+  {
+    "id": 196,
+    "number": 196,
+    "title": "YESU MFUMU ANTEMWA",
+    "lyrics": "1. Yesu Mfumu antenwa,\nIfi fine njishiba,\nBana bonse e bakwe\nBanaka, wenya kosa\n\nYesu antemwa,\nCine antemwa,\nYesu antemwa,\n'Fyebo fyanjebe fi\n\n2. Yesu Mfumu antenwa,\n'Mulu anjiwilile;\nAlansambile fibi,\nNo kundeko kwingila.\n\n3. Yesu Mfumu antenwa,\nMupepi muno nshila,\nNana nga namutemwa,\nAkasenda ku mulu."
+  },
+  {
+    "id": 197,
+    "number": 197,
+    "title": "CAYEMBE CIBI 'CALO",
+    "lyrics": "1. Cayembe cibi 'calo,\nE mwab musamwe;\nKabalika kasuba,\nKalele cimwemwe;\nInshita yende panshi\nNkatemwo kucila,\nPantu nkakonka Yesu\nMu nshila.\n\n2. Nde fye kayendo Kafye,\nNaima pa lwendo;\nBalumbulo bucishi\nAbali bayendo;\nBaleti ukamona,\nIfibi fyacila;\nLelo nkakonka Yesu\nMu nshila.\n\n3. Ndi mwana wa pa lwendo,\nIfibi Fyapona,\nNkatula kuli Yesu;\nNa Yesu nga'mona\nKuti ansansamusha\nKu luse 'lwacila;\nIne nkakonka Yesu\nMu nshila.\n\n4. Ubucushi ndesula,\nNshitina fya kwesha;\nFyafilwo kundesha;\nTeti incimfye ne mfwa,\nCilwani cacila;\nNkaba fye muli Yesu,\nMu nshila."
+  },
+  {
+    "id": 198,
+    "number": 198,
+    "title": "MWICITA IFIBI",
+    "lyrics": "1. Mwicita ifibi,\nMwikalipa fye;\nYesu Amuteke\nBana ba Mwine.\n\n2. Kristu aliwama\nAletemwesha;\nBana bakwe nabo\nBabe basuma.\n\n3. 'Ciwa cilebepa\nCilafwaya pe;\nCatila mubifye,\nMucinakile.\n\n4. Lelo mwilatesha\nMwilanakila;\nLoleni ku Mfumu,\nMuleikonka.\n\n5. Kristu aliwama\nAletemwesha;\nBana bakwe nabo\nBabe basuma."
+  },
+  {
+    "id": 199,
+    "number": 199,
+    "title": "UTWA M' YERUSALEMU",
+    "lyrics": "1. Utwa m' Yerusalem\nTwatashishe Imfumu:\nNo twaice twa nomba\nTwasanshako kulumba.\n\nUfweni, baleimba bana!\nUfweni, baleimba bana!\nSha malumbo, sha malumbo,\nSha Mfumu iyayana!\n\n2. Twafundwa twitemwe,\nNa ku fyebo tuteshe,\nTwalangwe ya mu mulu:\nTwatota, Mfumu Nkulu.\n\n3. Na bana na bafyashi\nBaimilo Mupashi;\nLwimbo ulu lukuku\nLufike na mu mulu."
+  },
+  {
+    "id": 200,
+    "number": 200,
+    "title": "NDESEKELA TATA WA MU MULU",
+    "lyrics": "1. Ndesekela Tata wa mu mulu\nAnjebele fya kutemwa kwakwe:\nMu kalata ndemone fisuma,\nIcacisha, Yesu alintemwa.\n\nNdesekelela, alintemwa,\nYesu, Yesu, alintemwa,\nNdesekelela, alintemwa,\nYesu alintemwa.\n\n2. Nga namulaba no kwendauka\nAlentemwa pe nangula nduba;\nNdebwelela bwangu kwa Katula.\nPa kwibukishe fyo alintemwa.\n\n3. Lwimbo Iwandi ilyo nkalaimba,\nNga namone Mfumu ikankala\nMu kucindama kwakwe kwakula,\nNdesunguka. Yesu alintemwa.\n\n4. Ndemutemwisha Yesu ne mwane;\nAntemenwe, e co andumbwile,\nAmfutilo bubi no mulopa;\n'Cine cine, Yesu alintemwa.\n\n5. Nga bambusha \"Waishiba shani\"\nNati, \"Pantu Yasu amfwilile\"\nMupashi wakwe amhimikila\nAnange fyo Yasu alintamwa.\n\n6. Ndi no mutende pakwishibisha;\nNdecetekela, nasansamuka;\nNombo mulwani afulumuka,\n'Co namweba, \"Yesu alintamwa.\""
+  },
+  {
+    "id": 201,
+    "number": 201,
+    "title": "YESU UWALI MU MULU",
+    "lyrics": "1. Yesu uwali mu mulu\nAishile pano muntu,\nMu lupapulo tumone\nIfyo wene aliwama.\n\n2. Aendawike, ni Mfumu,\nApelya menso ku mpofu;\nAposeshe abalwele\nAbabelele uluse.\n\n3. Elyo abelele cine\nCa kwa Lesa, bacicite;\nE wa cikuku, afuka,\nAtemwo kumfwa ku Mwana.\n\n4. Abantu bamufyengele,\nAimikwe, atanikwe,\nYalya mabako yawama\nKu muti bapampamine.\n\n5. Awe! E co afumine\nKu mulu ni ku kwisa fwa;\nAmalembo yaletweba:\nAleelela babipa.\n\n6. Aishibe balibipa,\nNe fibi filabacusha,\nElyo asosa mu luse,\nNintemwa kuti mbafwile."
+  },
+  {
+    "id": 202,
+    "number": 202,
+    "title": "PE FYE LESA 'LIPO",
+    "lyrics": "1. Pe fye Lesa 'lipo,\nAkulangumfwa,\nAnjishiba mu ncito,\nNa mu kwanga.\n\n2. Pe fye Lesa 'lipo,,\nNa mu bushiku,\nAlamona pe na pe\nnga mu lubuto.\n\n3. Pe fye Lesa 'lipo,\nNangu mbe mwana,\nIfyo mona, 'fyo nsosa\nAlifishiba."
+  },
+  {
+    "id": 203,
+    "number": 203,
+    "title": "MWE BANA, TEMWENI YESU",
+    "lyrics": "1. Mwe bana, temweni Yesu,\nAmumina ku mulu;\nMulumbanishisho luse,\n'Bupususho bukulu.\n\nE cisuma, e cisums,\nUkulumbanya Yesu,\nE cisuma, e cisums,\nUkulumbanya Yesu,\n\n2. Ku mulu ilya 'fumine,\n'Kwisa ikala pano,\nAbana balimwimbile,\nE camupele nseko\n\n3. 'Lintu banyina batwele\nUko alya banono,\nMu mabokwo babumbile\nAbapali bupalo.\n\n4. Mwe bana, temweni Yesu,\nNi kaafwa wenu pe;\nKuno nga mwamulumbanya\nMukalalumbanya pe."
+  },
+  {
+    "id": 204,
+    "number": 204,
+    "title": "MUCITE MBE ULUBUTO",
+    "lyrics": "1. Mucite mbe ulubuto\nLwa kubengeshima,\n'Kalubingu ka mulilo\nKonse nakulaya.\n\n2. Mucite mbe ilibula,\n'Kusekasha bonse,\nIlyatemwo kubalula,\nmwi bala lyacepa\n\n3. Mucite mbe ulwimbo\n'Kushusha bacula,\nUlwa kufumwye cikonko,\nE, no kubakosha.\n\n4. Mucite mbe umutambu\n'kwafwa bashakosa,\nElyo no bumi na maka\nNabatumikila.\n\n5. Muncitile, 'mweo wandi\nUbe akalwimbo,\nAka malubo ya cine,\nNa ka matotelo."
+  },
+  {
+    "id": 205,
+    "number": 205,
+    "title": "TATA TULEMUOTELA",
+    "lyrics": "1. Tata tulemutotela,\nPa budhiku na kasuba,\nButusho, filyo no luse,\nNe fyatupe nseko fyonse.\n\n2. Mutwafwe tucite bwino,\nNo kuba ba luse 'lelo,\nMu milimo no kwangala,\nTukule mu bwina Lesa."
+  },
+  {
+    "id": 206,
+    "number": 206,
+    "title": "MWE LESA MULU BAKULU",
+    "lyrics": "1. Mwe Lesa muli bakulu!\nMwaba Tata na Katula!\nIne Mupina, mwancila,\nBene ba calo no mulu.\n\n2. Muli Tata munsuminyo\nKutesha mapepo yandi!\nMumfwikisha malumbanyo\nNalumbanya ne mwaice..\n\n3. Muli Tata muleke mbyo\nMwana watekanya wenu,\nMu mashiwi na mu ncito,\nMucite fintu mwatemwa.\n\n4. Muli Tata ncetekele,\nMuli imwe mwe Katula,\nMufwaya ndemubombela,\nConse camoneke bwino.\n\n5. Muli Tata na pa kupwa,\n'Nshiku shandi muno calo\nMumbule ne mu kutemwa\nNjikale ne mwe ku mulu."
+  },
+  {
+    "id": 207,
+    "number": 207,
+    "title": "BA KWA LESA BAFUMINE",
+    "lyrics": "1. Ba kwa Lesa bafumine\nMu Egupti mu busha\nBali fye na bana pamo,\nBalalola pasuma;\nAbaice\nBaleenda mu mpanga.\n\n2. Bayawike na yordani,\nBafika ku kanaani,\nBaikele umutende,\nNe fisuma bamwene\nAba bana\nMu nyimbo batotela.\n\n3. Mwe katula, nefwe tube\nAbalendo nga balya;\nImwe mwalitulubula\nKu fibi na ku ciwa,\nNomba nefwe\nTwende ne mwe mu mpanga.\n\n4. Yesu, mututungulule;\nMucinge ku kasuba;\nIsuke mfifi ipite,\nMubutushe inshila;\nMututule\nKuli fyonse fyabipa.\n\n5. Nga twafika pa mumana\nwatala wa mfifi,\nMube naifwe mu memshi,\nMutwabusho mutende;\nMufumye po\nUmwenso wesu onse.\n\n6. Ilyo lwendo lwesu lwapwa,\nTukamona pasuma;\nTukekala na bashila,\nAbana ba mu ng'anda,\nFwe bashuka.\nTukalatasha Lesa."
+  },
+  {
+    "id": 208,
+    "number": 208,
+    "title": "NJISE KULI YESU",
+    "lyrics": "1. Njise kuli Yesu,\nAlempe nseko;\nAkulansekesha,\nNe wa cikonko.\n\nNjise kuli Yesu,\nAlempe nseko;\nAkulansekesha,\nNe wa cikonko.\n\n2. Njise kuli Yesu,\nOmfwa mapepo,\nNao alentemwa.\nAlempususha.\n\n3. Njise kuli Yesu,\nAkulansunga;\nAlantungulula\nKu calo cipya.\n\n4. Eko balya bana,\n'Bafwikwa tutu;\nBamona Katula,\nNi yesu Kristu."
+  },
+  {
+    "id": 209,
+    "number": 209,
+    "title": "FYAPYA MWI BALA",
+    "lyrics": "1. Fyapya mwi bala,\nNa basepa bace,\nTulecita shani,\nTuli baice,\nKu kwafwe mfumu ukusepa?\n\n2. Shacepe ndupi,\nNe fyebo fyanaka,\nTwafilwo kubomba;\nTuli na maka,\nBushe, kuyafwa ukusep?\n\n3. Twakulapepa,\nNo kupele fyesu;\nTwakulaikanya,\nNo kumfwa Yesu;\nE kwafwe Mfumu ukusepa.\n\n4. Ilyo twakula\nTukaba basepa,\n'Batemwo kutumwa,\nNelyo kwalepa,\nKu kwafwe mfumu ukusepa."
+  },
+  {
+    "id": 210,
+    "number": 210,
+    "title": "MWE SHIFWE WA MU MULUIPEPO LWA KWA SHIKULWIFWE.",
+    "lyrics": "Mwe shifwe wa mu mulu,\nIshina lwenu licindikwe,\nUbufumu Bwenu bwuse;\nUkufwaya kwenu kucitwe panonse nga mu mulu\nMutupele ifyakulya fyesu ifya lelo.\nMutulekele imisha yesu, ifyp na ifwe tulekela abatulile misha.\n(Mutwelele milandu yesu, ngefyo na ifwe twelala abatubale imilandu).\nMwitutwala mukweshowa, lelo mututule ku bubi.\nPantu ubufumu, na maka, no kucindama fyenu'\numuyayaya. Amen,"
+  },
+  {
+    "id": 211,
+    "number": 211,
+    "title": "ISUBILO LYA BAPOSTOLI",
+    "lyrics": "Nasubila muli Lesa, shifwe wa maka yonse\nKalenga wa mulu ne calo;\nNa mulu Yesu kristu, Umwana wakwe eka.\nImfumu yesu;\nUyo walengelwe no Mupashi wa mushilo;\nAfyelwe muli Mariya umushimbe;\nAculile kuli Pontio Pilato;\nAtanikwe, afwile, ashikilwe;\nAikile mu cifulo ca bafwa;\nUbushiku bwalenga shitatu abushiwa ku bafwa;\nAninine ku mulu;\nAikala ku kuboko kwa kulyo kwa kwa Lesa,\nShifwe wa maka yonse;\nUkufuma uko akesa pingula abomi na bafwa;\nNasubila mu Mupashi wa Mushila, na mu\nLukuka lwa Mushilo ulwa bonse bene;\nUkwafwana kwa Bashishiwa;\nUkulekelelwa kwa membu;\nUkubushiwa kwa mubili ku bafwa;\nNo mweo wa muyayaya. Amen."
+  },
+  {
+    "id": 212,
+    "number": 212,
+    "title": "ISUBILO (LYA CILYE CA NIKESA A. D. 325)",
+    "lyrics": "Nasubila muli Lesa umo, Shifwe wa maka yonse,\nKabumba wa mulu ne calo,\nNe fintu fyonse fyamoneka ne fishamoneka:\nNa mu Mfumu imo Yesu Kristu, Mwana wafyalwa eka wa kwa Lesa.\nWafyalwa na Wishi pa ntanshi ya nshita shonse,\nLesa wakuli Lesa,\nLubuto lwa lubuto,\nLesa wine wine wa kuli Lesa wine wine,\nWafyalwa te kubumbwa,\nWa musango umo wine na Lesa Shifwe;\nMuli uyo wine ifintu fyonse fyabumbilwe,\nUyo pali ifwe bantu, na pa bupususho bwesu, aikile ukufuma ku mulu,\nNo kufyalwa muli Mariya umushimbe na Mupashi wa Mushilo,\nNo kucitwa umuntu,\nNo kutanikwa pali ifwe kuli Pontio Pilato.\nAculile no kushikwa,\nUbushiku bwalengwa shitatu atutubwike kabinge,\nUkulingana na malembelo,\nNo kunina ku mulu,\nNo kwikala ku kuboko kwa kulyo kwa kwa Lesa Shifwe.\nUko akesa kabinga no lulumbi ukupingula abomi na bafwa:\nUbufumu bwakwe teti bukapwe iyo,\nKabili nasubila muli Mupashi wa Mushilo’\nMfumu na Kapela wa mweo,\nUyo watula kuli Lesa Shifwe no Mwana,\nUyo atotelwa no kulumbwa pamo na Lesa Shifwe no Mwana,\nUyo asosele no tunwa twa bakasesema.\nKabila nasubila mwi Eklesia limo,\nLya mushilo, lya bonse bene, lya bapostolo bene,\nNasubila mu Lubatisho lumo fye lwa kufulunganya kwa mpulumushi,\nKabili no kulolela ukututubuka kwa bafwa,\nNo mweo wa cala ico cikesa."
+  },
+  {
+    "id": 213,
+    "number": 213,
+    "title": "AMASHIWI YE SHUKO (MATEO 5: 3-10)",
+    "lyrics": "1. balishuka ababusu mu mitima; pantu ubufumu bwa mu mulu bwabo.\nR Tushuke fi, Mfumu, twapapata.\n\n2. balishuka abalosha; pantu bene bakasansamushiwa.\nR Tushuke fi, Mfumu, twapapata.\n\n3. Balishuka abafuka; pantu bakakwate calo.\nR Tushuke fi, Mfumu, twapapata.\n\n4. balishuka abali ne nsala ne cilaka ca bulungami; pantu bene bakekuta.\nR Tushuke fi, Mfumu, twapapata.\n\n5. balishuka aba luse; pantu bakabelelwo luse.\nR Tushuke fi, Mfumu, twapapata.\n\n6. balishuka abasanguluke mitima; pantu baka mona Lesa.\nR Tushuke fi, Mfumu, twapapata.\n\n7. balishuka abacito mutende; pantu baketwa abana ba kwa Lesa.\nR Tushuke fi, Mfumu, twapapata.\n\n8. balishuka abalamatilwa pa mulandu wa bulungami; pantu ubufuma bwa mu mulu bwabo.\nR Tushuke fi, Mfumu, twapapata.\n\n9. Muli abashuka ilyo bamupontela, no kumulamata, no kumwambo bufi icintu conse ca bubifi pa mulandu wa ine; sekeleleni no kwanga, pantu icilambu cenu cikalamba mu mulu; pantu e fyo balamete bakasesema ba ntanshi.\nR Lembeni fye shuko, mu mitima, Mfumu."
+  },
+  {
+    "id": 214,
+    "number": 214,
+    "title": "LESA AKUPALE (IMPENDWA 6: 24-26)",
+    "lyrics": "1. Yehoba akupale, no kukubaka;\n\n2. Yehoba alenge icinso cakwe ukubutisha kuli iwe, no kukusenamina;\n\n3. Yehoba enwine icinso cakwe kuli iwe, no kukupo mutende."
+  },
+  {
+    "id": 215,
+    "number": 215,
+    "title": "LESA AKUPALE (IMPENDWA 6: 24-26)",
+    "lyrics": "1. Nomba, we Mwine lubanda, muleke umusha wenu aye, aye umutende umwabele shiwi lyenu;\n\n2. Pa kuti amenso yandi yamone pusukilo lyenu.\n\n3. Ilyo mwapekanisha kuccinso ca bantu na ‘bantu.\n\n4. Ku kubo lubuto lwa kusokolwela Abena fyalo.\n\nNo bukata bwa bantu benu abena Israele.\n\nUlulumbi lube Kuli Lesa Shifwe, na ku Mwana, n ku Mupashi wa Mushilo:\n\nIfintu lwali mu butendeko; efyo lwaba\nnomba, efyo lwakulaba pe na pe. Amen."
+  },
+  {
+    "id": 216,
+    "number": 216,
+    "title": "ULULUMBI (GLORIA IN EXCELSIS)",
+    "lyrics": "1. Ululumbi lube ku mulu kuli Lesa, no mu tende mu calo, ubusuma ku bantu.\n\n2. Twamulumbanya, twamucindika, twamutotela, twamufukamina,\n\n3. Twamuletela ululumbi pa mulandu wa lulumbi lwenu lukalamba,\n\n4. Mwe Mfumu Lesa, kateka wa ku mulu, Lesa Shifwe wa maka yonse.\n\n5. Mwe Mfumu, Mwana wafyalwa eka Yesu Kristu;\n\n6. Mwe Mfumu Lesa, Mwana wa mpanga wa kwa Lesa, wa kwa Lesa Shifwe,\n\n7. Mwe bafumya imembu shs calo, mutubelel uluse\n\n8. Mwe bafumya imembu shs calo, mutubelele uluse.\n\n9. Mwe bafumya imembu shs calo, mupokele ipepo lyesu.\n\n10. Mwe baikala ku kuboku kwa kulyo kwa kwa Lesa Shifwe mutubelele uluse.\n\n11. Pantu Imwe mweka fye muli Mushilo; Imwe mweka fye muli Mfumu\nImwe mweka, mwe Kristu, pamo no Mupashi wa Mushilo, muli wa pa mulu mu lulumbi lwa kwa Lesa Shifwe. Amen"
+  },
+  {
+    "id": 217,
+    "number": 217,
+    "title": "ULWIMBO LWA KWA MARIA (LUKA 1: 46-55)",
+    "lyrics": "1. Umutima wandi uletasha Shikulu\n\n2. No mweo wandi waangile Lesa Katula wandi;\n\n3. Pantu alolesha pa bulanda bwa musha kwake. Pantu, moneni, ukufuma kuli nomba aba nkulo shonse bakanumbulo washuka\n\n4. Pantu Uwa maka ancitila fikalamba. Kabili lya mushilo ishina lyakwe.\n\n5. No luse lwakwe lwa ku nkuli ne nkulo ku bamutina.\n\n6. Acita ca maka ku kuboku kwakwe. Asalanganya aba miya mu kwelenganya kwa mitima yabo,\n\n7. Abakata abesha pa fupuna fya bufumu, Na ‘balanda abasansabika,\n\n8. Aba nsala abekusha fisuma, na ‘ba fyuma abafumyako iminwe mikutwa.\n\n9. Ayatwa kalume wakwe Isreale, ukwibukisho kubelelo luse,\n\n10. (Ifyo asosele ku fikolwe fyesu) kuli Abrahamu no bufyashi bwakwe, umuyayaya.\nUlulumbi lube kuli Lesa Shifwe, na ku Mwana, na ku Mupashi wa Mushilo.\nIfintu lwali mu butendeko: efyo lwaba na nomba, efyo lwakulaba pe na pe. Amen."
+  },
+  {
+    "id": 218,
+    "number": 218,
+    "title": "ULWIBO LWA KWA ZAKARIA (LUKA 1: 68-79)",
+    "lyrics": "1. Abe uwapalwa Lesa wa kwa Israele,\nPa kuti napempula abantu bakwe,\nno kuba citile cilubula;\n\n2. Kabili atwimikilo lusengo lwe pisikilo,\nMu ng’anda ya mubomfi wakwe Dabidi-\n\n3. Ifyo alandile kale umuyayaya mu tunwa twa ba mushilo,\nbakasesema bakwe; ku kututula ku balwani besu,\nNa ku maboko ya bonse abatupata; ku kucito luse ku fikolwe fyesu,\nno kwibukishe layano lwakwe lwa lya mushilo,\n\n4. umulopa uo alapila kuli Abrahamu icikolwe cesu,\n\n5. ukuti, pa kuba abapokololwa ku maboko ya balwani besu.\n\n6. Atupele ukuba aba kumupyungila ukabulo mwenso,\n\n7. Mu mushilo na mu bulungami ku menso yakwe inshiku shesu shonse.\n\n8. Awe na iwe, we mwana, uketwa kasesema wa Wapulamo;\npantu ukatangilila ku cinso ka kwe Shikulu ku kupekanye nshila shakwe.\n\n9. Ku kulanga bantu bakwe ukwishibe pusukilo\nMu kulekelelwe membu shabo,\n\n10. Pa mulandu wa luse lwa cikuku ulwa kwa Lesa wesu,\numukesa tupempwilo kuca kwa mu mulu uwapulamo,\n\n11. Ku kubalikila pa baikala mu mfifi na mu cinshingwa ca mfwa,\nUlulumbi lube kuli Lesa Shifwe, na ku\nMwana, na ku Mupashi wa Mushilo.\n\nIfintu lwali mu butendeko; efyo lwaba na nomba,\nefyo lwakulaba pen a pe.\nAmen."
+  },
+  {
+    "id": 219,
+    "number": 219,
+    "title": "TWAMULUMBANYA IMWE MWE LESA",
+    "lyrics": "1. Twamulumbanya Imwe, mwe Lesa: twasumina ukuti Imwe muli Mfumu.\n\n2. Icalo conse cilemutotela: mwe shifwe wa pe na pe.\n\n3. Bamutotela na bangeli bonse: ne myulu na ba make bonse abaikalamo.\n\n4. Kuti Imwe Bacelubi na Baselafi: bemba no kuleka iyo.\n\n5. Mwe Mushilo, Mwe Mushilo, Mwe Mushilo: Mfumu Lesa wa mabumbwa.\n\n6. Umulu ne calo: fyaisula no lulumbi lwenu.\n\n7. Bapostolo mu cilonganino caba ca kutasha: bamulumbanya Imwe.\n\n8. Bakasesema mu kwafwana kwabo kwawamisha: bamulumbanya Imwe.\n\n9. Bamufwilile mu mabumba yabo ayacindama: bamulumbanya Imwe.\n\n10. Eklesia lya mushilo mu fyalo fyonse: Iyasuminisha Imwe.\n\n11. Mwe Lesa Shifwe: mwe ba lulumbi lushakapwe:\n\n12. No Mwana wenu wacindikwa wa cine uwafyelwe eka:\n\n13. Pamo no Mupashi waMushilo Kasansamusha.\n\n14. Imwe muli Mfumu ya lulumbi mwe Kristu:\n\n15. Muleikalilila pe Umwana wa kwa Lesa Shifwe.\n\n16. Ilintu mwaiminine kupususha abantu: tamwasulile fumo lya Mushimbe.\n\n17. Ilintu mwapwile ukwansho kucula kwa mfwa, mwabeswila bonse abasubila Bufumu bwa ku mulu.\n\n18. Mwaikala ku kuboko kwa kulwo kwa kwa Lesa: mu lulumbu lwa kwa Shifwe.\n\n19. Twasubila ukuti mukesa kabili ku kutupingula.\n\n20. Eco twapapata mubafwa abatu benu: abo mwalubula no mulopa wabulo mutengo.\n\n21. Mubapende mu mulongo wa basalwa benu: mu lulumbi lya pen a pe.\n\n22. Mwe Mfumu , mubapusushe abantu benu: no kupala ba bupyani bwenu.\n\n23. Mubatungulule: no kubasumbula pe,\n\n24. Nshiku ne nshiku twamulumbanya:\n\n25. Kabinga twatotela Ishina lyenu mu nshita shonse pen a pe.\n\n26. Twamupapata, mwe Mfumu: mutucinge lelo line ku mpulumushi.\n\n27. Mwe Mfumu, mutubelele uluse, mutubelele uluse.\n\n28. Mwe Mfumu, mutulangilile uluse lwenu,Ngefyo twacetekela muli Imwe:\n\n29. Mwe Mfumu, muli Imwe nincetekela,\nMwindeka nsebane iyo."
+  },
+  {
+    "id": 220,
+    "number": 220,
+    "title": "KALE UBUSHIKU",
+    "lyrics": "1. Kale ubushiku\nYesu afyelwe\nAishile panshi\nwana munono\nLelo ncede isuma\nTayasangwile\nPa ku fyalwa kwakwe\nKale na kale.\n\n2. Mu mulu bangeli\nBalemwimbila\nFyonse alekele\nKwikala panshi\nAcendeme mu cani\nNgombe shalila\nTakwe ing'anda\nPano pa calo.\n\n3. Abangeli mu muli\nBamalaika\nBalemulumbanya\nKulya ku mulu\nPano panshi banyina\nBamulelele\nBamufukatile\nMulya mwi tanga.\n\n4. Bushe ne mupina\nNdemupela nshi?\nNga nali kakumba\nndepele mpanga\nNga nali wa mano\nNdepele fyuma\nCinshi ndemupela?\nMutima wandi."
+  },
+  {
+    "id": 221,
+    "number": 221,
+    "title": "MWE BAKACEMA MU MPANGA",
+    "lyrics": "1. Mwe ba kacema mu mpanga\nMutwebw ifya bangeli\nBushe bamwebele shani\nBulya bushiku bwine?\n\nGloria in Excelsis Deo.\n\n2. Twamwene cine cine\nLesa Mukulu mwine\nMu mubili wa buntunse\nkanya kene mwi tanga.\n\n3. Ba mu mulu baleimba\nUmutende ku bantu\nFya mu mulu filelila\nIcawamishe cibi.\n\n4. Awe mukwai bakacema\nMwashimikisha cine\nTuye bonse tumumone\nLesa aisa kuli ifwe."
+  },
+  {
+    "id": 222,
+    "number": 222,
+    "title": "FIMUTI FYA MU MPANGA",
+    "lyrics": "1. Fimuti fya mu mpanga\nNe filimbwa fyonse,\nFileanga no kucinda\nUbushiku bwa lelo.\n\nKasuba katula\nInana shileenda\nFyonse fya mweo fileimba\nNa bana baanga.\n\n2. Fimuti fyabalula\nMaluba yabuta\nIluba lyesu Yesu Kristu\nIlyabuta tutu.\n\n3. Fimuti filetwala\nMbuto shakashila\nMulopa wa kwa Yesu Kristu\nWapususha abantu.\n\n4. Fimuti fya myunga\nFilecena bantu\nYesu kristu acenenwe\nPa kutulubula.\n\n5. Awa fyatambalika\nMisambo yafiko\nYesu alitambalikule\nAmaboko yakwe."
+  },
+  {
+    "id": 223,
+    "number": 223,
+    "title": "KWAFYALILWE KULI FWE",
+    "lyrics": "1. kwafyalilwe kuli fwe\nMfumu ya fyalo fyonse\nKu kupususha bantu\nAfumine ku mulu.\n\n2. Mu mukonda alele\nUmo finama fyaba\nLelo filya fyamwene\nUmwana wa bupapo.\n\n3. Shamfumu sha panonse\nShali no bufuba,\nShaipeye 'baice\nAbali mu Betle'mu.\n\n4. Mwana uyu aishile\nKale mu kutemwa,\nAwamya imitima\nNo lubuto lwa cine,\n\n5. We mwana wakwa Mary,\nMututungulule\nMu nshila ya panonse\nNa ku mwesu ku mulu.\n\n6. Aleluya mwe Mwana\nMfumu ya kutemwa!\nTwapunda no buseko\nUlulumbi, lulumbi."
+  },
+  {
+    "id": 224,
+    "number": 224,
+    "title": "BUSHIKU BWASHILA",
+    "lyrics": "1. Bushiku bwashila\nAbantu tondolo\nKwaiso lubuto tutu\nAfyalwa Katula wesu\nAleto mutende\nMutende wa pe.\n\n2. Bushiku bwashila\nKrustu alelelwa\nMukondo e busanshi bwakwe\nKwisa kwa Mupusushi\nTwimbe 'Aleluya!'\nTwimbe 'Aleluya!'"
+  },
+  {
+    "id": 225,
+    "number": 225,
+    "title": "YEMWE BETLEHEMU",
+    "lyrics": "1. Yemwe Betlehemu\nE mushi uwapalwa,\nYemwe Betlehemu\nE mushi uwapalwa.\n\n2. Mary anakile\nPa kufika ku mushe\nBalangilwe mulya,\nMwi tanga lya ng'ombe.\n\n3. Bushiku bwine ube\nLutanda lwamoneka\nLwaibele sana\nKu ntanda sha mulu.\n\n4. Bakakumba eba-\nBalilyo kumfwa mbila,\nMungeli aikile\nAbebele cine.\n\n5. Mwe Mfumu twatotela\nPa bushiku busuma,\nPa bafyashi besu,\nPa bumu busuma."
+  },
+  {
+    "id": 226,
+    "number": 226,
+    "title": "MUTENDE KU BANTU BONSE",
+    "lyrics": "1. Mutende ku bantu bonse\nIshiwi lya ku mulu,\nLyaletelwe na bangeli,\nPa kufyalwa kwakwe 'lelo\n\nShimeni bena kristu\nShimeni Calo conse,\nCaikala na bulanda\n\n2. Abaleumfwa bangeli,\nBanayo bwali bwangu,\nBena fyalo bese balye,\nPa kufyalwa kwakwe 'lelo.\n\n3. Abaleumfwa bangeli\nBakosho mulilo\nBena fyalo bekalepo,\nPa kufyalwa kwakwe 'lelo.\n\n4. Baleumfwa bangeli\nbesule fibi fyonse\nBena fyalo bengilemo,\nPa kufyalwa kwakwe 'lelo.\n\n5. Mwe baleumfwa bangeli\nYesu Kristu atweba\nKu kutemwana na bonse\nPa kufyalwa kwakwe 'lelo."
+  },
+  {
+    "id": 227,
+    "number": 227,
+    "title": "FWE BALENDO TWAFUMA KONSE KONSE",
+    "lyrics": "1. Fwe balendo twafuma konse konse\nTuli kuno ku kufwaye Mfumu\nTuli basha tatukwete ubuteko\nIfwe tuli abalanda. Owe owe\nUwa kutwafwa twafwaya.\n\n2. Ni ku maca e kumwesu fwe bantu\nMpepo yeka calo ca ku mwesu twakabila\nUlubuto ulwa mweo,\nIfwe tuli ba mfifi. Ulubuto\nTwakabila mutipele.\n\n3. Ku kapinda mufyalo fya kasuba\nTatufuma tulila mwi bomba tatwishibe\nAmafunde ya bantu,\nTatukwete amano. Amafunde\nNe nshila tulekabila\n\n4. Ku kabanga ubufumu bwa kale\nE kumwesu tuli na mafinde\nNe fwe pamo twabulwa ntungulushi\nUwa kutupususha mweo ne mfwa\nTwaliluba pano panshi.\n\n5. Ku masamba mu fyalo fikankala,\nMano, fyuma twakwata e fyafye,\nImitima ilecula ne nsala\nUwa kutwafwa nani? Yesu, Yesu!\nAli kwi? Tulemufwaya.\n\n6. Mfumu yesu, awe nomba twafika\nMweo wesu no lubuto lwesu\nMuli imwe tulemona inshila,\nIntungulushi yesu. Lesa wesu\nTwakulamukonka pa fye."
+  },
+  {
+    "id": 228,
+    "number": 228,
+    "title": "BALANDA, BAFUKE",
+    "lyrics": "1. Balanda, bafuke,\nFilema, ne mpofu,\nMwendeshe, teti mutine\nImfumu ya mweo\nNo luse lwafula\nYaisa kwikala nefwe.\n\n2. Ba mano bashile\nNo bupe ne fyuma,\nNe ngombe shapele fyani\nYesu mu mukondo\nApokelel fyonse,\nUmwana mufuke ulya.\n\n3. Ne fwe tupalame\nNe nseko,no kwanga,\nTutwalile ubupe bwesu,\nYesu Kristu Mfumu,\nAfyaya ne lelo\nUbupe bwa mweo yesu."
+  },
+  {
+    "id": 229,
+    "number": 229,
+    "title": "LINTU YESU AFYELWE",
+    "lyrics": "1. Lintu Yesu afyelwe\nKwanoneka lutanda\nLwaibela mu ntanda\nShonse sha mulu\n\n2. Baice balumwene\nBatina no kututuma\nKutemwa kwa kwa Lesa,\nKwabeba mwitina,\n\n3. Baice babutwike\nBaile kwi tanga\nBasenda maluba\nKu kupelo mwana.\n\n4. Bafukama no mucinshi,\nBalolekesha Mwana\nBatemwa basekela,\nBamutotela.\n\n5. Bafumu bwa kwa Lesa\nBwamoneka mu bana,\n'Wapokelelo Mwana,\nApokelele Mfumu."
+  },
+  {
+    "id": 230,
+    "number": 230,
+    "title": "TATA WESU WA MU MULU",
+    "lyrics": "1. Tata wesu wa mu mulu,\n'Shina licindikwe,\n'Bufumu bwisho, bufwayo\nBucitwe panonse.\n\n2. Mutupe lelo ifilyo,\nMutwelele fibi,\nIfyo twelela banensu,\nAbatubale fwe.\n\n3. Mwituleta mu kweshiwa,\nMupokolole fwe,\n'Lulumbi pe na pe."
+  },
+  {
+    "id": 231,
+    "number": 231,
+    "title": "LESA SHIPALENI AFRIKA",
+    "lyrics": "Lesa shipaleni Afrika;\nSansuleni lusengo lwenu;\nUmfweni amapepo Yesu,\nLesa, mutupale,\nIfwe fwe bana benu.\n\nMwise, Mfumu\nYa mushilo.\nLesa, mutupale,\nIfwe fwe bana benu."
+  },
+  {
+    "id": 232,
+    "number": 232,
+    "title": "MUPALE CI CALO",
+    "lyrics": "1. Mupale ci calo,\nAmaka ya mulu\nYacibaka.\n‘Mutende ube pe,\nAbantu baleke\nUkulwe nshiku pe;\nMucipale\n\n2. Mubake shamfumu,\nUbumu bwa mulu\nMushipele.\nShibe sha mutende,\nShange, shisekele,\nShiteke no luse,\nMushipale.\n\n3. Mutule abantu,\nBatemwe Kristu,\nBabe bakwe.\nBafume mu mfifi,\nBakonke Mfumwi yi,\nMubatule"
+  },
+  {
+    "id": 233,
+    "number": 233,
+    "title": "KULI LESA TULETO",
+    "lyrics": "Kuli Lesa tuletota,\nIfintu fyonse atupa,\nToteni bonse mu mulu,\nWishi, Mwana no Mupashi."
+  },
+  {
+    "id": 234,
+    "number": 234,
+    "title": "KULI LESA TULETOTA",
+    "lyrics": "1. Kamupalamine,\nLesa wandi,\nNgo mwenso wandeta\nUnko muli;\n'Lwimbo Iwandi lube:\nKanupalamine,\nLesa wandi.\n\n2. Nga ndi mu Bulendo,\nNaililwa,\n'Mfifi yafitisha,\nNalalafye.\nMu ciloto mpepa:\nKamupalamine,\nLesa wandi.\n\n3. Llyo nasamina\nMutwe pe bwe,\nNo busanshi bwandi\nNi pa nshi fye;\nElyo mpepa, ntila:\nKamupal amine,\nLesa wandi.\n\n4. 'Lintu nashibuka,\nNatotela,\nE lyo natole bwe,\nNcite Betel.\nMu bulanda ntila:\nKamupalamine,\nLesa wandi.\n\n5. 'Lintu nkashe calo,\nNkapupuka,\nNugame ku mulu\nUko muli.\nNo lu Iwimbo lube:\nKamupalamine.\nLesa wandi."
+  }
+];
+
+// Function to get all hymns
+function getAllHymns() {
+    return hymnsData.sort((a, b) => a.number - b.number);
+}
+
+// Function to search hymns by number or title
+function searchHymns(query) {
+    if (!query || query.trim() === '') {
+        return [];
+    }
+    
+    const searchTerm = query.toLowerCase().trim();
+    
+    return hymnsData.filter(hymn => {
+        const titleMatch = hymn.title.toLowerCase().includes(searchTerm);
+        const numberMatch = hymn.number.toString() === searchTerm;
+        return titleMatch || numberMatch;
+    }).sort((a, b) => a.number - b.number);
+}
+
+// Function to get a hymn by ID
+function getHymnById(id) {
+    return hymnsData.find(hymn => hymn.id === parseInt(id));
+}
+
+// Function to get a hymn by number
+function getHymnByNumber(number) {
+    return hymnsData.find(hymn => hymn.number === parseInt(number));
+}
+
+// Function to get random hymns
+function getRandomHymns(count = 6) {
+    const shuffled = [...hymnsData].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+}
