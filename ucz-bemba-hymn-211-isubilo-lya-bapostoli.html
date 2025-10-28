@@ -1,7 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+
     <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10953053169">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-10953053169');
+    </script>
+    <!-- Google Analytics 4 (GA4) tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR15XZEWRN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -10,23 +20,11 @@
 
       gtag('config', 'G-DR15XZEWRN');
     </script>
+    <!-- End Google Analytics 4 (GA4) tag -->
+    <!-- Google tag (gtag.js) -->
     <!-- Event snippet for Page view conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-10953053169/gWVtCOWpru8YEPGn6eYo',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-    <link rel="icon" type="image/png" href="img/ucz_logo.png">
+<link rel="icon" type="image/png" href="img/ucz_logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hymn 211 - ISUBILO LYA BAPOSTOLI | UCZ Bemba Hymn Book</title>
@@ -277,3 +275,4 @@ No mweo wa muyayaya. Amen.
     </script>
 </body>
 </html>
+
