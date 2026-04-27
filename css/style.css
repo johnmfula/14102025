@@ -486,3 +486,100 @@ footer a:hover {
     }
 }
 
+
+/* App Promotion Banner Styles */
+.app-promotion-section {
+    padding: 60px 0;
+    background-color: var(--light-bg);
+}
+
+.app-banner-card {
+    background: var(--gradient-3);
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.app-banner-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    z-index: 0;
+}
+
+.app-banner-card .row {
+    position: relative;
+    z-index: 1;
+}
+
+.play-store-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #000;
+    color: #fff !important;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.play-store-btn:hover {
+    background: #222;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.app-visual-element {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-logo {
+    animation: float 6s ease-in-out infinite;
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+}
+
+.floating-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-25px) rotate(2deg); }
+}
+
+@keyframes pulse-glow {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.15; }
+    50% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.25; }
+}
+
+/* Responsive adjustments for the banner */
+@media (max-width: 991px) {
+    .app-banner-card {
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .play-store-btn {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .app-logo {
+        margin-right: 10px;
+    }
+}
